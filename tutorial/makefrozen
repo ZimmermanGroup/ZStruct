@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm -f frozen.xyz
+a=15
+for ((n=1; n<=$a; n++)); do
+	echo $n >> frozen.xyz
+done	
+

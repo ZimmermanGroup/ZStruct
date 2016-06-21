@@ -1,0 +1,4 @@
+#!/bin/bash
+
+list=`ls scratch/ISOMERS*`
+more $list > isomers.txt

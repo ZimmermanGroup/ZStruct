@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#list=`ls */scratch/paragsm*`
+list=`ls scratch/paragsm*`
+for item in $list
+do
+  ls $item
+  grep opt_i $item | tail -n 2
+ 
+done

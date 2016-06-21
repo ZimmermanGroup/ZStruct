@@ -1,0 +1,1357 @@
+ MAIN: nprocs: 1
+***** Starting Initialization *****
+ runend 1
+  -structure filename from input: scratch/initial0075.xyz 
+Initializing Tolerances and Parameters...
+  -Opening inpfile
+  -reading file...
+  -using SSM 
+  -MAX_OPT_ITERS: 100
+  -STEP_OPT_ITERS: 30
+  -CONV_TOL = 0.0005
+  -ADD_NODE_TOL = 0.1
+  -SCALING = 1
+  -SSM_DQMAX: 0.8
+  -SSM_DQMIN: 0.2
+  -GROWTH_DIRECTION = 0
+  -INT_THRESH: 2
+  -SSM_MIN_SPACING: 1.8
+  -INITIAL_OPT: 150
+  -FINAL_OPT: 150
+  -PRODUCT_LIMIT: 100
+  -TS_FINAL_TYPE: 1
+  -NNODES = 30
+ Done reading inpfileq 
+
+ reading isomers 
+ bond for coordinate system: 6 1 
+ adding bond: 7 2 
+ breaking bond: 9 6 
+ breaking bond: 7 6 
+ found 1 isomer
+
+Reading and initializing string coordinates 
+  -Opening structure file 
+  -reading file... 
+  -The number of atoms is: 16
+  -Reading the atomic names...  -Reading coordinates...Opening the xyz file
+Finished reading information from structure file
+
+***** Initialization complete *****
+****************************************
+****************************************
+****** Starting IC-SSM calculation *****
+****************************************
+****************************************
+
+ 16
+
+C -1.075001 -0.189551 -0.060706
+H 0.000000 0.000000 0.000000
+H -1.376693 -0.244376 -1.110128
+H -1.306750 -1.136037 0.434974
+H -1.616618 0.622196 0.432201
+Pt 4.439757 0.386277 0.017868
+N 2.400000 0.000000 0.000000
+N 6.479523 0.772266 0.037480
+Cl 4.059322 2.746293 0.447209
+Cl 4.819991 -1.973792 -0.411880
+H 2.290540 -1.011828 -0.102705
+H 1.987583 0.327273 0.873550
+H 1.974092 0.490821 -0.786297
+H 6.589373 1.784625 0.134204
+H 6.902910 0.286383 0.828201
+H 6.894269 0.439062 -0.832732
+
+ NOTICES 
+ Not using Davidson 
+ Not using close dist add 
+ Not using ONE_SKIP 
+ Using HESS_TANG 
+ END NOTICES 
+
+ isOpt: 1 
+ in make_frags() 
+ atom[0] frag: 0 
+ atom[1] frag: 0 
+ atom[2] frag: 0 
+ atom[3] frag: 0 
+ atom[4] frag: 0 
+ atom[5] frag: 1 
+ atom[6] frag: 1 
+ atom[7] frag: 1 
+ atom[8] frag: 1 
+ atom[9] frag: 1 
+ atom[10] frag: 1 
+ atom[11] frag: 1 
+ atom[12] frag: 1 
+ atom[13] frag: 1 
+ atom[14] frag: 1 
+ atom[15] frag: 1 
+ in bond_frags() 
+ connecting frag 1 to frag 0:  bond pair1 added : 12 1 
+ linear angle (1 of 2): 7 5 6 (179.95) 
+ linear angle (2 of 2): 9 5 8 (179.99) 
+ linear angle: 7 5 6 
+ adding bond via linear_ties(t): 7 6 
+ adding torsion via linear_ties(t): 13 7 6 10 
+ adding torsion via linear_ties(t): 13 7 6 11 
+ adding torsion via linear_ties(t): 13 7 6 12 
+ adding torsion via linear_ties(t): 14 7 6 10 
+ adding torsion via linear_ties(t): 14 7 6 11 
+ adding torsion via linear_ties(t): 14 7 6 12 
+ adding torsion via linear_ties(t): 15 7 6 10 
+ adding torsion via linear_ties(t): 15 7 6 11 
+ adding torsion via linear_ties(t): 15 7 6 12 
+ linear angle: 9 5 8 
+ adding bond via linear_ties(t): 9 8 
+ linear ties complete 
+ isOpt: 1 
+ in make_frags() 
+ atom[0] frag: 0 
+ atom[1] frag: 0 
+ atom[2] frag: 0 
+ atom[3] frag: 0 
+ atom[4] frag: 0 
+ atom[5] frag: 1 
+ atom[6] frag: 1 
+ atom[7] frag: 1 
+ atom[8] frag: 1 
+ atom[9] frag: 1 
+ atom[10] frag: 1 
+ atom[11] frag: 1 
+ atom[12] frag: 1 
+ atom[13] frag: 1 
+ atom[14] frag: 1 
+ atom[15] frag: 1 
+ in bond_frags() 
+ connecting frag 1 to frag 0:  bond pair1 added : 12 1 
+ linear angle (1 of 2): 7 5 6 (179.95) 
+ linear angle (2 of 2): 9 5 8 (179.99) 
+ linear angle: 7 5 6 
+ adding bond via linear_ties(t): 7 6 
+ adding torsion via linear_ties(t): 13 7 6 10 
+ adding torsion via linear_ties(t): 13 7 6 11 
+ adding torsion via linear_ties(t): 13 7 6 12 
+ adding torsion via linear_ties(t): 14 7 6 10 
+ adding torsion via linear_ties(t): 14 7 6 11 
+ adding torsion via linear_ties(t): 14 7 6 12 
+ adding torsion via linear_ties(t): 15 7 6 10 
+ adding torsion via linear_ties(t): 15 7 6 11 
+ adding torsion via linear_ties(t): 15 7 6 12 
+ linear angle: 9 5 8 
+ adding bond via linear_ties(t): 9 8 
+ linear ties complete 
+  not using break_planes 
+
+ setting SSM bonds 
+ added bond for coordinates only: 6 1 
+ added add bond: 7 2 
+ isOpt: 1 
+ in make_frags() 
+ merging: 0/1 
+ atom[0] frag: 0 
+ atom[1] frag: 0 
+ atom[2] frag: 0 
+ atom[3] frag: 0 
+ atom[4] frag: 0 
+ atom[5] frag: 0 
+ atom[6] frag: 0 
+ atom[7] frag: 0 
+ atom[8] frag: 0 
+ atom[9] frag: 0 
+ atom[10] frag: 0 
+ atom[11] frag: 0 
+ atom[12] frag: 0 
+ atom[13] frag: 0 
+ atom[14] frag: 0 
+ atom[15] frag: 0 
+ in bond_frags() 
+ linear angle (1 of 6): 7 5 6 (179.95) 
+ linear angle (2 of 6): 9 5 8 (179.99) 
+ linear angle (3 of 6): 0 5 7 (175.24) 
+ linear angle (4 of 6): 6 1 0 (169.51) 
+ linear angle (5 of 6): 1 6 5 (169.27) 
+ linear angle (6 of 6): 1 6 7 (169.27) 
+ linear angle: 7 5 6 
+ adding torsion via linear_ties(t): 13 7 6 10 
+ adding torsion via linear_ties(t): 13 7 6 11 
+ adding torsion via linear_ties(t): 13 7 6 12 
+ adding torsion via linear_ties(t): 14 7 6 10 
+ adding torsion via linear_ties(t): 14 7 6 11 
+ adding torsion via linear_ties(t): 14 7 6 12 
+ adding torsion via linear_ties(t): 15 7 6 10 
+ adding torsion via linear_ties(t): 15 7 6 11 
+ adding torsion via linear_ties(t): 15 7 6 12 
+ adding torsion via linear_ties(t): 6 7 6 10 
+ adding torsion via linear_ties(t): 6 7 6 11 
+ adding torsion via linear_ties(t): 13 7 6 7 
+ adding torsion via linear_ties(t): 14 7 6 7 
+ adding torsion via linear_ties(t): 15 7 6 7 
+ adding torsion via linear_ties(t): 13 7 6 1 
+ adding torsion via linear_ties(t): 14 7 6 1 
+ adding torsion via linear_ties(t): 15 7 6 1 
+ linear angle: 9 5 8 
+ linear angle: 0 5 7 
+ adding bond via linear_ties(t): 0 7 
+ adding torsion via linear_ties(t): 1 0 7 13 
+ adding torsion via linear_ties(t): 2 0 7 13 
+ adding torsion via linear_ties(t): 3 0 7 13 
+ adding torsion via linear_ties(t): 4 0 7 13 
+ adding torsion via linear_ties(t): 1 0 7 14 
+ adding torsion via linear_ties(t): 2 0 7 14 
+ adding torsion via linear_ties(t): 3 0 7 14 
+ adding torsion via linear_ties(t): 4 0 7 14 
+ adding torsion via linear_ties(t): 1 0 7 15 
+ adding torsion via linear_ties(t): 2 0 7 15 
+ adding torsion via linear_ties(t): 3 0 7 15 
+ adding torsion via linear_ties(t): 4 0 7 15 
+ adding torsion via linear_ties(t): 2 0 7 6 
+ adding torsion via linear_ties(t): 3 0 7 6 
+ adding torsion via linear_ties(t): 4 0 7 6 
+ linear angle: 6 1 0 
+ adding bond via linear_ties(t): 6 0 
+ adding torsion via linear_ties(t): 10 6 0 2 
+ adding torsion via linear_ties(t): 10 6 0 3 
+ adding torsion via linear_ties(t): 10 6 0 4 
+ adding torsion via linear_ties(t): 11 6 0 2 
+ adding torsion via linear_ties(t): 11 6 0 3 
+ adding torsion via linear_ties(t): 11 6 0 4 
+ adding torsion via linear_ties(t): 12 6 0 2 
+ adding torsion via linear_ties(t): 12 6 0 3 
+ adding torsion via linear_ties(t): 12 6 0 4 
+ adding torsion via linear_ties(t): 7 6 0 2 
+ adding torsion via linear_ties(t): 7 6 0 3 
+ adding torsion via linear_ties(t): 7 6 0 4 
+ adding torsion via linear_ties(t): 5 6 0 5 
+ linear angle: 1 6 5 
+ adding bond via linear_ties(t): 1 5 
+ adding torsion via linear_ties(t): 12 1 5 8 
+ adding torsion via linear_ties(t): 12 1 5 9 
+ adding torsion via linear_ties(t): 0 1 5 0 
+ linear angle: 1 6 7 
+ adding bond via linear_ties(t): 1 7 
+ adding torsion via linear_ties(t): 0 1 7 0 
+ adding torsion via linear_ties(t): 0 1 7 0 
+ adding torsion via linear_ties(t): 0 1 7 0 
+ adding torsion via linear_ties(t): 0 1 7 0 
+ adding torsion via linear_ties(t): 12 1 7 13 
+ adding torsion via linear_ties(t): 12 1 7 14 
+ adding torsion via linear_ties(t): 12 1 7 15 
+ linear ties complete 
+ printing ic1 ic's 
+
+ printing internals 
+ number of bonds: 23
+ bond 1: 2 to 1: 1.09 
+ bond 2: 3 to 1: 1.09 
+ bond 3: 4 to 1: 1.09 
+ bond 4: 5 to 1: 1.09 
+ bond 5: 7 to 6: 2.08 
+ bond 6: 8 to 6: 2.08 
+ bond 7: 9 to 6: 2.43 
+ bond 8: 10 to 6: 2.43 
+ bond 9: 11 to 7: 1.02 
+ bond 10: 12 to 7: 1.02 
+ bond 11: 13 to 7: 1.02 
+ bond 12: 14 to 8: 1.02 
+ bond 13: 15 to 8: 1.02 
+ bond 14: 16 to 8: 1.02 
+ bond 15: 13 to 2: 2.18 
+ bond 16: 8 to 7: 4.15 
+ bond 17: 10 to 9: 4.86 
+ bond 18: 6 to 1: 5.55 
+ bond 19: 7 to 2: 2.40 
+ bond 20: 1 to 8: 0.00 
+ bond 21: 7 to 1: 0.00 
+ bond 22: 2 to 6: 0.00 
+ bond 23: 2 to 8: 0.00 
+
+ number of angles: 51
+ angle 1: 3 1 2: 109.5 
+ angle 2: 4 1 2: 109.5 
+ angle 3: 4 1 3: 109.5 
+ angle 4: 5 1 2: 109.5 
+ angle 5: 5 1 3: 109.5 
+ angle 6: 5 1 4: 109.5 
+ angle 7: 8 6 7: 180.0 
+ angle 8: 9 6 7: 91.6 
+ angle 9: 9 6 8: 88.4 
+ angle 10: 10 6 7: 88.4 
+ angle 11: 10 6 8: 91.6 
+ angle 12: 10 6 9: 180.0 
+ angle 13: 11 7 6: 106.9 
+ angle 14: 12 7 6: 109.3 
+ angle 15: 12 7 11: 111.1 
+ angle 16: 13 7 6: 109.1 
+ angle 17: 13 7 11: 110.7 
+ angle 18: 13 7 12: 109.7 
+ angle 19: 14 8 6: 106.9 
+ angle 20: 15 8 6: 109.1 
+ angle 21: 15 8 14: 110.7 
+ angle 22: 16 8 6: 109.3 
+ angle 23: 16 8 14: 111.1 
+ angle 24: 16 8 15: 109.7 
+ angle 25: 13 2 1: 155.4 
+ angle 26: 2 13 7: 89.5 
+ angle 27: 8 7 6: 0.0 
+ angle 28: 7 8 6: 0.0 
+ angle 29: 8 7 11: 106.9 
+ angle 30: 8 7 12: 109.3 
+ angle 31: 8 7 13: 109.1 
+ angle 32: 7 8 14: 106.9 
+ angle 33: 7 8 15: 109.0 
+ angle 34: 7 8 16: 109.3 
+ angle 35: 10 9 6: 0.0 
+ angle 36: 9 10 6: 0.0 
+ angle 37: 6 1 2: 4.7 
+ angle 38: 6 1 3: 107.1 
+ angle 39: 6 1 4: 107.1 
+ angle 40: 6 1 5: 114.2 
+ angle 41: 1 6 7: 4.8 
+ angle 42: 1 6 8: 175.2 
+ angle 43: 1 6 9: 87.0 
+ angle 44: 1 6 10: 93.0 
+ angle 45: 7 2 1: 169.5 
+ angle 46: 2 7 6: 169.3 
+ angle 47: 2 7 11: 83.9 
+ angle 48: 2 7 12: 66.1 
+ angle 49: 2 7 13: 65.3 
+ angle 50: 7 2 13: 25.2 
+ angle 51: 2 7 8: 169.3 
+
+ number of torsions: 152
+ torsion 1: 11 7 6 8: -86.6 
+ torsion 2: 11 7 6 9: -175.7 
+ torsion 3: 11 7 6 10: 4.3 
+ torsion 4: 12 7 6 8: 33.7 
+ torsion 5: 12 7 6 9: -55.4 
+ torsion 6: 12 7 6 10: 124.6 
+ torsion 7: 13 7 6 8: 153.7 
+ torsion 8: 13 7 6 9: 64.5 
+ torsion 9: 13 7 6 10: -115.4 
+ torsion 10: 14 8 6 7: -93.8 
+ torsion 11: 14 8 6 9: -4.7 
+ torsion 12: 14 8 6 10: 175.3 
+ torsion 13: 15 8 6 7: 25.9 
+ torsion 14: 15 8 6 9: 115.1 
+ torsion 15: 15 8 6 10: -65.0 
+ torsion 16: 16 8 6 7: 145.9 
+ torsion 17: 16 8 6 9: -125.0 
+ torsion 18: 16 8 6 10: 55.0 
+ torsion 19: 13 2 1 3: 9.0 
+ torsion 20: 13 2 1 4: 129.0 
+ torsion 21: 13 2 1 5: -111.0 
+ torsion 22: 2 13 7 6: -170.1 
+ torsion 23: 2 13 7 11: 72.6 
+ torsion 24: 2 13 7 12: -50.4 
+ torsion 25: 7 13 2 1: -154.9 
+ torsion 26: 8 7 6 9: -89.1 
+ torsion 27: 8 7 6 10: 90.9 
+ torsion 28: 7 8 6 9: 89.1 
+ torsion 29: 7 8 6 10: -90.9 
+ torsion 30: 11 7 8 6: 93.4 
+ torsion 31: 12 7 8 6: -146.3 
+ torsion 32: 8 7 13 2: -170.1 
+ torsion 33: 13 7 8 6: -26.4 
+ torsion 34: 14 8 7 6: 86.2 
+ torsion 35: 14 8 7 11: 179.6 
+ torsion 36: 14 8 7 12: -60.1 
+ torsion 37: 14 8 7 13: 59.9 
+ torsion 38: 15 8 7 6: -154.1 
+ torsion 39: 15 8 7 11: -60.6 
+ torsion 40: 15 8 7 12: 59.7 
+ torsion 41: 15 8 7 13: 179.6 
+ torsion 42: 16 8 7 6: -34.1 
+ torsion 43: 16 8 7 11: 59.3 
+ torsion 44: 16 8 7 12: 179.6 
+ torsion 45: 16 8 7 13: -60.5 
+ torsion 46: 10 9 6 7: -62.2 
+ torsion 47: 10 9 6 8: 117.9 
+ torsion 48: 9 10 6 7: 62.2 
+ torsion 49: 9 10 6 8: -117.9 
+ torsion 50: 6 1 2 13: 68.5 
+ torsion 51: 1 6 7 11: 170.3 
+ torsion 52: 1 6 7 12: -69.4 
+ torsion 53: 1 6 7 13: 50.5 
+ torsion 54: 1 6 7 8: -103.1 
+ torsion 55: 7 6 1 2: 145.7 
+ torsion 56: 7 6 1 3: -92.5 
+ torsion 57: 7 6 1 4: 24.8 
+ torsion 58: 7 6 1 5: 146.2 
+ torsion 59: 1 6 8 14: 8.8 
+ torsion 60: 1 6 8 15: 128.5 
+ torsion 61: 1 6 8 16: -111.6 
+ torsion 62: 1 6 8 7: 102.6 
+ torsion 63: 8 6 1 2: -33.7 
+ torsion 64: 8 6 1 3: 88.0 
+ torsion 65: 8 6 1 4: -154.6 
+ torsion 66: 8 6 1 5: -33.3 
+ torsion 67: 1 6 9 10: -61.0 
+ torsion 68: 9 6 1 2: -20.2 
+ torsion 69: 9 6 1 3: 101.5 
+ torsion 70: 9 6 1 4: -141.2 
+ torsion 71: 9 6 1 5: -19.8 
+ torsion 72: 1 6 10 9: 61.0 
+ torsion 73: 10 6 1 2: 159.8 
+ torsion 74: 10 6 1 3: -78.5 
+ torsion 75: 10 6 1 4: 38.9 
+ torsion 76: 10 6 1 5: 160.2 
+ torsion 77: 7 2 1 3: -72.4 
+ torsion 78: 7 2 1 4: 47.6 
+ torsion 79: 7 2 1 5: 167.6 
+ torsion 80: 7 2 1 6: -12.9 
+ torsion 81: 2 7 6 8: 96.7 
+ torsion 82: 2 7 6 9: 7.6 
+ torsion 83: 2 7 6 10: -172.4 
+ torsion 84: 2 7 6 1: -6.5 
+ torsion 85: 6 7 2 1: 164.9 
+ torsion 86: 11 7 2 1: -12.0 
+ torsion 87: 12 7 2 1: -128.3 
+ torsion 88: 13 7 2 1: 104.2 
+ torsion 89: 13 2 7 6: 60.7 
+ torsion 90: 13 2 7 11: -116.2 
+ torsion 91: 13 2 7 12: 127.5 
+ torsion 92: 2 7 8 6: -83.4 
+ torsion 93: 2 7 8 14: 2.8 
+ torsion 94: 2 7 8 15: 122.5 
+ torsion 95: 2 7 8 16: -117.6 
+ torsion 96: 8 7 2 1: 165.0 
+ torsion 97: 8 7 2 13: 60.8 
+ torsion 98: 14 8 7 11: 0.0 
+ torsion 99: 14 8 7 12: 0.0 
+ torsion 100: 14 8 7 13: 0.0 
+ torsion 101: 15 8 7 11: 0.0 
+ torsion 102: 15 8 7 12: 0.0 
+ torsion 103: 15 8 7 13: 0.0 
+ torsion 104: 16 8 7 11: 0.0 
+ torsion 105: 16 8 7 12: 0.0 
+ torsion 106: 16 8 7 13: 0.0 
+ torsion 107: 7 8 7 11: 0.0 
+ torsion 108: 7 8 7 12: 0.0 
+ torsion 109: 14 8 7 8: 0.0 
+ torsion 110: 15 8 7 8: 0.0 
+ torsion 111: 16 8 7 8: 0.0 
+ torsion 112: 14 8 7 2: 0.0 
+ torsion 113: 15 8 7 2: 0.0 
+ torsion 114: 16 8 7 2: 0.0 
+ torsion 115: 2 1 8 14: 0.0 
+ torsion 116: 3 1 8 14: 0.0 
+ torsion 117: 4 1 8 14: 0.0 
+ torsion 118: 5 1 8 14: 0.0 
+ torsion 119: 2 1 8 15: 0.0 
+ torsion 120: 3 1 8 15: 0.0 
+ torsion 121: 4 1 8 15: 0.0 
+ torsion 122: 5 1 8 15: 0.0 
+ torsion 123: 2 1 8 16: 0.0 
+ torsion 124: 3 1 8 16: 0.0 
+ torsion 125: 4 1 8 16: 0.0 
+ torsion 126: 5 1 8 16: 0.0 
+ torsion 127: 3 1 8 7: 0.0 
+ torsion 128: 4 1 8 7: 0.0 
+ torsion 129: 5 1 8 7: 0.0 
+ torsion 130: 11 7 1 3: 0.0 
+ torsion 131: 11 7 1 4: 0.0 
+ torsion 132: 11 7 1 5: 0.0 
+ torsion 133: 12 7 1 3: 0.0 
+ torsion 134: 12 7 1 4: 0.0 
+ torsion 135: 12 7 1 5: 0.0 
+ torsion 136: 13 7 1 3: 0.0 
+ torsion 137: 13 7 1 4: 0.0 
+ torsion 138: 13 7 1 5: 0.0 
+ torsion 139: 8 7 1 3: 0.0 
+ torsion 140: 8 7 1 4: 0.0 
+ torsion 141: 8 7 1 5: 0.0 
+ torsion 142: 6 7 1 6: 0.0 
+ torsion 143: 13 2 6 9: 0.0 
+ torsion 144: 13 2 6 10: 0.0 
+ torsion 145: 1 2 6 1: 0.0 
+ torsion 146: 1 2 8 1: 0.0 
+ torsion 147: 1 2 8 1: 0.0 
+ torsion 148: 1 2 8 1: 0.0 
+ torsion 149: 1 2 8 1: 0.0 
+ torsion 150: 13 2 8 14: 0.0 
+ torsion 151: 13 2 8 15: 0.0 
+ torsion 152: 13 2 8 16: 0.0 
+
+ number of improper torsions: 3
+ imptor 1: 8 9 6 7: 180.0 
+ imptor 2: 2 6 1 5: 0.5 
+ imptor 3: 6 2 7 8: 0.1 
+
+ number of nonbonds: 61
+
+ ic1.nbonds: 23 ic2.nbonds: 17 
+ saving bond union: 23  saving angle union: 51  saving torsion union: 152 
+
+
+ actual IC's 
+
+ printing internals 
+ number of bonds: 23
+ bond 1: 2 to 1: 1.09 
+ bond 2: 3 to 1: 1.09 
+ bond 3: 4 to 1: 1.09 
+ bond 4: 5 to 1: 1.09 
+ bond 5: 7 to 6: 2.08 
+ bond 6: 8 to 6: 2.08 
+ bond 7: 9 to 6: 2.43 
+ bond 8: 10 to 6: 2.43 
+ bond 9: 11 to 7: 1.02 
+ bond 10: 12 to 7: 1.02 
+ bond 11: 13 to 7: 1.02 
+ bond 12: 14 to 8: 1.02 
+ bond 13: 15 to 8: 1.02 
+ bond 14: 16 to 8: 1.02 
+ bond 15: 13 to 2: 2.18 
+ bond 16: 8 to 7: 4.15 
+ bond 17: 10 to 9: 4.86 
+ bond 18: 6 to 1: 5.55 
+ bond 19: 7 to 2: 2.40 
+ bond 20: 1 to 8: 7.62 
+ bond 21: 7 to 1: 3.48 
+ bond 22: 2 to 6: 4.46 
+ bond 23: 2 to 8: 6.53 
+
+ number of angles: 51
+ angle 1: 3 1 2: 109.5 
+ angle 2: 4 1 2: 109.5 
+ angle 3: 4 1 3: 109.5 
+ angle 4: 5 1 2: 109.5 
+ angle 5: 5 1 3: 109.5 
+ angle 6: 5 1 4: 109.5 
+ angle 7: 8 6 7: 180.0 
+ angle 8: 9 6 7: 91.6 
+ angle 9: 9 6 8: 88.4 
+ angle 10: 10 6 7: 88.4 
+ angle 11: 10 6 8: 91.6 
+ angle 12: 10 6 9: 180.0 
+ angle 13: 11 7 6: 106.9 
+ angle 14: 12 7 6: 109.3 
+ angle 15: 12 7 11: 111.1 
+ angle 16: 13 7 6: 109.1 
+ angle 17: 13 7 11: 110.7 
+ angle 18: 13 7 12: 109.7 
+ angle 19: 14 8 6: 106.9 
+ angle 20: 15 8 6: 109.1 
+ angle 21: 15 8 14: 110.7 
+ angle 22: 16 8 6: 109.3 
+ angle 23: 16 8 14: 111.1 
+ angle 24: 16 8 15: 109.7 
+ angle 25: 13 2 1: 155.4 
+ angle 26: 2 13 7: 89.5 
+ angle 27: 8 7 6: 0.0 
+ angle 28: 7 8 6: 0.0 
+ angle 29: 8 7 11: 106.9 
+ angle 30: 8 7 12: 109.3 
+ angle 31: 8 7 13: 109.1 
+ angle 32: 7 8 14: 106.9 
+ angle 33: 7 8 15: 109.0 
+ angle 34: 7 8 16: 109.3 
+ angle 35: 10 9 6: 0.0 
+ angle 36: 9 10 6: 0.0 
+ angle 37: 6 1 2: 4.7 
+ angle 38: 6 1 3: 107.1 
+ angle 39: 6 1 4: 107.1 
+ angle 40: 6 1 5: 114.2 
+ angle 41: 1 6 7: 4.8 
+ angle 42: 1 6 8: 175.2 
+ angle 43: 1 6 9: 87.0 
+ angle 44: 1 6 10: 93.0 
+ angle 45: 7 2 1: 169.5 
+ angle 46: 2 7 6: 169.3 
+ angle 47: 2 7 11: 83.9 
+ angle 48: 2 7 12: 66.1 
+ angle 49: 2 7 13: 65.3 
+ angle 50: 7 2 13: 25.2 
+ angle 51: 2 7 8: 169.3 
+
+ number of torsions: 152
+ torsion 1: 11 7 6 8: -86.6 
+ torsion 2: 11 7 6 9: -175.7 
+ torsion 3: 11 7 6 10: 4.3 
+ torsion 4: 12 7 6 8: 33.7 
+ torsion 5: 12 7 6 9: -55.4 
+ torsion 6: 12 7 6 10: 124.6 
+ torsion 7: 13 7 6 8: 153.7 
+ torsion 8: 13 7 6 9: 64.5 
+ torsion 9: 13 7 6 10: -115.4 
+ torsion 10: 14 8 6 7: -93.8 
+ torsion 11: 14 8 6 9: -4.7 
+ torsion 12: 14 8 6 10: 175.3 
+ torsion 13: 15 8 6 7: 25.9 
+ torsion 14: 15 8 6 9: 115.1 
+ torsion 15: 15 8 6 10: -65.0 
+ torsion 16: 16 8 6 7: 145.9 
+ torsion 17: 16 8 6 9: -125.0 
+ torsion 18: 16 8 6 10: 55.0 
+ torsion 19: 13 2 1 3: 9.0 
+ torsion 20: 13 2 1 4: 129.0 
+ torsion 21: 13 2 1 5: -111.0 
+ torsion 22: 2 13 7 6: -170.1 
+ torsion 23: 2 13 7 11: 72.6 
+ torsion 24: 2 13 7 12: -50.4 
+ torsion 25: 7 13 2 1: -154.9 
+ torsion 26: 8 7 6 9: -89.1 
+ torsion 27: 8 7 6 10: 90.9 
+ torsion 28: 7 8 6 9: 89.1 
+ torsion 29: 7 8 6 10: -90.9 
+ torsion 30: 11 7 8 6: 93.4 
+ torsion 31: 12 7 8 6: -146.3 
+ torsion 32: 8 7 13 2: -170.1 
+ torsion 33: 13 7 8 6: -26.4 
+ torsion 34: 14 8 7 6: 86.2 
+ torsion 35: 14 8 7 11: 179.6 
+ torsion 36: 14 8 7 12: -60.1 
+ torsion 37: 14 8 7 13: 59.9 
+ torsion 38: 15 8 7 6: -154.1 
+ torsion 39: 15 8 7 11: -60.6 
+ torsion 40: 15 8 7 12: 59.7 
+ torsion 41: 15 8 7 13: 179.6 
+ torsion 42: 16 8 7 6: -34.1 
+ torsion 43: 16 8 7 11: 59.3 
+ torsion 44: 16 8 7 12: 179.6 
+ torsion 45: 16 8 7 13: -60.5 
+ torsion 46: 10 9 6 7: -62.2 
+ torsion 47: 10 9 6 8: 117.9 
+ torsion 48: 9 10 6 7: 62.2 
+ torsion 49: 9 10 6 8: -117.9 
+ torsion 50: 6 1 2 13: 68.5 
+ torsion 51: 1 6 7 11: 170.3 
+ torsion 52: 1 6 7 12: -69.4 
+ torsion 53: 1 6 7 13: 50.5 
+ torsion 54: 1 6 7 8: -103.1 
+ torsion 55: 7 6 1 2: 145.7 
+ torsion 56: 7 6 1 3: -92.5 
+ torsion 57: 7 6 1 4: 24.8 
+ torsion 58: 7 6 1 5: 146.2 
+ torsion 59: 1 6 8 14: 8.8 
+ torsion 60: 1 6 8 15: 128.5 
+ torsion 61: 1 6 8 16: -111.6 
+ torsion 62: 1 6 8 7: 102.6 
+ torsion 63: 8 6 1 2: -33.7 
+ torsion 64: 8 6 1 3: 88.0 
+ torsion 65: 8 6 1 4: -154.6 
+ torsion 66: 8 6 1 5: -33.3 
+ torsion 67: 1 6 9 10: -61.0 
+ torsion 68: 9 6 1 2: -20.2 
+ torsion 69: 9 6 1 3: 101.5 
+ torsion 70: 9 6 1 4: -141.2 
+ torsion 71: 9 6 1 5: -19.8 
+ torsion 72: 1 6 10 9: 61.0 
+ torsion 73: 10 6 1 2: 159.8 
+ torsion 74: 10 6 1 3: -78.5 
+ torsion 75: 10 6 1 4: 38.9 
+ torsion 76: 10 6 1 5: 160.2 
+ torsion 77: 7 2 1 3: -72.4 
+ torsion 78: 7 2 1 4: 47.6 
+ torsion 79: 7 2 1 5: 167.6 
+ torsion 80: 7 2 1 6: -12.9 
+ torsion 81: 2 7 6 8: 96.7 
+ torsion 82: 2 7 6 9: 7.6 
+ torsion 83: 2 7 6 10: -172.4 
+ torsion 84: 2 7 6 1: -6.5 
+ torsion 85: 6 7 2 1: 164.9 
+ torsion 86: 11 7 2 1: -12.0 
+ torsion 87: 12 7 2 1: -128.3 
+ torsion 88: 13 7 2 1: 104.2 
+ torsion 89: 13 2 7 6: 60.7 
+ torsion 90: 13 2 7 11: -116.2 
+ torsion 91: 13 2 7 12: 127.5 
+ torsion 92: 2 7 8 6: -83.4 
+ torsion 93: 2 7 8 14: 2.8 
+ torsion 94: 2 7 8 15: 122.5 
+ torsion 95: 2 7 8 16: -117.6 
+ torsion 96: 8 7 2 1: 165.0 
+ torsion 97: 8 7 2 13: 60.8 
+ torsion 98: 14 8 7 11: 179.6 
+ torsion 99: 14 8 7 12: -60.1 
+ torsion 100: 14 8 7 13: 59.9 
+ torsion 101: 15 8 7 11: -60.6 
+ torsion 102: 15 8 7 12: 59.7 
+ torsion 103: 15 8 7 13: 179.6 
+ torsion 104: 16 8 7 11: 59.3 
+ torsion 105: 16 8 7 12: 179.6 
+ torsion 106: 16 8 7 13: -60.5 
+ torsion 107: 7 8 7 11: 0.0 
+ torsion 108: 7 8 7 12: 0.0 
+ torsion 109: 14 8 7 8: 0.0 
+ torsion 110: 15 8 7 8: 0.0 
+ torsion 111: 16 8 7 8: 0.0 
+ torsion 112: 14 8 7 2: 2.8 
+ torsion 113: 15 8 7 2: 122.5 
+ torsion 114: 16 8 7 2: -117.6 
+ torsion 115: 2 1 8 14: -36.3 
+ torsion 116: 3 1 8 14: 96.3 
+ torsion 117: 4 1 8 14: -145.8 
+ torsion 118: 5 1 8 14: -24.3 
+ torsion 119: 2 1 8 15: 82.5 
+ torsion 120: 3 1 8 15: -144.8 
+ torsion 121: 4 1 8 15: -26.9 
+ torsion 122: 5 1 8 15: 94.6 
+ torsion 123: 2 1 8 16: -155.4 
+ torsion 124: 3 1 8 16: -22.7 
+ torsion 125: 4 1 8 16: 95.2 
+ torsion 126: 5 1 8 16: -143.3 
+ torsion 127: 3 1 8 7: -92.7 
+ torsion 128: 4 1 8 7: 25.2 
+ torsion 129: 5 1 8 7: 146.7 
+ torsion 130: 11 7 1 3: -82.2 
+ torsion 131: 11 7 1 4: 33.9 
+ torsion 132: 11 7 1 5: 154.8 
+ torsion 133: 12 7 1 3: 160.5 
+ torsion 134: 12 7 1 4: -83.4 
+ torsion 135: 12 7 1 5: 37.5 
+ torsion 136: 13 7 1 3: 35.5 
+ torsion 137: 13 7 1 4: 151.6 
+ torsion 138: 13 7 1 5: -87.5 
+ torsion 139: 8 7 1 3: 88.5 
+ torsion 140: 8 7 1 4: -155.3 
+ torsion 141: 8 7 1 5: -34.4 
+ torsion 142: 6 7 1 6: 0.0 
+ torsion 143: 13 2 6 9: 78.4 
+ torsion 144: 13 2 6 10: -101.6 
+ torsion 145: 1 2 6 1: 0.0 
+ torsion 146: 1 2 8 1: 0.0 
+ torsion 147: 1 2 8 1: 0.0 
+ torsion 148: 1 2 8 1: 0.0 
+ torsion 149: 1 2 8 1: 0.0 
+ torsion 150: 13 2 8 14: 77.9 
+ torsion 151: 13 2 8 15: -163.6 
+ torsion 152: 13 2 8 16: -41.2 
+
+ number of improper torsions: 0
+
+ number of nonbonds: 0
+
+ ic1.nbonds: 14 ic2.nbonds: 14 
+ saving bond union: 14  saving angle union: 24  saving torsion union: 18 
+ Number of OpenMP threads: 1 
+
+
+ ---- Now preparing gradients ---- 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.001
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.000
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.001
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.002
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.003
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.004
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.005
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.006
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.007
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.008
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.009
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.010
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.011
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.012
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.013
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.014
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.015
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.016
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.017
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.018
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.019
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.020
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.021
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.022
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.023
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.024
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.025
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.026
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.027
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.028
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.029
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0075.030
+  grad initiated: Q-Chem mode 
+ ---- Done preparing gradients ---- 
+
+
+ preopt_iter: opting first node 
+ eg 
+ Opt step:  1  E(M): -190011.0 final IC grad RMS: 0.0009  *
+ 
+ energy of first node: -302.806426 
+
+
+ Begin Growing the String 
+
+ in add_linear 
+
+ creating R node: 1     iR,iP: 0 29 wR,wP: 1 -1 iN: 1 
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 1.408 
+ dqmag: 0.763 from bdist: 1.408 
+ dqmag: 0.76 dq0[constraint]: -0.76 
+ copying Hessian from node 0 
+
+ at beginning, starting V is 0.0 (-302.806426) 
+ setting active node to 1 
+
+ growing iter: 1 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.114 ss: 0.106 (DMAX: 0.100) predE: -8.82  E(M): 30.54 gRMS: 0.0260 ratio: 0.798  increasing DMAX 
+ Opt step:  2  gqc: -0.094 ss: 0.068 (DMAX: 0.110) predE: -2.61  E(M): 23.50 gRMS: 0.0138 ratio: 1.017 
+ Opt step:  3  gqc: -0.089 ss: 0.071 (DMAX: 0.110) predE: -2.14  E(M): 20.85 gRMS: 0.0122 ratio: 1.058 
+ Opt step:  4  gqc: -0.084 ss: 0.097 (DMAX: 0.110) predE: -2.48  E(M): 18.59 gRMS: 0.0107 ratio: 1.056 
+ Opt step:  5  gqc: -0.075 ss: 0.107 (DMAX: 0.110) predE: -2.17  E(M): 15.97 gRMS: 0.0086 ratio: 0.895 
+ Opt step:  6  gqc: -0.063 ss: 0.082 (DMAX: 0.110) predE: -1.24  E(M): 14.03 gRMS: 0.0061 ratio: 1.007 
+ Opt step:  7  gqc: -0.057 ss: 0.124 (DMAX: 0.110) predE: -0.99  E(M): 12.78 gRMS: 0.0036 * 
+
+ cgrad: -0.057 nodemax: 1 nnR: 2 
+ check_for_reaction_g isrxn: 0 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  1 totalgrad: 0.024 gradrms: 0.0036 tgrads:   9 max E:  12.8 cgr: -0.057 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 2 
+ setting active node to 2 
+ adding node: 2 between 1 29 
+ iR,iP: 1 29 iN: 2 
+ bond 7 2 d0: 1.057 diff: 0.907 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 1.001 
+ dqmag: 0.601 from bdist: 1.001 
+ dqmag: 0.60 dq0[constraint]: -0.60 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.135 ss: 0.131 (DMAX: 0.100) predE: -3.65  E(M): 47.77 gRMS: 0.0190 ratio: 1.048  increasing DMAX 
+ Opt step:  2  gqc: -0.128 ss: 0.174 (DMAX: 0.110) predE: -2.65  E(M): 43.95 gRMS: 0.0149 ratio: 1.016  increasing DMAX 
+ Opt step:  3  gqc: -0.120 ss: 0.127 (DMAX: 0.121) predE: -2.59  E(M): 41.25 gRMS: 0.0131 ratio: 1.202  increasing DMAX 
+ Opt step:  4  gqc: -0.113 ss: 0.163 (DMAX: 0.133) predE: -2.15  E(M): 38.14 gRMS: 0.0081 ratio: 1.027  increasing DMAX 
+ Opt step:  5  gqc: -0.103 ss: 0.158 (DMAX: 0.146) predE: -1.63  E(M): 35.93 gRMS: 0.0049 * 
+
+ cgrad: -0.103 nodemax: 2 nnR: 3 
+ check_for_reaction_g isrxn: 0 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  2 totalgrad: 0.055 gradrms: 0.0043 tgrads:  14 max E:  35.9 cgr: -0.103 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 3 
+ setting active node to 3 
+ adding node: 3 between 2 29 
+ iR,iP: 2 29 iN: 3 
+ bond 7 2 d0: 1.057 diff: 0.568 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.709 
+ dqmag: 0.484 from bdist: 0.709 
+ dqmag: 0.48 dq0[constraint]: -0.48 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg eg eg eg eg eg egQ2Q6Wb(0.00138/2) egQ1Wb(0.00364/1) egQ2Wb(0.00215/2) initial Hint ev: 0.035 0.035 0.035 0.035
+ eg
+ 
+ Opt step:  1  gqc: -0.165 ss: 0.170 (DMAX: 0.100) predE: -2.72  E(M): 74.12 gRMS: 0.0149 ratio: 1.023  increasing DMAX 
+ Opt step:  2  gqc: -0.160 ss: 0.185 (DMAX: 0.110) predE: -2.44  E(M): 71.34 gRMS: 0.0113 ratio: 1.011  increasing DMAX 
+ Opt step:  3  gqc: -0.153 ss: 0.173 (DMAX: 0.121) predE: -2.03  E(M): 68.87 gRMS: 0.0074 ratio: 0.881  increasing DMAX 
+ Opt step:  4  gqc: -0.145 ss: 0.176 (DMAX: 0.133) predE: -1.41  E(M): 67.09 gRMS: 0.0052 ratio: 0.985  increasing DMAX 
+ Opt step:  5  gqc: -0.139 ss: 0.164 (DMAX: 0.146) predE: -1.19  E(M): 65.69 gRMS: 0.0051 ratio: 1.179  increasing DMAX 
+ Opt step:  6  gqc: -0.137 ss: 0.220 (DMAX: 0.161) predE: -1.48  E(M): 64.29 gRMS: 0.0054 ratio: 0.119  decreasing DMAX 
+ Opt step:  7  gqc: -0.132 ss: 0.211 (DMAX: 0.134) predE: -2.30  E(M): 64.11 gRMS: 0.0100 ratio: 0.205  decreasing DMAX 
+ Opt step:  8  gqc: -0.133 ss: 0.178 (DMAX: 0.112) predE: -1.62  E(M): 63.64 gRMS: 0.0103 ratio: 0.451 
+ Opt step:  9  gqc: -0.131 ss: 0.173 (DMAX: 0.112) predE: -1.38  E(M): 62.91 gRMS: 0.0081 ratio: 1.697  decreasing DMAX 
+ Opt step: 10  gqc: -0.125 ss: 0.180 (DMAX: 0.093) predE: -0.96  E(M): 60.57 gRMS: 0.0058 ratio: 0.784  increasing DMAX 
+ Opt step: 11  gqc: -0.128 ss: 0.222 (DMAX: 0.103) predE: -1.21  E(M): 59.82 gRMS: 0.0059 ratio: 0.094  decreasing DMAX 
+ Opt step: 12  gqc: -0.130 ss: 0.218 (DMAX: 0.085) predE: -1.39  E(M): 59.71 gRMS: 0.0099 ratio: 0.724 
+ Opt step: 13  gqc: -0.127 ss: 0.206 (DMAX: 0.085) predE: -1.11  bc problem, r Ut  E(M): 58.70 gRMS: 0.0073 ratio: 1.047  increasing DMAX 
+ Opt step: 14  gqc: -0.122 ss: 0.018 (DMAX: 0.063) predE: -0.13  E(M): 57.54 gRMS: 0.0025 * 
+
+ cgrad: -0.122 nodemax: 3 nnR: 4 
+ check_for_reaction_g isrxn: 0 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  3 totalgrad: 0.071 gradrms: 0.0038 tgrads:  28 max E:  57.5 cgr: -0.122 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 4 
+ setting active node to 4 
+ adding node: 4 between 3 29 
+ iR,iP: 3 29 iN: 4 
+ bond 7 2 d0: 1.057 diff: 0.325 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.535 
+ dqmag: 0.414 from bdist: 0.535 
+ dqmag: 0.41 dq0[constraint]: -0.41 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg egQ1Q3Wb(0.00604/2) egQ7Wr(0.85056/1)Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Q2Wr(100.00000/-1)Q0Q2Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Q2Wr(100.00000/-1)Q0Q5Wr(21.49254/1)Q0Wb(0.05232/1) initial Hint ev: 0.035 0.035 0.035 0.035
+ eg eg eg egQ2Q7Wb(0.00020/2) egQ2Wb(0.03533/2) egQ2Wb(0.03598/2) initial Hint ev: 0.035 0.035 0.035 0.035
+ eg
+ 
+ Opt step:  1  gqc: -0.173 ss: 0.119 (DMAX: 0.100) predE: -2.76  E(M): 93.22 gRMS: 0.0093 ratio: 0.909  increasing DMAX 
+ Opt step:  2  gqc: -0.164 ss: 0.129 (DMAX: 0.110) predE: -1.58  E(M): 90.71 gRMS: 0.0054 ratio: 0.619 
+ Opt step:  3  gqc: -0.165 ss: 0.198 (DMAX: 0.110) predE: -7.46  bc problem, r Ut  E(M): 89.73 gRMS: 0.0396 ratio: 0.597 
+ Opt step:  4  gqc: -0.151 ss: 0.063 (DMAX: 0.073) predE: -3.19  E(M): 85.27 gRMS: 0.0147 ratio: 0.767 
+ Opt step:  5  gqc: -0.148 ss: 0.047 (DMAX: 0.073) predE: -0.92  E(M): 82.83 gRMS: 0.0069 ratio: 0.990 
+ Opt step:  6  gqc: -0.147 ss: 0.054 (DMAX: 0.073) predE: -0.79  E(M): 81.91 gRMS: 0.0058 ratio: 1.070 
+ Opt step:  7  gqc: -0.146 ss: 0.073 (DMAX: 0.073) predE: -0.83  E(M): 81.07 gRMS: 0.0050 ratio: 1.078 
+ Opt step:  8  gqc: -0.145 ss: 0.176 (DMAX: 0.073) predE: -1.20  E(M): 80.18 gRMS: 0.0057 ratio: 0.668 
+ Opt step:  9  gqc: -0.143 ss: 0.166 (DMAX: 0.073) predE: -1.00  bc problem, r Ut  E(M): 79.37 gRMS: 0.0046 ratio: 0.753  increasing DMAX 
+ Opt step: 10  gqc: -0.141 ss: 0.024 (DMAX: 0.054) predE: -0.27  E(M): 78.62 gRMS: 0.0034 * 
+
+ cgrad: -0.141 nodemax: 4 nnR: 5 
+ check_for_reaction_g isrxn: 0 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  4 totalgrad: 0.093 gradrms: 0.0037 tgrads:  38 max E:  78.6 cgr: -0.141 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 5 
+ setting active node to 5 
+ adding node: 5 between 4 29 
+ iR,iP: 4 29 iN: 5 
+ bond 7 2 d0: 1.057 diff: 0.219 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.477 
+ dqmag: 0.391 from bdist: 0.477 
+ dqmag: 0.39 dq0[constraint]: -0.39 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.181 ss: 0.136 (DMAX: 0.100) predE: -3.24  E(M): 113.14 gRMS: 0.0105 ratio: 0.981  increasing DMAX 
+ Opt step:  2  gqc: -0.172 ss: 0.158 (DMAX: 0.110) predE: -2.01  E(M): 109.97 gRMS: 0.0070 ratio: 1.038  increasing DMAX 
+ Opt step:  3  gqc: -0.167 ss: 0.124 (DMAX: 0.121) predE: -1.68  E(M): 107.88 gRMS: 0.0066 ratio: 1.207  increasing DMAX 
+ Opt step:  4  gqc: -0.160 ss: 0.099 (DMAX: 0.133) predE: -1.47  E(M): 105.85 gRMS: 0.0064 ratio: 0.954 
+ Opt step:  5  gqc: -0.154 ss: 0.086 (DMAX: 0.133) predE: -1.21  E(M): 104.44 gRMS: 0.0055 ratio: 1.191 
+ Opt step:  6  gqc: -0.152 ss: 0.084 (DMAX: 0.133) predE: -1.15  E(M): 103.01 gRMS: 0.0046 * 
+
+ cgrad: -0.152 nodemax: 5 nnR: 6 
+ check_for_reaction_g isrxn: 3 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6 103.0
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  5 totalgrad: 0.123 gradrms: 0.0039 tgrads:  44 max E: 103.0 cgr: -0.152 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 6 
+ setting active node to 6 
+ adding node: 6 between 5 29 
+ iR,iP: 5 29 iN: 6 
+ bond 7 2 d0: 1.057 diff: 0.069 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.430 
+ dqmag: 0.372 from bdist: 0.430 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.188 ss: 0.097 (DMAX: 0.100) predE: -2.99  E(M): 131.04 gRMS: 0.0110 ratio: 1.065 
+ Opt step:  2  gqc: -0.181 ss: 0.128 (DMAX: 0.100) predE: -2.37  E(M): 127.86 gRMS: 0.0085 ratio: 1.045  increasing DMAX 
+ Opt step:  3  gqc: -0.174 ss: 0.107 (DMAX: 0.110) predE: -1.98  E(M): 125.38 gRMS: 0.0075 ratio: 1.132 
+ Opt step:  4  gqc: -0.167 ss: 0.098 (DMAX: 0.110) predE: -1.80  E(M): 123.14 gRMS: 0.0067 ratio: 0.975 
+ Opt step:  5  gqc: -0.162 ss: 0.090 (DMAX: 0.110) predE: -1.58  E(M): 121.39 gRMS: 0.0068 ratio: 1.093 
+ Opt step:  6  gqc: -0.158 ss: 0.086 (DMAX: 0.110) predE: -1.40  E(M): 119.66 gRMS: 0.0051 ratio: 1.005 
+ Opt step:  7  gqc: -0.154 ss: 0.088 (DMAX: 0.110) predE: -1.38  E(M): 118.25 gRMS: 0.0055 ratio: 1.065 
+ Opt step:  8  gqc: -0.152 ss: 0.083 (DMAX: 0.110) predE: -1.22  E(M): 116.78 gRMS: 0.0045 * 
+
+ cgrad: -0.152 nodemax: 6 nnR: 7 
+ check_for_reaction_g isrxn: 3 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6 103.0 116.8
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  6 totalgrad: 0.153 gradrms: 0.0040 tgrads:  52 max E: 116.8 cgr: -0.152 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 7 
+ setting active node to 7 
+ adding node: 7 between 6 29 
+ iR,iP: 6 29 iN: 7 
+ bond 7 2 d0: 1.057 diff: 0.000 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.424 
+ dqmag: 0.370 from bdist: 0.424 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.197 ss: 0.110 (DMAX: 0.100) predE: -2.89  E(M): 141.12 gRMS: 0.0099 ratio: 1.015  increasing DMAX 
+ Opt step:  2  gqc: -0.191 ss: 0.141 (DMAX: 0.110) predE: -2.17  E(M): 138.19 gRMS: 0.0078 ratio: 0.953  increasing DMAX 
+ Opt step:  3  gqc: -0.185 ss: 0.122 (DMAX: 0.121) predE: -2.11  E(M): 136.11 gRMS: 0.0087 ratio: 1.134  increasing DMAX 
+ Opt step:  4  gqc: -0.178 ss: 0.108 (DMAX: 0.133) predE: -1.48  E(M): 133.73 gRMS: 0.0051 ratio: 1.156 
+ Opt step:  5  gqc: -0.173 ss: 0.122 (DMAX: 0.133) predE: -1.53  E(M): 132.02 gRMS: 0.0049 * 
+
+ cgrad: -0.173 nodemax: 7 nnR: 8 
+ check_for_reaction_g isrxn: 3 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6 103.0 116.8 132.0
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  7 totalgrad: 0.184 gradrms: 0.0041 tgrads:  57 max E: 132.0 cgr: -0.173 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 8 
+ setting active node to 8 
+ adding node: 8 between 7 29 
+ iR,iP: 7 29 iN: 8 
+ bond 7 2 d0: 1.057 diff: 0.000 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.424 
+ dqmag: 0.370 from bdist: 0.424 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.230 ss: 0.131 (DMAX: 0.100) predE: -2.76  E(M): 157.75 gRMS: 0.0105 ratio: 1.079  increasing DMAX 
+ Opt step:  2  gqc: -0.220 ss: 0.187 (DMAX: 0.110) predE: -2.19  E(M): 154.78 gRMS: 0.0089 ratio: 1.054  increasing DMAX 
+ Opt step:  3  gqc: -0.209 ss: 0.177 (DMAX: 0.121) predE: -2.15  E(M): 152.47 gRMS: 0.0073 ratio: 0.976  increasing DMAX 
+ Opt step:  4  gqc: -0.200 ss: 0.197 (DMAX: 0.133) predE: -2.24  E(M): 150.37 gRMS: 0.0062 ratio: 0.990  increasing DMAX 
+ Opt step:  5  gqc: -0.189 ss: 0.207 (DMAX: 0.146) predE: -1.83  E(M): 148.15 gRMS: 0.0053 ratio: 1.045  increasing DMAX 
+ Opt step:  6  gqc: -0.179 ss: 0.196 (DMAX: 0.161) predE: -1.99  E(M): 146.23 gRMS: 0.0047 * 
+
+ cgrad: -0.179 nodemax: 8 nnR: 9 
+ check_for_reaction_g isrxn: 3 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6 103.0 116.8 132.0 146.2
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  8 totalgrad: 0.214 gradrms: 0.0042 tgrads:  63 max E: 146.2 cgr: -0.179 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 9 
+ setting active node to 9 
+ adding node: 9 between 8 29 
+ iR,iP: 8 29 iN: 9 
+ bond 7 2 d0: 1.057 diff: 0.000 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.424 
+ dqmag: 0.370 from bdist: 0.424 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.241 ss: 0.197 (DMAX: 0.100) predE: -2.84  E(M): 170.44 gRMS: 0.0104 ratio: 1.001  increasing DMAX 
+ Opt step:  2  gqc: -0.229 ss: 0.229 (DMAX: 0.110) predE: -2.61  E(M): 167.60 gRMS: 0.0091 ratio: 1.011  increasing DMAX 
+ Opt step:  3  gqc: -0.216 ss: 0.247 (DMAX: 0.121) predE: -2.35  E(M): 164.97 gRMS: 0.0080 ratio: 1.033  increasing DMAX 
+ Opt step:  4  gqc: -0.204 ss: 0.234 (DMAX: 0.133) predE: -2.43  E(M): 162.54 gRMS: 0.0072 ratio: 1.069  increasing DMAX 
+ Opt step:  5  gqc: -0.190 ss: 0.217 (DMAX: 0.146) predE: -2.41  E(M): 159.95 gRMS: 0.0066 ratio: 1.061  increasing DMAX 
+ Opt step:  6  gqc: -0.175 ss: 0.225 (DMAX: 0.161) predE: -2.21  E(M): 157.39 gRMS: 0.0057 ratio: 1.085  increasing DMAX 
+ Opt step:  7  gqc: -0.160 ss: 0.218 (DMAX: 0.177) predE: -2.23  E(M): 155.00 gRMS: 0.0053 ratio: 1.074  increasing DMAX 
+ Opt step:  8  gqc: -0.143 ss: 0.234 (DMAX: 0.195) predE: -2.08  E(M): 152.61 gRMS: 0.0039 * 
+
+ cgrad: -0.143 nodemax: 9 nnR: 10 
+ check_for_reaction_g isrxn: 3 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6 103.0 116.8 132.0 146.2 152.6
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  9 totalgrad: 0.240 gradrms: 0.0042 tgrads:  71 max E: 152.6 cgr: -0.143 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 10 
+ setting active node to 10 
+ adding node: 10 between 9 29 
+ iR,iP: 9 29 iN: 10 
+ bond 7 2 d0: 1.057 diff: 0.000 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.424 
+ dqmag: 0.370 from bdist: 0.424 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.191 ss: 0.217 (DMAX: 0.100) predE: -2.40  E(M): 169.73 gRMS: 0.0095 ratio: 1.025  increasing DMAX 
+ Opt step:  2  gqc: -0.179 ss: 0.220 (DMAX: 0.110) predE: -2.29  E(M): 167.27 gRMS: 0.0087 ratio: 1.037  increasing DMAX 
+ Opt step:  3  gqc: -0.168 ss: 0.217 (DMAX: 0.121) predE: -2.02  E(M): 164.90 gRMS: 0.0074 ratio: 1.053  increasing DMAX 
+ Opt step:  4  gqc: -0.158 ss: 0.202 (DMAX: 0.133) predE: -2.24  E(M): 162.77 gRMS: 0.0064 ratio: 1.058  increasing DMAX 
+ Opt step:  5  gqc: -0.144 ss: 0.196 (DMAX: 0.146) predE: -2.21  E(M): 160.40 gRMS: 0.0055 ratio: 1.052  increasing DMAX 
+ Opt step:  6  gqc: -0.129 ss: 0.204 (DMAX: 0.161) predE: -1.92  E(M): 158.07 gRMS: 0.0047 * 
+
+ cgrad: -0.129 nodemax: 10 nnR: 11 
+ check_for_reaction_g isrxn: 3 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6 103.0 116.8 132.0 146.2 152.6 158.1
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter: 10 totalgrad: 0.270 gradrms: 0.0042 tgrads:  77 max E: 158.1 cgr: -0.129 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 11 
+ setting active node to 11 
+ adding node: 11 between 10 29 
+ iR,iP: 10 29 iN: 11 
+ bond 7 2 d0: 1.057 diff: 0.000 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.424 
+ dqmag: 0.370 from bdist: 0.424 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.164 ss: 0.211 (DMAX: 0.100) predE: -2.31  E(M): 173.64 gRMS: 0.0111 ratio: 1.076  increasing DMAX 
+ Opt step:  2  gqc: -0.156 ss: 0.221 (DMAX: 0.110) predE: -2.35  E(M): 171.16 gRMS: 0.0095 ratio: 1.097  increasing DMAX 
+ Opt step:  3  gqc: -0.147 ss: 0.221 (DMAX: 0.121) predE: -2.03  E(M): 168.59 gRMS: 0.0077 ratio: 1.107  increasing DMAX 
+ Opt step:  4  gqc: -0.138 ss: 0.232 (DMAX: 0.133) predE: -1.81  E(M): 166.34 gRMS: 0.0061 ratio: 2.434  decreasing DMAX 
+ Opt step:  5  gqc: -0.124 ss: 0.240 (DMAX: 0.111) predE: -2.80  E(M): 161.92 gRMS: 0.0177 ratio: -0.938  dE>0, decreasing DMAX 
+ Opt step:  6  gqc: -0.140 ss: 0.248 (DMAX: 0.074) predE: -2.89  E(M): 164.55 gRMS: 0.0198 ratio: -0.045  dE>0, decreasing DMAX 
+ Opt step:  7  gqc: -0.127 ss: 0.226 (DMAX: 0.049) predE: -0.72  E(M): 164.68 gRMS: 0.0068 ratio: 1.087  increasing DMAX 
+ Opt step:  8  gqc: -0.123 ss: 0.214 (DMAX: 0.054) predE: -0.74  E(M): 163.90 gRMS: 0.0061 ratio: 1.101  increasing DMAX 
+ Opt step:  9  gqc: -0.117 ss: 0.201 (DMAX: 0.060) predE: -0.77  E(M): 163.08 gRMS: 0.0054 ratio: 1.119  increasing DMAX 
+ Opt step: 10  gqc: -0.112 ss: 0.193 (DMAX: 0.066) predE: -0.78  E(M): 162.22 gRMS: 0.0049 * 
+
+ cgrad: -0.112 nodemax: 11 nnR: 12 
+ check_for_reaction_g isrxn: 3 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6 103.0 116.8 132.0 146.2 152.6 158.1 162.2
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter: 11 totalgrad: 0.302 gradrms: 0.0043 tgrads:  87 max E: 162.2 cgr: -0.112 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 12 
+ setting active node to 12 
+ adding node: 12 between 11 29 
+ iR,iP: 11 29 iN: 12 
+ bond 7 2 d0: 1.057 diff: 0.000 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.424 
+ dqmag: 0.370 from bdist: 0.424 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.164 ss: 0.212 (DMAX: 0.100) predE: -2.38  E(M): 177.37 gRMS: 0.0112 ratio: 1.031  increasing DMAX 
+ Opt step:  2  gqc: -0.156 ss: 0.245 (DMAX: 0.110) predE: -2.44  E(M): 174.92 gRMS: 0.0103 ratio: 1.074  increasing DMAX 
+ Opt step:  3  gqc: -0.148 ss: 0.246 (DMAX: 0.121) predE: -2.25  E(M): 172.30 gRMS: 0.0086 ratio: 1.088  increasing DMAX 
+ Opt step:  4  gqc: -0.138 ss: 0.241 (DMAX: 0.133) predE: -2.07  E(M): 169.86 gRMS: 0.0071 ratio: 1.123  increasing DMAX 
+ Opt step:  5  gqc: -0.129 ss: 0.228 (DMAX: 0.146) predE: -2.08  E(M): 167.54 gRMS: 0.0059 ratio: 1.158  increasing DMAX 
+ Opt step:  6  gqc: -0.118 ss: 0.248 (DMAX: 0.161) predE: -1.84  E(M): 165.12 gRMS: 0.0049 * 
+
+ cgrad: -0.118 nodemax: 12 nnR: 13 
+ check_for_reaction_g isrxn: 3 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6 103.0 116.8 132.0 146.2 152.6 158.1 162.2 165.1
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter: 12 totalgrad: 0.334 gradrms: 0.0044 tgrads:  93 max E: 165.1 cgr: -0.118 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 13 
+ setting active node to 13 
+ adding node: 13 between 12 29 
+ iR,iP: 12 29 iN: 13 
+ bond 7 2 d0: 1.057 diff: 0.000 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.424 
+ dqmag: 0.370 from bdist: 0.424 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ egWb(0.00037/2) eg egWb(0.00124/2) egQ7Wb(0.00099/2) eg egWb(0.00062/4) egWb(0.00124/2) eg eg
+ 
+ Opt step:  1  gqc: -0.170 ss: 0.234 (DMAX: 0.100) predE: -2.44  E(M): 180.47 gRMS: 0.0116 ratio: 0.752  increasing DMAX 
+ Opt step:  2  gqc: -0.172 ss: 0.246 (DMAX: 0.110) predE: -4.52  E(M): 178.63 gRMS: 0.0226 ratio: 0.307 
+ Opt step:  3  gqc: -0.167 ss: 0.232 (DMAX: 0.110) predE: -3.87  E(M): 177.25 gRMS: 0.0215 ratio: 0.489 
+ Opt step:  4  gqc: -0.158 ss: 0.248 (DMAX: 0.110) predE: -4.07  E(M): 175.35 gRMS: 0.0199 ratio: 0.459 
+ Opt step:  5  gqc: -0.149 ss: 0.261 (DMAX: 0.110) predE: -3.60  E(M): 173.48 gRMS: 0.0185 ratio: 0.353 
+ Opt step:  6  gqc: -0.136 ss: 0.241 (DMAX: 0.110) predE: -1.53  E(M): 172.21 gRMS: 0.0061 ratio: 1.285 
+ Opt step:  7  gqc: -0.130 ss: 0.236 (DMAX: 0.110) predE: -2.92  E(M): 170.25 gRMS: 0.0158 ratio: 0.551 
+ Opt step:  8  gqc: -0.120 ss: 0.222 (DMAX: 0.110) predE: -2.44  E(M): 168.64 gRMS: 0.0144 ratio: 0.584 
+ Opt step:  9  gqc: -0.106 ss: 0.230 (DMAX: 0.110) predE: -1.36  E(M): 167.21 gRMS: 0.0044 * 
+
+ cgrad: -0.106 nodemax: 13 nnR: 14 
+ check_for_reaction_g isrxn: 3 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 12.8 35.9 57.5 78.6 103.0 116.8 132.0 146.2 152.6 158.1 162.2 165.1 167.2
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter: 13 totalgrad: 0.362 gradrms: 0.0044 tgrads: 102 max E: 167.2 cgr: -0.106 
+ printing string to stringfile.xyz0075g 
+
+ growing iter: 14 
+ setting active node to 14 
+ adding node: 14 between 13 29 
+ iR,iP: 13 29 iN: 14 
+ bond 7 2 d0: 1.057 diff: 0.000 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.424 
+ dqmag: 0.370 from bdist: 0.424 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+
+ bond 7 2 d0: 1.057 diff: 1.343 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+
+ eg Error opening gradient file! /tmp/748534775.gollum/GSM_go1q0075.015/GRAD 
+
+ 
+ Opt step:  1  gqc: 0.000 ss: 0.000 (DMAX: 0.100) predE:  0.00  E(M): 816883.53 gRMS: 0.0000 * 
+
+ cgrad: 0.000 nodemax: 13 nnR: 15 
+ over the hill(1)! 
+ gopt_iter: SSM string done growing 
+
+ in find_uphill 
+ first node above 3.0 is 1 
+ new n0: 0 
+ adding node: 15 between 14 29 
+ iR,iP: 14 29 iN: 15 
+ bond 7 2 d0: 1.057 diff: 0.000 
+ bond 9 6 d0: 10.900 diff: -0.300 
+ bond 7 6 d0: 10.020 diff: -0.300 
+ bdist: 0.424 
+ dqmag: 0.370 from bdist: 0.424 
+ dqmag: 0.37 dq0[constraint]: -0.37 
+ already created node, opting 
+ eg Error opening gradient file! /tmp/748534775.gollum/GSM_go1q0075.016/GRAD 
+ SCF failed 
+
+ SSM run, growth phase over 
+
+ gopt_iter: Last node high energy 10000.0 / 100.0 tgrads: 104  -exit early- 
+ V_profile: 0.0 12.8 35.9 57.5 78.6 103.0 116.8 132.0 146.2 152.6 158.1 162.2 165.1 167.2 111.1 10000.0
+
+ creating final string file  

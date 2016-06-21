@@ -1,0 +1,30 @@
+#!/bin/bash
+
+echo "setting up PBS -t "
+file=scratch/go_gsm_dft.qsh
+
+rm -f scratch/gsmdone*
+#rm -f scratch/paragsm*
+#rm -f scratch/tsq*
+
+cat scratch/go_gsm_dft > $file
+echo " " >> $file
+#echo "#PBS -l qos=flux -q flux" >> $file
+#echo "#PBS -A paulzim_flux" >> $file
+echo "#PBS -l nodes=1:ppn=1 -l walltime=48:00:00" >> $file
+echo "#PBS -e `pwd`/scratch -o `pwd`/scratch" >> $file
+echo "#PBS -q guest " >> $file
+echo " " >> $file
+echo 'ID=`printf "%0*d\n" 4 ${PBS_ARRAYID}`' >> $file
+echo " " >> $file
+echo "source /export/zimmerman/paulzim/qchem/qchemjan42013cg/paul.set.local" >> $file
+echo "source /export/zimmerman/paulzim/qchem/qchemjan42013c/paul.set.local" >> $file
+echo " " >> $file
+echo "cd `pwd`" >> $file
+echo "export OMP_NUM_THREADS=1" >> $file
+echo './gfstringq.exe ${PBS_ARRAYID} 1 > scratch/paragsm$ID' >> $file
+echo " " >> $file
+echo 'rm $QCSCRATCH' >>	$file
+echo 'echo "done with paragsm$ID" > scratch/gsmdone${PBS_ARRAYID}' >> $file
+
+

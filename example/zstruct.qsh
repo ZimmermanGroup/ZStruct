@@ -1,0 +1,17 @@
+#PBS -l nodes=1:ppn=1 -l pmem=4000MB -l walltime=1:00:00
+#PBS -q zimmerman -N example.qsh
+
+cd $PBS_O_WORKDIR
+
+echo "running $PBS_O_WORKDIR" >> ZSTRUCT_RUNNING
+
+NAME=trials
+
+./zstruct.exe 40 -100 1 > progress.log &
+
+wait
+
+echo "done: $NAME $PBSREMOTEDIR" >> ~/ZSTRUCT_DONE
+rm $QCSCRATCH
+
+

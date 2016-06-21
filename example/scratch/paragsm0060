@@ -1,0 +1,2319 @@
+ MAIN: nprocs: 1
+***** Starting Initialization *****
+ runend 1
+  -structure filename from input: scratch/initial0060.xyz 
+Initializing Tolerances and Parameters...
+  -Opening inpfile
+  -reading file...
+  -using SSM 
+  -MAX_OPT_ITERS: 100
+  -STEP_OPT_ITERS: 30
+  -CONV_TOL = 0.0005
+  -ADD_NODE_TOL = 0.1
+  -SCALING = 1
+  -SSM_DQMAX: 0.8
+  -SSM_DQMIN: 0.2
+  -GROWTH_DIRECTION = 0
+  -INT_THRESH: 2
+  -SSM_MIN_SPACING: 1.8
+  -INITIAL_OPT: 150
+  -FINAL_OPT: 150
+  -PRODUCT_LIMIT: 100
+  -TS_FINAL_TYPE: 1
+  -NNODES = 30
+ Done reading inpfileq 
+
+ reading isomers 
+ bond for coordinate system: 6 1 
+ adding bond: 9 2 
+ adding bond: 6 1 
+ breaking bond: 9 6 
+ angle: 10 6 1 align to 180.000 
+ found 1 isomer
+
+Reading and initializing string coordinates 
+  -Opening structure file 
+  -reading file... 
+  -The number of atoms is: 16
+  -Reading the atomic names...  -Reading coordinates...Opening the xyz file
+Finished reading information from structure file
+
+***** Initialization complete *****
+****************************************
+****************************************
+****** Starting IC-SSM calculation *****
+****************************************
+****************************************
+
+ 16
+
+C -0.444907 -0.077488 0.307999
+H 0.444907 0.077488 -0.307999
+H -1.312971 -0.232890 -0.338240
+H -0.300683 -0.956359 0.942054
+H -0.611006 0.801786 0.936116
+Pt 4.600000 0.000000 0.000000
+N 4.286101 1.855816 0.876101
+N 4.915031 -1.855058 -0.877227
+Cl 2.812607 0.376159 -1.600772
+Cl 6.387166 -0.376148 1.601168
+H 5.012192 1.975092 1.586658
+H 4.349066 2.580667 0.161319
+H 3.358943 1.871856 1.301173
+H 4.185552 -1.977279 -1.583779
+H 5.839746 -1.867246 -1.307731
+H 4.859247 -2.580202 -0.162130
+
+ NOTICES 
+ Not using Davidson 
+ Not using close dist add 
+ Not using ONE_SKIP 
+ Using HESS_TANG 
+ END NOTICES 
+
+ isOpt: 1 
+ in make_frags() 
+ atom[0] frag: 0 
+ atom[1] frag: 0 
+ atom[2] frag: 0 
+ atom[3] frag: 0 
+ atom[4] frag: 0 
+ atom[5] frag: 1 
+ atom[6] frag: 1 
+ atom[7] frag: 1 
+ atom[8] frag: 1 
+ atom[9] frag: 1 
+ atom[10] frag: 1 
+ atom[11] frag: 1 
+ atom[12] frag: 1 
+ atom[13] frag: 1 
+ atom[14] frag: 1 
+ atom[15] frag: 1 
+ in bond_frags() 
+ connecting frag 1 to frag 0:  bond pair1 added : 8 1 
+ linear angle (1 of 3): 7 5 6 (179.95) 
+ linear angle (2 of 3): 9 5 8 (179.99) 
+ linear angle (3 of 3): 8 1 0 (173.72) 
+ linear angle: 7 5 6 
+ adding bond via linear_ties(t): 7 6 
+ adding torsion via linear_ties(t): 13 7 6 10 
+ adding torsion via linear_ties(t): 13 7 6 11 
+ adding torsion via linear_ties(t): 13 7 6 12 
+ adding torsion via linear_ties(t): 14 7 6 10 
+ adding torsion via linear_ties(t): 14 7 6 11 
+ adding torsion via linear_ties(t): 14 7 6 12 
+ adding torsion via linear_ties(t): 15 7 6 10 
+ adding torsion via linear_ties(t): 15 7 6 11 
+ adding torsion via linear_ties(t): 15 7 6 12 
+ linear angle: 9 5 8 
+ adding bond via linear_ties(t): 9 8 
+ linear angle: 8 1 0 
+ adding bond via linear_ties(t): 8 0 
+ adding torsion via linear_ties(t): 5 8 0 2 
+ adding torsion via linear_ties(t): 5 8 0 3 
+ adding torsion via linear_ties(t): 5 8 0 4 
+ linear ties complete 
+ isOpt: 1 
+ in make_frags() 
+ atom[0] frag: 0 
+ atom[1] frag: 0 
+ atom[2] frag: 0 
+ atom[3] frag: 0 
+ atom[4] frag: 0 
+ atom[5] frag: 1 
+ atom[6] frag: 1 
+ atom[7] frag: 1 
+ atom[8] frag: 1 
+ atom[9] frag: 1 
+ atom[10] frag: 1 
+ atom[11] frag: 1 
+ atom[12] frag: 1 
+ atom[13] frag: 1 
+ atom[14] frag: 1 
+ atom[15] frag: 1 
+ in bond_frags() 
+ connecting frag 1 to frag 0:  bond pair1 added : 8 1 
+ linear angle (1 of 3): 7 5 6 (179.95) 
+ linear angle (2 of 3): 9 5 8 (179.99) 
+ linear angle (3 of 3): 8 1 0 (173.72) 
+ linear angle: 7 5 6 
+ adding bond via linear_ties(t): 7 6 
+ adding torsion via linear_ties(t): 13 7 6 10 
+ adding torsion via linear_ties(t): 13 7 6 11 
+ adding torsion via linear_ties(t): 13 7 6 12 
+ adding torsion via linear_ties(t): 14 7 6 10 
+ adding torsion via linear_ties(t): 14 7 6 11 
+ adding torsion via linear_ties(t): 14 7 6 12 
+ adding torsion via linear_ties(t): 15 7 6 10 
+ adding torsion via linear_ties(t): 15 7 6 11 
+ adding torsion via linear_ties(t): 15 7 6 12 
+ linear angle: 9 5 8 
+ adding bond via linear_ties(t): 9 8 
+ linear angle: 8 1 0 
+ adding bond via linear_ties(t): 8 0 
+ adding torsion via linear_ties(t): 5 8 0 2 
+ adding torsion via linear_ties(t): 5 8 0 3 
+ adding torsion via linear_ties(t): 5 8 0 4 
+ linear ties complete 
+  not using break_planes 
+
+ setting SSM bonds 
+ added bond for coordinates only: 6 1 
+ isOpt: 1 
+ in make_frags() 
+ merging: 0/1 
+ atom[0] frag: 0 
+ atom[1] frag: 0 
+ atom[2] frag: 0 
+ atom[3] frag: 0 
+ atom[4] frag: 0 
+ atom[5] frag: 0 
+ atom[6] frag: 0 
+ atom[7] frag: 0 
+ atom[8] frag: 0 
+ atom[9] frag: 0 
+ atom[10] frag: 0 
+ atom[11] frag: 0 
+ atom[12] frag: 0 
+ atom[13] frag: 0 
+ atom[14] frag: 0 
+ atom[15] frag: 0 
+ in bond_frags() 
+ linear angle (1 of 3): 7 5 6 (179.95) 
+ linear angle (2 of 3): 9 5 8 (179.99) 
+ linear angle (3 of 3): 8 1 0 (173.72) 
+ linear angle: 7 5 6 
+ adding torsion via linear_ties(t): 13 7 6 10 
+ adding torsion via linear_ties(t): 13 7 6 11 
+ adding torsion via linear_ties(t): 13 7 6 12 
+ adding torsion via linear_ties(t): 14 7 6 10 
+ adding torsion via linear_ties(t): 14 7 6 11 
+ adding torsion via linear_ties(t): 14 7 6 12 
+ adding torsion via linear_ties(t): 15 7 6 10 
+ adding torsion via linear_ties(t): 15 7 6 11 
+ adding torsion via linear_ties(t): 15 7 6 12 
+ adding torsion via linear_ties(t): 6 7 6 10 
+ adding torsion via linear_ties(t): 6 7 6 11 
+ adding torsion via linear_ties(t): 6 7 6 12 
+ adding torsion via linear_ties(t): 13 7 6 7 
+ adding torsion via linear_ties(t): 14 7 6 7 
+ adding torsion via linear_ties(t): 15 7 6 7 
+ linear angle: 9 5 8 
+ linear angle: 8 1 0 
+ adding torsion via linear_ties(t): 9 8 0 2 
+ adding torsion via linear_ties(t): 9 8 0 3 
+ adding torsion via linear_ties(t): 9 8 0 4 
+ adding torsion via linear_ties(t): 0 8 0 2 
+ adding torsion via linear_ties(t): 0 8 0 3 
+ adding torsion via linear_ties(t): 0 8 0 4 
+ adding torsion via linear_ties(t): 5 8 0 5 
+ linear ties complete 
+ printing ic1 ic's 
+
+ printing internals 
+ number of bonds: 19
+ bond 1: 2 to 1: 1.09 
+ bond 2: 3 to 1: 1.09 
+ bond 3: 4 to 1: 1.09 
+ bond 4: 5 to 1: 1.09 
+ bond 5: 7 to 6: 2.08 
+ bond 6: 8 to 6: 2.08 
+ bond 7: 9 to 6: 2.43 
+ bond 8: 10 to 6: 2.43 
+ bond 9: 11 to 7: 1.02 
+ bond 10: 12 to 7: 1.02 
+ bond 11: 13 to 7: 1.02 
+ bond 12: 14 to 8: 1.02 
+ bond 13: 15 to 8: 1.02 
+ bond 14: 16 to 8: 1.02 
+ bond 15: 9 to 2: 2.71 
+ bond 16: 8 to 7: 4.15 
+ bond 17: 10 to 9: 4.86 
+ bond 18: 9 to 1: 3.80 
+ bond 19: 6 to 1: 5.05 
+
+ number of angles: 53
+ angle 1: 3 1 2: 109.5 
+ angle 2: 4 1 2: 109.5 
+ angle 3: 4 1 3: 109.5 
+ angle 4: 5 1 2: 109.5 
+ angle 5: 5 1 3: 109.5 
+ angle 6: 5 1 4: 109.5 
+ angle 7: 8 6 7: 180.0 
+ angle 8: 9 6 7: 91.6 
+ angle 9: 9 6 8: 88.4 
+ angle 10: 10 6 7: 88.4 
+ angle 11: 10 6 8: 91.6 
+ angle 12: 10 6 9: 180.0 
+ angle 13: 11 7 6: 106.9 
+ angle 14: 12 7 6: 109.3 
+ angle 15: 12 7 11: 111.1 
+ angle 16: 13 7 6: 109.1 
+ angle 17: 13 7 11: 110.7 
+ angle 18: 13 7 12: 109.7 
+ angle 19: 14 8 6: 106.9 
+ angle 20: 15 8 6: 109.1 
+ angle 21: 15 8 14: 110.7 
+ angle 22: 16 8 6: 109.3 
+ angle 23: 16 8 14: 111.1 
+ angle 24: 16 8 15: 109.7 
+ angle 25: 9 2 1: 173.7 
+ angle 26: 2 9 6: 108.1 
+ angle 27: 8 7 6: 0.0 
+ angle 28: 7 8 6: 0.0 
+ angle 29: 8 7 11: 106.9 
+ angle 30: 8 7 12: 109.3 
+ angle 31: 8 7 13: 109.1 
+ angle 32: 7 8 14: 106.9 
+ angle 33: 7 8 15: 109.0 
+ angle 34: 7 8 16: 109.3 
+ angle 35: 10 9 6: 0.0 
+ angle 36: 9 10 6: 0.0 
+ angle 37: 10 9 2: 108.1 
+ angle 38: 9 1 2: 4.5 
+ angle 39: 9 1 3: 113.6 
+ angle 40: 9 1 4: 105.9 
+ angle 41: 9 1 5: 108.8 
+ angle 42: 1 9 6: 106.3 
+ angle 43: 1 9 2: 1.8 
+ angle 44: 1 9 10: 106.3 
+ angle 45: 6 1 2: 31.9 
+ angle 46: 6 1 3: 139.3 
+ angle 47: 6 1 4: 85.2 
+ angle 48: 6 1 5: 100.0 
+ angle 49: 1 6 7: 80.6 
+ angle 50: 1 6 8: 99.4 
+ angle 51: 1 6 9: 46.2 
+ angle 52: 1 6 10: 133.8 
+ angle 53: 6 1 9: 27.5 
+
+ number of torsions: 120
+ torsion 1: 11 7 6 8: -86.6 
+ torsion 2: 11 7 6 9: -175.7 
+ torsion 3: 11 7 6 10: 4.3 
+ torsion 4: 12 7 6 8: 33.7 
+ torsion 5: 12 7 6 9: -55.4 
+ torsion 6: 12 7 6 10: 124.6 
+ torsion 7: 13 7 6 8: 153.7 
+ torsion 8: 13 7 6 9: 64.5 
+ torsion 9: 13 7 6 10: -115.4 
+ torsion 10: 14 8 6 7: -93.8 
+ torsion 11: 14 8 6 9: -4.7 
+ torsion 12: 14 8 6 10: 175.3 
+ torsion 13: 15 8 6 7: 25.9 
+ torsion 14: 15 8 6 9: 115.1 
+ torsion 15: 15 8 6 10: -65.0 
+ torsion 16: 16 8 6 7: 145.9 
+ torsion 17: 16 8 6 9: -125.0 
+ torsion 18: 16 8 6 10: 55.0 
+ torsion 19: 9 2 1 3: -157.6 
+ torsion 20: 9 2 1 4: -37.6 
+ torsion 21: 9 2 1 5: 82.4 
+ torsion 22: 2 9 6 7: -75.2 
+ torsion 23: 2 9 6 8: 104.9 
+ torsion 24: 2 9 6 10: -13.0 
+ torsion 25: 6 9 2 1: -5.8 
+ torsion 26: 8 7 6 9: -89.1 
+ torsion 27: 8 7 6 10: 90.9 
+ torsion 28: 7 8 6 9: 89.1 
+ torsion 29: 7 8 6 10: -90.9 
+ torsion 30: 11 7 8 6: 93.4 
+ torsion 31: 12 7 8 6: -146.3 
+ torsion 32: 13 7 8 6: -26.4 
+ torsion 33: 14 8 7 6: 86.2 
+ torsion 34: 14 8 7 11: 179.6 
+ torsion 35: 14 8 7 12: -60.1 
+ torsion 36: 14 8 7 13: 59.9 
+ torsion 37: 15 8 7 6: -154.1 
+ torsion 38: 15 8 7 11: -60.6 
+ torsion 39: 15 8 7 12: 59.7 
+ torsion 40: 15 8 7 13: 179.6 
+ torsion 41: 16 8 7 6: -34.1 
+ torsion 42: 16 8 7 11: 59.3 
+ torsion 43: 16 8 7 12: 179.6 
+ torsion 44: 16 8 7 13: -60.5 
+ torsion 45: 10 9 6 7: -62.2 
+ torsion 46: 10 9 6 8: 117.9 
+ torsion 47: 9 10 6 7: 62.2 
+ torsion 48: 9 10 6 8: -117.9 
+ torsion 49: 10 9 2 1: -5.8 
+ torsion 50: 2 9 10 6: 167.0 
+ torsion 51: 1 9 6 7: -75.3 
+ torsion 52: 1 9 6 8: 104.7 
+ torsion 53: 1 9 6 10: -13.2 
+ torsion 54: 6 9 1 2: 174.3 
+ torsion 55: 6 9 1 3: -162.6 
+ torsion 56: 6 9 1 4: -42.5 
+ torsion 57: 6 9 1 5: 75.1 
+ torsion 58: 2 9 1 3: 23.1 
+ torsion 59: 2 9 1 4: 143.2 
+ torsion 60: 2 9 1 5: -99.2 
+ torsion 61: 1 9 10 6: 166.8 
+ torsion 62: 10 9 1 2: 174.3 
+ torsion 63: 10 9 1 3: -162.6 
+ torsion 64: 10 9 1 4: -42.5 
+ torsion 65: 10 9 1 5: 75.1 
+ torsion 66: 6 1 2 9: 5.0 
+ torsion 67: 1 6 7 11: 139.2 
+ torsion 68: 1 6 7 12: -100.5 
+ torsion 69: 1 6 7 13: 19.5 
+ torsion 70: 1 6 7 8: -134.2 
+ torsion 71: 7 6 1 2: 100.6 
+ torsion 72: 7 6 1 3: 126.2 
+ torsion 73: 7 6 1 4: -119.2 
+ torsion 74: 7 6 1 5: -10.3 
+ torsion 75: 1 6 8 14: 40.4 
+ torsion 76: 1 6 8 15: 160.1 
+ torsion 77: 1 6 8 16: -80.0 
+ torsion 78: 1 6 8 7: 134.2 
+ torsion 79: 8 6 1 2: -79.4 
+ torsion 80: 8 6 1 3: -53.7 
+ torsion 81: 8 6 1 4: 60.8 
+ torsion 82: 8 6 1 5: 169.8 
+ torsion 83: 1 6 9 2: 0.2 
+ torsion 84: 1 6 9 10: 13.2 
+ torsion 85: 9 6 1 2: -0.8 
+ torsion 86: 9 6 1 3: 24.8 
+ torsion 87: 9 6 1 4: 139.3 
+ torsion 88: 9 6 1 5: -111.7 
+ torsion 89: 1 6 10 9: -13.2 
+ torsion 90: 10 6 1 2: 179.2 
+ torsion 91: 10 6 1 3: -155.2 
+ torsion 92: 10 6 1 4: -40.7 
+ torsion 93: 10 6 1 5: 68.3 
+ torsion 94: 6 1 9 2: -174.3 
+ torsion 95: 6 1 9 10: -0.0 
+ torsion 96: 9 1 6 7: 101.4 
+ torsion 97: 9 1 6 8: -78.5 
+ torsion 98: 9 1 6 10: 180.0 
+ torsion 99: 14 8 7 11: 0.0 
+ torsion 100: 14 8 7 12: 0.0 
+ torsion 101: 14 8 7 13: 0.0 
+ torsion 102: 15 8 7 11: 0.0 
+ torsion 103: 15 8 7 12: 0.0 
+ torsion 104: 15 8 7 13: 0.0 
+ torsion 105: 16 8 7 11: 0.0 
+ torsion 106: 16 8 7 12: 0.0 
+ torsion 107: 16 8 7 13: 0.0 
+ torsion 108: 7 8 7 11: 0.0 
+ torsion 109: 7 8 7 12: 0.0 
+ torsion 110: 7 8 7 13: 0.0 
+ torsion 111: 14 8 7 8: 0.0 
+ torsion 112: 15 8 7 8: 0.0 
+ torsion 113: 16 8 7 8: 0.0 
+ torsion 114: 10 9 1 3: 0.0 
+ torsion 115: 10 9 1 4: 0.0 
+ torsion 116: 10 9 1 5: 0.0 
+ torsion 117: 1 9 1 3: 0.0 
+ torsion 118: 1 9 1 4: 0.0 
+ torsion 119: 1 9 1 5: 0.0 
+ torsion 120: 6 9 1 6: 0.0 
+
+ number of improper torsions: 3
+ imptor 1: 8 9 6 7: 180.0 
+ imptor 2: 6 1 9 10: -0.0 
+ imptor 3: 2 6 1 9: 0.8 
+
+ number of nonbonds: 62
+
+ ic1.nbonds: 19 ic2.nbonds: 18 
+ saving bond union: 19  saving angle union: 53  saving torsion union: 120 
+
+
+ actual IC's 
+
+ printing internals 
+ number of bonds: 19
+ bond 1: 2 to 1: 1.09 
+ bond 2: 3 to 1: 1.09 
+ bond 3: 4 to 1: 1.09 
+ bond 4: 5 to 1: 1.09 
+ bond 5: 7 to 6: 2.08 
+ bond 6: 8 to 6: 2.08 
+ bond 7: 9 to 6: 2.43 
+ bond 8: 10 to 6: 2.43 
+ bond 9: 11 to 7: 1.02 
+ bond 10: 12 to 7: 1.02 
+ bond 11: 13 to 7: 1.02 
+ bond 12: 14 to 8: 1.02 
+ bond 13: 15 to 8: 1.02 
+ bond 14: 16 to 8: 1.02 
+ bond 15: 9 to 2: 2.71 
+ bond 16: 8 to 7: 4.15 
+ bond 17: 10 to 9: 4.86 
+ bond 18: 9 to 1: 3.80 
+ bond 19: 6 to 1: 5.05 
+
+ number of angles: 53
+ angle 1: 3 1 2: 109.5 
+ angle 2: 4 1 2: 109.5 
+ angle 3: 4 1 3: 109.5 
+ angle 4: 5 1 2: 109.5 
+ angle 5: 5 1 3: 109.5 
+ angle 6: 5 1 4: 109.5 
+ angle 7: 8 6 7: 180.0 
+ angle 8: 9 6 7: 91.6 
+ angle 9: 9 6 8: 88.4 
+ angle 10: 10 6 7: 88.4 
+ angle 11: 10 6 8: 91.6 
+ angle 12: 10 6 9: 180.0 
+ angle 13: 11 7 6: 106.9 
+ angle 14: 12 7 6: 109.3 
+ angle 15: 12 7 11: 111.1 
+ angle 16: 13 7 6: 109.1 
+ angle 17: 13 7 11: 110.7 
+ angle 18: 13 7 12: 109.7 
+ angle 19: 14 8 6: 106.9 
+ angle 20: 15 8 6: 109.1 
+ angle 21: 15 8 14: 110.7 
+ angle 22: 16 8 6: 109.3 
+ angle 23: 16 8 14: 111.1 
+ angle 24: 16 8 15: 109.7 
+ angle 25: 9 2 1: 173.7 
+ angle 26: 2 9 6: 108.1 
+ angle 27: 8 7 6: 0.0 
+ angle 28: 7 8 6: 0.0 
+ angle 29: 8 7 11: 106.9 
+ angle 30: 8 7 12: 109.3 
+ angle 31: 8 7 13: 109.1 
+ angle 32: 7 8 14: 106.9 
+ angle 33: 7 8 15: 109.0 
+ angle 34: 7 8 16: 109.3 
+ angle 35: 10 9 6: 0.0 
+ angle 36: 9 10 6: 0.0 
+ angle 37: 10 9 2: 108.1 
+ angle 38: 9 1 2: 4.5 
+ angle 39: 9 1 3: 113.6 
+ angle 40: 9 1 4: 105.9 
+ angle 41: 9 1 5: 108.8 
+ angle 42: 1 9 6: 106.3 
+ angle 43: 1 9 2: 1.8 
+ angle 44: 1 9 10: 106.3 
+ angle 45: 6 1 2: 31.9 
+ angle 46: 6 1 3: 139.3 
+ angle 47: 6 1 4: 85.2 
+ angle 48: 6 1 5: 100.0 
+ angle 49: 1 6 7: 80.6 
+ angle 50: 1 6 8: 99.4 
+ angle 51: 1 6 9: 46.2 
+ angle 52: 1 6 10: 133.8 
+ angle 53: 6 1 9: 27.5 
+
+ number of torsions: 120
+ torsion 1: 11 7 6 8: -86.6 
+ torsion 2: 11 7 6 9: -175.7 
+ torsion 3: 11 7 6 10: 4.3 
+ torsion 4: 12 7 6 8: 33.7 
+ torsion 5: 12 7 6 9: -55.4 
+ torsion 6: 12 7 6 10: 124.6 
+ torsion 7: 13 7 6 8: 153.7 
+ torsion 8: 13 7 6 9: 64.5 
+ torsion 9: 13 7 6 10: -115.4 
+ torsion 10: 14 8 6 7: -93.8 
+ torsion 11: 14 8 6 9: -4.7 
+ torsion 12: 14 8 6 10: 175.3 
+ torsion 13: 15 8 6 7: 25.9 
+ torsion 14: 15 8 6 9: 115.1 
+ torsion 15: 15 8 6 10: -65.0 
+ torsion 16: 16 8 6 7: 145.9 
+ torsion 17: 16 8 6 9: -125.0 
+ torsion 18: 16 8 6 10: 55.0 
+ torsion 19: 9 2 1 3: -157.6 
+ torsion 20: 9 2 1 4: -37.6 
+ torsion 21: 9 2 1 5: 82.4 
+ torsion 22: 2 9 6 7: -75.2 
+ torsion 23: 2 9 6 8: 104.9 
+ torsion 24: 2 9 6 10: -13.0 
+ torsion 25: 6 9 2 1: -5.8 
+ torsion 26: 8 7 6 9: -89.1 
+ torsion 27: 8 7 6 10: 90.9 
+ torsion 28: 7 8 6 9: 89.1 
+ torsion 29: 7 8 6 10: -90.9 
+ torsion 30: 11 7 8 6: 93.4 
+ torsion 31: 12 7 8 6: -146.3 
+ torsion 32: 13 7 8 6: -26.4 
+ torsion 33: 14 8 7 6: 86.2 
+ torsion 34: 14 8 7 11: 179.6 
+ torsion 35: 14 8 7 12: -60.1 
+ torsion 36: 14 8 7 13: 59.9 
+ torsion 37: 15 8 7 6: -154.1 
+ torsion 38: 15 8 7 11: -60.6 
+ torsion 39: 15 8 7 12: 59.7 
+ torsion 40: 15 8 7 13: 179.6 
+ torsion 41: 16 8 7 6: -34.1 
+ torsion 42: 16 8 7 11: 59.3 
+ torsion 43: 16 8 7 12: 179.6 
+ torsion 44: 16 8 7 13: -60.5 
+ torsion 45: 10 9 6 7: -62.2 
+ torsion 46: 10 9 6 8: 117.9 
+ torsion 47: 9 10 6 7: 62.2 
+ torsion 48: 9 10 6 8: -117.9 
+ torsion 49: 10 9 2 1: -5.8 
+ torsion 50: 2 9 10 6: 167.0 
+ torsion 51: 1 9 6 7: -75.3 
+ torsion 52: 1 9 6 8: 104.7 
+ torsion 53: 1 9 6 10: -13.2 
+ torsion 54: 6 9 1 2: 174.3 
+ torsion 55: 6 9 1 3: -162.6 
+ torsion 56: 6 9 1 4: -42.5 
+ torsion 57: 6 9 1 5: 75.1 
+ torsion 58: 2 9 1 3: 23.1 
+ torsion 59: 2 9 1 4: 143.2 
+ torsion 60: 2 9 1 5: -99.2 
+ torsion 61: 1 9 10 6: 166.8 
+ torsion 62: 10 9 1 2: 174.3 
+ torsion 63: 10 9 1 3: -162.6 
+ torsion 64: 10 9 1 4: -42.5 
+ torsion 65: 10 9 1 5: 75.1 
+ torsion 66: 6 1 2 9: 5.0 
+ torsion 67: 1 6 7 11: 139.2 
+ torsion 68: 1 6 7 12: -100.5 
+ torsion 69: 1 6 7 13: 19.5 
+ torsion 70: 1 6 7 8: -134.2 
+ torsion 71: 7 6 1 2: 100.6 
+ torsion 72: 7 6 1 3: 126.2 
+ torsion 73: 7 6 1 4: -119.2 
+ torsion 74: 7 6 1 5: -10.3 
+ torsion 75: 1 6 8 14: 40.4 
+ torsion 76: 1 6 8 15: 160.1 
+ torsion 77: 1 6 8 16: -80.0 
+ torsion 78: 1 6 8 7: 134.2 
+ torsion 79: 8 6 1 2: -79.4 
+ torsion 80: 8 6 1 3: -53.7 
+ torsion 81: 8 6 1 4: 60.8 
+ torsion 82: 8 6 1 5: 169.8 
+ torsion 83: 1 6 9 2: 0.2 
+ torsion 84: 1 6 9 10: 13.2 
+ torsion 85: 9 6 1 2: -0.8 
+ torsion 86: 9 6 1 3: 24.8 
+ torsion 87: 9 6 1 4: 139.3 
+ torsion 88: 9 6 1 5: -111.7 
+ torsion 89: 1 6 10 9: -13.2 
+ torsion 90: 10 6 1 2: 179.2 
+ torsion 91: 10 6 1 3: -155.2 
+ torsion 92: 10 6 1 4: -40.7 
+ torsion 93: 10 6 1 5: 68.3 
+ torsion 94: 6 1 9 2: -174.3 
+ torsion 95: 6 1 9 10: -0.0 
+ torsion 96: 9 1 6 7: 101.4 
+ torsion 97: 9 1 6 8: -78.5 
+ torsion 98: 9 1 6 10: 180.0 
+ torsion 99: 14 8 7 11: 179.6 
+ torsion 100: 14 8 7 12: -60.1 
+ torsion 101: 14 8 7 13: 59.9 
+ torsion 102: 15 8 7 11: -60.6 
+ torsion 103: 15 8 7 12: 59.7 
+ torsion 104: 15 8 7 13: 179.6 
+ torsion 105: 16 8 7 11: 59.3 
+ torsion 106: 16 8 7 12: 179.6 
+ torsion 107: 16 8 7 13: -60.5 
+ torsion 108: 7 8 7 11: 0.0 
+ torsion 109: 7 8 7 12: 0.0 
+ torsion 110: 7 8 7 13: 0.0 
+ torsion 111: 14 8 7 8: 0.0 
+ torsion 112: 15 8 7 8: 0.0 
+ torsion 113: 16 8 7 8: 0.0 
+ torsion 114: 10 9 1 3: -162.6 
+ torsion 115: 10 9 1 4: -42.5 
+ torsion 116: 10 9 1 5: 75.1 
+ torsion 117: 1 9 1 3: 0.0 
+ torsion 118: 1 9 1 4: 0.0 
+ torsion 119: 1 9 1 5: 0.0 
+ torsion 120: 6 9 1 6: 0.0 
+
+ number of improper torsions: 0
+
+ number of nonbonds: 0
+
+ ic1.nbonds: 14 ic2.nbonds: 14 
+ saving bond union: 14  saving angle union: 24  saving torsion union: 18 
+ Number of OpenMP threads: 1 
+
+
+ ---- Now preparing gradients ---- 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.001
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.000
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.001
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.002
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.003
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.004
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.005
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.006
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.007
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.008
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.009
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.010
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.011
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.012
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.013
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.014
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.015
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.016
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.017
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.018
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.019
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.020
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.021
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.022
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.023
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.024
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.025
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.026
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.027
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.028
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.029
+  grad initiated: Q-Chem mode 
+  Q-Chem initialized 
+   -run name set to: GSM_go1q0060.030
+  grad initiated: Q-Chem mode 
+ ---- Done preparing gradients ---- 
+
+
+ preopt_iter: opting first node 
+ eg 
+ Opt step:  1  E(M): -190012.8 final IC grad RMS: 0.0005  *
+ 
+ energy of first node: -302.809303 
+
+
+ Begin Growing the String 
+
+ in add_linear 
+
+ creating R node: 1     iR,iP: 0 29 wR,wP: 1 -1 iN: 1 
+ bond 9 2 d0: 1.214 diff: 1.500 
+ bond 6 1 d0: 1.793 diff: 3.262 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 133.774 anglet: 180.000 diff(rad): 0.807 
+ bdist: 3.728 
+ dqmag: 0.800 from bdist: 3.728 
+ dqmag: 0.80 dq0[constraint]: -0.80 
+ copying Hessian from node 0 
+
+ at beginning, starting V is 0.0 (-302.809303) 
+ setting active node to 1 
+
+ growing iter: 1 
+
+ bond 9 2 d0: 1.214 diff: 1.500 
+ bond 6 1 d0: 1.793 diff: 3.262 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 133.774 anglet: 180.000 diff(rad): 0.807 
+
+ eg eg
+ 
+ Opt step:  1  gqc: -0.013 ss: 0.027 (DMAX: 0.100) predE: -0.63  E(M): 3.35 gRMS: 0.0066 ratio: 0.836 
+ Opt step:  2  gqc: -0.011 ss: 0.018 (DMAX: 0.100) predE: -0.26  E(M): 2.82 gRMS: 0.0046 * 
+
+ cgrad: -0.011 nodemax: 1 nnR: 2 
+ check_for_reaction_g isrxn: 0 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 2.8
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  1 totalgrad: 0.030 gradrms: 0.0046 tgrads:   4 max E:   2.8 cgr: -0.011 
+ printing string to stringfile.xyz0060g 
+
+ growing iter: 2 
+ setting active node to 2 
+ adding node: 2 between 1 29 
+ iR,iP: 1 29 iN: 2 
+ bond 9 2 d0: 1.214 diff: 1.133 
+ bond 6 1 d0: 1.793 diff: 2.709 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 136.476 anglet: 180.000 diff(rad): 0.760 
+ bdist: 3.092 
+ dqmag: 0.800 from bdist: 3.092 
+ dqmag: 0.80 dq0[constraint]: -0.80 
+
+ bond 9 2 d0: 1.214 diff: 1.500 
+ bond 6 1 d0: 1.793 diff: 3.262 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 133.774 anglet: 180.000 diff(rad): 0.807 
+
+ eg eg
+ 
+ Opt step:  1  gqc: -0.035 ss: 0.074 (DMAX: 0.100) predE: -1.73  E(M): 12.28 gRMS: 0.0086 ratio: 1.043 
+ Opt step:  2  gqc: -0.030 ss: 0.112 (DMAX: 0.100) predE: -1.33  E(M): 10.48 gRMS: 0.0049 * 
+
+ cgrad: -0.030 nodemax: 2 nnR: 3 
+ check_for_reaction_g isrxn: 0 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 2.8 10.5
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  2 totalgrad: 0.061 gradrms: 0.0047 tgrads:   6 max E:  10.5 cgr: -0.030 
+ printing string to stringfile.xyz0060g 
+
+ growing iter: 3 
+ setting active node to 3 
+ adding node: 3 between 2 29 
+ iR,iP: 2 29 iN: 3 
+ bond 9 2 d0: 1.214 diff: 0.841 
+ bond 6 1 d0: 1.793 diff: 2.144 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 137.717 anglet: 180.000 diff(rad): 0.738 
+ bdist: 2.492 
+ dqmag: 0.800 from bdist: 2.492 
+ dqmag: 0.80 dq0[constraint]: -0.80 
+
+ bond 9 2 d0: 1.214 diff: 1.500 
+ bond 6 1 d0: 1.793 diff: 3.262 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 133.774 anglet: 180.000 diff(rad): 0.807 
+
+ eg eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.075 ss: 0.116 (DMAX: 0.100) predE: -3.70  E(M): 31.38 gRMS: 0.0109 ratio: 0.982  increasing DMAX 
+ Opt step:  2  gqc: -0.065 ss: 0.135 (DMAX: 0.110) predE: -2.74  E(M): 27.75 gRMS: 0.0082 ratio: 1.019  increasing DMAX 
+ Opt step:  3  gqc: -0.057 ss: 0.159 (DMAX: 0.121) predE: -2.48  E(M): 24.95 gRMS: 0.0069 ratio: 1.064  increasing DMAX 
+ Opt step:  4  gqc: -0.051 ss: 0.135 (DMAX: 0.133) predE: -2.23  E(M): 22.31 gRMS: 0.0063 ratio: 1.017  increasing DMAX 
+ Opt step:  5  gqc: -0.046 ss: 0.158 (DMAX: 0.146) predE: -1.92  E(M): 20.04 gRMS: 0.0055 ratio: 1.034  increasing DMAX 
+ Opt step:  6  gqc: -0.041 ss: 0.132 (DMAX: 0.161) predE: -1.59  E(M): 18.05 gRMS: 0.0055 ratio: 1.005 
+ Opt step:  7  gqc: -0.038 ss: 0.120 (DMAX: 0.161) predE: -1.02  E(M): 16.45 gRMS: 0.0040 * 
+
+ cgrad: -0.038 nodemax: 3 nnR: 4 
+ check_for_reaction_g isrxn: 0 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 2.8 10.5 16.4
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  3 totalgrad: 0.087 gradrms: 0.0045 tgrads:  13 max E:  16.4 cgr: -0.038 
+ printing string to stringfile.xyz0060g 
+
+ growing iter: 4 
+ setting active node to 4 
+ adding node: 4 between 3 29 
+ iR,iP: 3 29 iN: 4 
+ bond 9 2 d0: 1.214 diff: 0.827 
+ bond 6 1 d0: 1.793 diff: 1.429 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 133.760 anglet: 180.000 diff(rad): 0.807 
+ bdist: 1.934 
+ dqmag: 0.800 from bdist: 1.934 
+ dqmag: 0.80 dq0[constraint]: -0.80 
+
+ bond 9 2 d0: 1.214 diff: 1.500 
+ bond 6 1 d0: 1.793 diff: 3.262 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 133.774 anglet: 180.000 diff(rad): 0.807 
+
+ eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.107 ss: 0.171 (DMAX: 0.100) predE: -3.76  E(M): 50.90 gRMS: 0.0141 ratio: 1.000  increasing DMAX 
+ Opt step:  2  gqc: -0.101 ss: 0.216 (DMAX: 0.110) predE: -3.36  E(M): 47.14 gRMS: 0.0116 ratio: 0.917  increasing DMAX 
+ Opt step:  3  gqc: -0.095 ss: 0.217 (DMAX: 0.121) predE: -2.94  E(M): 44.06 gRMS: 0.0094 ratio: 0.843  increasing DMAX 
+ Opt step:  4  gqc: -0.087 ss: 0.178 (DMAX: 0.133) predE: -1.79  E(M): 41.57 gRMS: 0.0056 ratio: 0.978  increasing DMAX 
+ Opt step:  5  gqc: -0.082 ss: 0.152 (DMAX: 0.146) predE: -1.47  E(M): 39.82 gRMS: 0.0053 ratio: 1.014  increasing DMAX 
+ Opt step:  6  gqc: -0.080 ss: 0.114 (DMAX: 0.161) predE: -0.72  E(M): 38.33 gRMS: 0.0042 * 
+
+ cgrad: -0.080 nodemax: 4 nnR: 5 
+ check_for_reaction_g isrxn: 0 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 2.8 10.5 16.4 38.3
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  4 totalgrad: 0.115 gradrms: 0.0044 tgrads:  19 max E:  38.3 cgr: -0.080 
+ printing string to stringfile.xyz0060g 
+
+ growing iter: 5 
+ setting active node to 5 
+ adding node: 5 between 4 29 
+ iR,iP: 4 29 iN: 5 
+ bond 9 2 d0: 1.214 diff: 0.729 
+ bond 6 1 d0: 1.793 diff: 0.819 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 134.242 anglet: 180.000 diff(rad): 0.799 
+ bdist: 1.483 
+ dqmag: 0.793 from bdist: 1.483 
+ dqmag: 0.79 dq0[constraint]: -0.79 
+
+ bond 9 2 d0: 1.214 diff: 1.500 
+ bond 6 1 d0: 1.793 diff: 3.262 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 133.774 anglet: 180.000 diff(rad): 0.807 
+
+ eg eg eg eg eg eg eg egQ1 egWb(0.00678/5) egWb(0.01110/4) egWb(0.01999/4) initial Hint ev: 0.035 0.035 0.035 0.038
+ eg
+ 
+ Opt step:  1  gqc: -0.131 ss: 0.168 (DMAX: 0.100) predE: -3.72  E(M): 87.54 gRMS: 0.0121 ratio: 1.005  increasing DMAX 
+ Opt step:  2  gqc: -0.121 ss: 0.195 (DMAX: 0.110) predE: -2.92  E(M): 83.80 gRMS: 0.0098 ratio: 0.993  increasing DMAX 
+ Opt step:  3  gqc: -0.113 ss: 0.172 (DMAX: 0.121) predE: -3.06  E(M): 80.91 gRMS: 0.0091 ratio: 1.021  increasing DMAX 
+ Opt step:  4  gqc: -0.104 ss: 0.198 (DMAX: 0.133) predE: -2.75  E(M): 77.78 gRMS: 0.0082 ratio: 0.989  increasing DMAX 
+ Opt step:  5  gqc: -0.098 ss: 0.179 (DMAX: 0.146) predE: -2.83  E(M): 75.06 gRMS: 0.0076 ratio: 1.060  increasing DMAX 
+ Opt step:  6  gqc: -0.090 ss: 0.165 (DMAX: 0.161) predE: -2.77  E(M): 72.06 gRMS: 0.0068 ratio: 0.966  increasing DMAX 
+ Opt step:  7  gqc: -0.082 ss: 0.148 (DMAX: 0.177) predE: -2.08  E(M): 69.39 gRMS: 0.0068 ratio: 1.197 
+ Opt step:  8  gqc: -0.072 ss: 0.210 (DMAX: 0.177) predE: -2.44  E(M): 66.90 gRMS: 0.0054 ratio: 0.872  increasing DMAX 
+ Opt step:  9  gqc: -0.059 ss: 0.218 (DMAX: 0.195) predE: -6.07  E(M): 64.77 gRMS: 0.0183 ratio: 0.126  decreasing DMAX 
+ Opt step: 10  gqc: -0.048 ss: 0.231 (DMAX: 0.162) predE: -5.90  E(M): 64.01 gRMS: 0.0165 ratio: 0.330 
+ Opt step: 11  gqc: -0.047 ss: 0.186 (DMAX: 0.162) predE: -3.82  bc problem, r Ut  E(M): 62.06 gRMS: 0.0105 ratio: 0.224  decreasing DMAX 
+ Opt step: 12  gqc: -0.043 ss: 0.038 (DMAX: 0.090) predE: -0.48  E(M): 61.20 gRMS: 0.0040 * 
+
+ cgrad: -0.043 nodemax: 5 nnR: 6 
+ check_for_reaction_g isrxn: 0 nadd+nbrk: 3 
+ in find_peaks (1) 
+ V_profile:   0.0 2.8 10.5 16.4 38.3 61.2
+ min nodes:  max nodes: 
+ found 0 significant peak(s). TOL: 1.00 
+
+ gopt_iter:  5 totalgrad: 0.140 gradrms: 0.0043 tgrads:  31 max E:  61.2 cgr: -0.043 
+ printing string to stringfile.xyz0060g 
+
+ growing iter: 6 
+ setting active node to 6 
+ adding node: 6 between 5 29 
+ iR,iP: 5 29 iN: 6 
+ bond 9 2 d0: 1.214 diff: 0.578 
+ bond 6 1 d0: 1.793 diff: 0.466 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 152.959 anglet: 180.000 diff(rad): 0.472 
+ bdist: 1.065 
+ dqmag: 0.626 from bdist: 1.065 
+ dqmag: 0.63 dq0[constraint]: -0.63 
+
+ bond 9 2 d0: 1.214 diff: 1.500 
+ bond 6 1 d0: 1.793 diff: 3.262 
+ bond 9 6 d0: 10.900 diff: -0.600 
+ tangent angle: 9 5 0 is 51 
+ anglev: 133.774 anglet: 180.000 diff(rad): 0.807 
+
+ eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  gqc: -0.107 ss: 0.164 (DMAX: 0.100) predE: -2.93  E(M): 74.96 gRMS: 0.0095 ratio: 1.054  increasing DMAX 
+ Opt step:  2  gqc: -0.094 ss: 0.166 (DMAX: 0.110) predE: -2.54  E(M): 71.87 gRMS: 0.0083 ratio: 1.089  increasing DMAX 
+ Opt step:  3  gqc: -0.079 ss: 0.191 (DMAX: 0.121) predE: -2.62  E(M): 69.10 gRMS: 0.0072 ratio: 0.988  increasing DMAX 
+ Opt step:  4  gqc: -0.065 ss: 0.193 (DMAX: 0.133) predE: -2.51  E(M): 66.52 gRMS: 0.0070 ratio: 1.051  increasing DMAX 
+ Opt step:  5  gqc: -0.053 ss: 0.163 (DMAX: 0.146) predE: -2.51  E(M): 63.88 gRMS: 0.0060 ratio: 1.095  increasing DMAX 
+ Opt step:  6  gqc: -0.043 ss: 0.157 (DMAX: 0.161) predE: -2.73  E(M): 61.13 gRMS: 0.0062 ratio: 1.116 
+ Opt step:  7  gqc: -0.032 ss: 0.168 (DMAX: 0.161) predE: -2.46  E(M): 58.08 gRMS: 0.0054 ratio: 1.142  increasing DMAX 
+ Opt step:  8  gqc: -0.021 ss: 0.179 (DMAX: 0.177) predE: -2.48  E(M): 55.27 gRMS: 0.0053 ratio: 1.117  increasing DMAX 
+ Opt step:  9  gqc: -0.011 ss: 0.187 (DMAX: 0.195) predE: -2.23  E(M): 52.49 gRMS: 0.0057 ratio: 1.142 
+ Opt step: 10  gqc: -0.002 ss: 0.188 (DMAX: 0.195) predE: -1.99  E(M): 49.95 gRMS: 0.0053 ratio: 1.164 
+ Opt step: 11  gqc: 0.008 ss: 0.175 (DMAX: 0.195) predE: -1.52  E(M): 47.64 gRMS: 0.0047 * 
+
+ cgrad: 0.008 nodemax: 5 nnR: 7 
+ constraint gradient positive! 
+ gopt_iter: SSM string done growing 
+
+ in find_uphill 
+ first node above 3.0 is 2 
+ new n0: 1 
+ copying last node, opting 
+ eg eg eg eg eg eg egQ2 egQ7Wb(0.00396/1) eg eg eg eg eg eg eg 
+ Opt step:  1  ss: 0.180 (DMAX: 0.100) predE: -0.92  E(M): 45.7 gRMS: 0.0042 ratio: 1.050  increasing DMAX 
+ Opt step:  2  ss: 0.163 (DMAX: 0.111) predE: -0.94  E(M): 44.7 gRMS: 0.0041 ratio: 1.164  increasing DMAX 
+ Opt step:  3  ss: 0.161 (DMAX: 0.123) predE: -0.98  E(M): 43.6 gRMS: 0.0038 ratio: 1.304  increasing DMAX 
+ Opt step:  4  ss: 0.161 (DMAX: 0.136) predE: -1.03  E(M): 42.3 gRMS: 0.0036 ratio: 1.337  increasing DMAX 
+ Opt step:  5  ss: 0.145 (DMAX: 0.151) predE: -1.00  E(M): 41.0 gRMS: 0.0031 ratio: 1.290 
+ Opt step:  6  ss: 0.128 (DMAX: 0.151) predE: -0.81  E(M): 39.7 gRMS: 0.0027 ratio: 1.167 
+ Opt step:  7  ss: 0.119 (DMAX: 0.151) predE: -0.78  E(M): 38.7 gRMS: 0.0035 ratio: 1.038 
+ Opt step:  8  ss: 0.114 (DMAX: 0.151) predE: -0.70  E(M): 37.9 gRMS: 0.0032 ratio: 0.862 
+ Opt step:  9  ss: 0.109 (DMAX: 0.151) predE: -0.59  E(M): 37.3 gRMS: 0.0022 ratio: 1.306 
+ Opt step: 10  ss: 0.102 (DMAX: 0.151) predE: -0.53  E(M): 36.6 gRMS: 0.0020 ratio: 1.290 
+ Opt step: 11  ss: 0.101 (DMAX: 0.151) predE: -0.51  E(M): 35.9 gRMS: 0.0020 ratio: 1.261 
+ Opt step: 12  ss: 0.101 (DMAX: 0.151) predE: -0.54  E(M): 35.2 gRMS: 0.0024 ratio: 1.099 
+ Opt step: 13  ss: 0.101 (DMAX: 0.151) predE: -0.56  E(M): 34.6 gRMS: 0.0035 ratio: 1.241 
+ Opt step: 14  ss: 0.102 (DMAX: 0.151) predE: -0.45  E(M): 33.9 gRMS: 0.0019 ratio: 1.361 
+ Opt step: 15  ss: 0.102 (DMAX: 0.151) predE: -0.42  E(M): 33.3 gRMS: 0.0017
+ E(M): 33.3 final IC grad RMS: 0.0017 
+
+ SSM run, growth phase over 
+ running string up to node: 8 from 1 
+ writing grown string stringfile.xyz0060g 
+ 
+ initial ic_reparam 
+ TSn: 0 rpart:  0.00 0.17 0.17 0.17 0.17 0.17 0.17
+ disp[2]: 0.30 disp[3]: 0.50 disp[4]: 0.50 disp[5]: 0.50 disp[6]: 0.50
+ disp[2]: -0.04 disp[3]: -0.07 disp[4]: 0.28 disp[5]: 0.25 disp[6]: -0.25
+ disp[2]: 0.10 disp[3]: 0.19 disp[4]: 0.50 disp[5]: 0.07 disp[6]: -0.10
+ disp[2]: 0.05 disp[3]: 0.11 disp[4]: 0.46 disp[5]: -0.04 disp[6]: -0.09
+ disp[2]: 0.03 disp[3]: 0.10 disp[4]: 0.35 disp[5]: -0.15 disp[6]: -0.14
+ disp[2]: 0.02 disp[3]: 0.10 disp[4]: 0.27 disp[5]: -0.23 disp[6]: -0.15
+ disp[2]: 0.02 disp[3]: 0.09 disp[4]: 0.22 disp[5]: -0.28 disp[6]: -0.17
+ disp[2]: 0.02 disp[3]: 0.09 disp[4]: 0.19 disp[5]: -0.31 disp[6]: -0.20
+ disp[2]: 0.02 disp[3]: 0.08 disp[4]: 0.16 disp[5]: -0.27 disp[6]: -0.17
+ disp[2]: 0.02 disp[3]: 0.07 disp[4]: 0.14 disp[5]: -0.18 disp[6]: -0.10
+ disp[2]: 0.01 disp[3]: 0.06 disp[4]: 0.11 disp[5]: -0.12 disp[6]: -0.06
+ disp[2]: 0.01 disp[3]: 0.05 disp[4]: 0.09 disp[5]: -0.08 disp[6]: -0.04
+ disp[2]: 0.01 disp[3]: 0.05 disp[4]: 0.07 disp[5]: -0.05 disp[6]: -0.02
+ disp[2]: 0.00 disp[3]: 0.04 disp[4]: 0.06 disp[5]: -0.03 disp[6]: -0.02
+ disp[2]: 0.00 disp[3]: 0.03 disp[4]: 0.04 disp[5]: -0.02 disp[6]: -0.01
+ disp[2]: 0.00 disp[3]: 0.02 disp[4]: 0.03 disp[5]: -0.02 disp[6]: -0.01
+ disp[2]: 0.00 disp[3]: 0.02 disp[4]: 0.03 disp[5]: -0.01 disp[6]: -0.00
+ disp[2]: 0.00 disp[3]: 0.02 disp[4]: 0.02 disp[5]: -0.01 disp[6]: -0.00
+ disp[2]: 0.00 disp[3]: 0.01 disp[4]: 0.02 disp[5]: -0.01 disp[6]: -0.00
+ disp[2]: -0.00 disp[3]: 0.01 disp[4]: 0.02 disp[5]: -0.00 disp[6]: -0.00
+ disp[2]: -0.00 disp[3]: 0.01 disp[4]: 0.01 disp[5]: -0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 25):  0.90 1.58 1.57 1.58 1.60 1.58 1.58  disprms: 0.017 
+
+
+ Starting String opt 
+ V_profile:  0.0 2.8 10.5 16.4 38.3 61.2 47.6 33.3
+ 3 way tangent (5): f1: 0.63 
+
+ in find_peaks (1) 
+ V_profile:  0.0  2.8 10.5 16.4 38.3 61.2 47.6 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 14 (0.55) ss: 0.138 (DMAX: 0.100) predE: -1.42  E(M): 11.49 gRMS: 0.0051 ratio: 1.207  increasing DMAX 
+ Opt step:  2  gqc: 0.011 ss: 0.187 (DMAX: 0.110) predE: -1.42  E(M): 9.78 gRMS: 0.0045 ratio: 0.999  increasing DMAX 
+ Opt step:  3  gqc: 0.010 ss: 0.153 (DMAX: 0.121) predE: -1.24  E(M): 8.36 gRMS: 0.0043
+ 
+ Opt step:  1  t/ol: 1 (0.58) ss: 0.213 (DMAX: 0.161) predE: -4.49  E(M): 37.14 gRMS: 0.0128 ratio: 1.205  increasing DMAX 
+ Opt step:  2  gqc: 0.017 ss: 0.246 (DMAX: 0.177) predE: -4.60  E(M): 31.73 gRMS: 0.0114 ratio: 0.917  increasing DMAX 
+ Opt step:  3  gqc: 0.014 ss: 0.207 (DMAX: 0.195) predE: -3.48  E(M): 27.52 gRMS: 0.0089
+ 
+ Opt step:  1  t/ol: 1 (0.61) ss: 0.179 (DMAX: 0.161) predE: -3.15  E(M): 60.19 gRMS: 0.0104 ratio: 1.477 
+ Opt step:  2  gqc: 0.006 ss: 0.185 (DMAX: 0.161) predE: -4.35  E(M): 55.53 gRMS: 0.0119 ratio: 1.171  increasing DMAX 
+ Opt step:  3  gqc: 0.008 ss: 0.194 (DMAX: 0.177) predE: -4.31  E(M): 50.43 gRMS: 0.0101
+ 
+ Opt step:  1  t/ol: 2 (0.93) ss: 0.031 (0.090) predE: -0.33  Hint ev: 0.035 0.035 E(M): 60.73 gRMS: 0.0035 ratio: 1.025 
+ Opt step:  2  t/ol: 2 (0.93) ss: 0.038 (0.090) predE: -0.37  Hint ev: 0.035 0.035 E(M): 60.39 gRMS: 0.0032 ratio: 1.070 
+ Opt step:  3  t/ol: 2 (0.93) ss: 0.050 (0.090) predE: -0.45  Hint ev: 0.035 0.035 E(M): 60.00 gRMS: 0.0030
+ 
+ Opt step:  1  t/ol: 1 (0.81) ss: 0.277 (0.195) predE: -1.77  Hint ev: 0.030 0.034 E(M): 51.61 gRMS: 0.0042 ratio: 1.227  increasing DMAX 
+ Opt step:  2  t/ol: 1 (0.63) ss: 0.174 (DMAX: 0.214) predE: -1.55  E(M): 49.44 gRMS: 0.0056 ratio: 1.206 
+ Opt step:  3  gqc: -0.008 ss: 0.155 (DMAX: 0.214) predE: -1.38  E(M): 47.57 gRMS: 0.0053
+
+ opt_iter:  6 totalgrad: 0.205 gradrms: 0.0069 tgrads: 72 ol(0): 0.00 max E: 60.0 
+ in find_peaks (2) 
+ V_profile:  0.0  2.8 8.4 27.5 50.4 60.0 47.6 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ ** starting climb ** 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 2.8 8.4 27.5 50.4 60.0 47.6 33.3
+ TSn: 5 rpart:  0.00 0.25 0.25 0.25 0.00 0.50 0.50
+ disp[2]: 0.24 disp[3]: -0.26 disp[4]: 0.12 disp[5]: 0.00 disp[6]: -0.20
+ disp[2]: -0.02 disp[3]: -0.08 disp[4]: 0.07 disp[5]: 0.00 disp[6]: -0.08
+ disp[2]: -0.01 disp[3]: -0.06 disp[4]: 0.04 disp[5]: 0.00 disp[6]: -0.03
+ disp[2]: -0.01 disp[3]: -0.05 disp[4]: 0.03 disp[5]: 0.00 disp[6]: -0.02
+ disp[2]: -0.01 disp[3]: -0.03 disp[4]: 0.02 disp[5]: 0.00 disp[6]: -0.01
+ spacings (end ic_reparam, steps: 5):  0.90 1.55 1.57 1.49 1.56 1.55 1.54  disprms: 0.041 
+ V_profile:  0.0 2.8 8.4 27.5 50.4 60.0 47.6 33.3
+ 3 way tangent (5): f1: 0.43 
+
+ in find_peaks (1) 
+ V_profile:  0.0  2.8 8.4 27.5 50.4 60.0 47.6 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ slowing down climb optimization 
+ eg eg eg eg eg egQ1 eg egQ2 egQ5Wr(0.99786/1)Q2Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(100.00000/-1)Q0Wr(51.57286/1)Q0Q6Wr(20.54850/1)Q0Wr(3.54230/1)Q0Wr(1.03765/1)Q0Wb(0.30609/1) initial Hint ev: 0.035 0.035 0.035 0.037
+ eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.56) ss: 0.133 (DMAX: 0.121) predE: -1.08  E(M): 8.12 gRMS: 0.0037 ratio: 1.111  increasing DMAX 
+ Opt step:  2  gqc: 0.010 ss: 0.129 (DMAX: 0.133) predE: -1.16  E(M): 6.92 gRMS: 0.0040 ratio: 1.030 
+ Opt step:  3  gqc: 0.009 ss: 0.135 (DMAX: 0.133) predE: -0.83  E(M): 5.72 gRMS: 0.0037
+ 
+ Opt step:  1  t/ol: 1 (0.60) ss: 0.199 (DMAX: 0.195) predE: -2.92  E(M): 20.59 gRMS: 0.0077 ratio: 0.663 
+ Opt step:  2  gqc: 0.014 ss: 0.202 (DMAX: 0.195) predE: -3.42  E(M): 18.66 gRMS: 0.0126 ratio: 1.118 
+ Opt step:  3  gqc: 0.012 ss: 0.200 (DMAX: 0.195) predE: -2.46  E(M): 14.83 gRMS: 0.0056
+ 
+ Opt step:  1  t/ol: 2 (0.64) ss: 0.177 (DMAX: 0.177) predE: -3.47  E(M): 49.58 gRMS: 0.0081 ratio: 0.720 
+ Opt step:  2  gqc: 0.018 ss: 0.153 (DMAX: 0.177) predE: -3.60  E(M): 47.08 gRMS: 0.0112 ratio: 0.788 
+ Opt step:  3  gqc: -0.124 ss: 0.266 (DMAX: 0.177) predE: -8.25  bc problem, r Ut  E(M): 44.25 gRMS: 0.0174
+ 
+ Opt step:  1  gqc: -0.001 ss: 0.046 (DMAX: 0.045) gts: -0.0014  predE: -0.38  E(M): 59.49 gRMS: 0.0029 ratio: 1.112  increasing DMAX 
+ Opt step:  2  gqc: -0.001 ss: 0.069 (DMAX: 0.050) gts: -0.0011  predE: -0.40  E(M): 59.07 gRMS: 0.0028 ratio: 1.131  increasing DMAX 
+ Opt step:  3  gqc: -0.001 ss: 0.129 (DMAX: 0.055) gts: -0.0009  predE: -0.42  E(M): 58.62 gRMS: 0.0027
+ 
+ Opt step:  1  t/ol: 0 (0.64) ss: 0.143 (DMAX: 0.214) predE: -1.13  E(M): 48.11 gRMS: 0.0052 ratio: 1.049 
+ Opt step:  2  gqc: -0.010 ss: 0.127 (DMAX: 0.214) predE: -0.93  E(M): 46.93 gRMS: 0.0049 ratio: 1.220 
+ Opt step:  3  gqc: -0.009 ss: 0.128 (DMAX: 0.214) predE: -0.81  E(M): 45.79 gRMS: 0.0035
+
+c opt_iter:  7 totalgrad: 0.214 gradrms: 0.0086 tgrads: 87 ol(0): 0.00 max E: 58.6 
+ in find_peaks (2) 
+ V_profile:  0.0  2.8 5.7 14.8 44.2 58.6 45.8 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 2.8 5.7 14.8 44.2 58.6 45.8 33.3
+ TSn: 5 rpart:  0.00 0.25 0.25 0.25 0.00 0.50 0.50
+ disp[2]: 0.17 disp[3]: 0.50 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.12
+ disp[2]: 0.09 disp[3]: 0.36 disp[4]: -0.11 disp[5]: 0.00 disp[6]: -0.05
+ disp[2]: 0.06 disp[3]: 0.26 disp[4]: -0.10 disp[5]: 0.00 disp[6]: -0.02
+ disp[2]: 0.04 disp[3]: 0.19 disp[4]: -0.08 disp[5]: 0.00 disp[6]: -0.01
+ disp[2]: 0.02 disp[3]: 0.13 disp[4]: -0.07 disp[5]: 0.00 disp[6]: -0.01
+ spacings (end ic_reparam, steps: 5):  0.90 1.60 1.52 1.83 1.56 1.54 1.53  disprms: 0.153 
+ V_profile:  0.0 2.8 5.7 14.8 44.2 58.6 45.8 33.3
+ 3 way tangent (5): f1: 0.53 
+
+ in find_peaks (1) 
+ V_profile:  0.0  2.8 5.7 14.8 44.2 58.6 45.8 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg egQ1Wb(0.02396/1) egQ6 eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.86) ss: 0.204 (0.133) predE: -1.39  Hint ev: 0.029 0.034 E(M): 6.71 gRMS: 0.0047 ratio: 0.953  increasing DMAX 
+ Opt step:  2  t/ol: 0 (0.88) ss: 0.220 (0.146) predE: -1.15  Hint ev: 0.029 0.034 E(M): 5.39 gRMS: 0.0049 ratio: 1.227  increasing DMAX 
+ Opt step:  3  t/ol: 0 (0.87) ss: 0.186 (0.161) predE: -0.85  Hint ev: 0.029 0.034 E(M): 3.97 gRMS: 0.0027
+ 
+ Opt step:  1  t/ol: 1 (0.80) ss: 0.346 (0.195) predE: -3.69  Hint ev: 0.012 0.021 E(M): 22.19 gRMS: 0.0093 ratio: 0.903  increasing DMAX 
+ Opt step:  2  t/ol: 1 (0.76) ss: 0.333 (0.214) predE: -2.09  Hint ev: 0.012 0.021 E(M): 18.86 gRMS: 0.0108 ratio: 0.648 
+ Opt step:  3  t/ol: 1 (0.71) ss: 0.199 (DMAX: 0.214) predE: -4.12  E(M): 17.50 gRMS: 0.0146
+S 
+ Opt step:  1  t/ol: 3 (0.77) ss: 0.077 (0.118) predE: -3.64  Hint ev: 0.035 0.035 E(M): 49.22 gRMS: 0.0147 ratio: 0.890 
+ Opt step:  2  t/ol: 3 (0.77) ss: 0.108 (0.118) predE: -3.15  Hint ev: 0.035 0.035 E(M): 45.98 gRMS: 0.0094 ratio: 1.049 
+ Opt step:  3  t/ol: 3 (0.77) ss: 0.218 (0.118) predE: -3.31  Hint ev: 0.035 0.035 E(M): 42.68 gRMS: 0.0080
+ 
+ Opt step:  1  gqc: 0.000 ss: 0.124 (DMAX: 0.055) gts: 0.0001  predE: -0.39  E(M): 58.13 gRMS: 0.0026 ratio: 1.181  increasing DMAX 
+ Opt step:  2  gqc: 0.001 ss: 0.122 (DMAX: 0.060) gts: 0.0006  predE: -0.40  E(M): 57.68 gRMS: 0.0025 ratio: 1.215  increasing DMAX 
+ Opt step:  3  gqc: 0.001 ss: 0.120 (DMAX: 0.066) gts: 0.0013  predE: -0.41  E(M): 57.19 gRMS: 0.0024
+ 
+ Opt step:  1  t/ol: 0 (0.61) ss: 0.134 (DMAX: 0.214) predE: -0.89  E(M): 46.03 gRMS: 0.0039 ratio: 0.879 
+ Opt step:  2  gqc: -0.010 ss: 0.120 (DMAX: 0.214) predE: -0.88  E(M): 45.25 gRMS: 0.0059 ratio: 1.155 
+ Opt step:  3  gqc: -0.009 ss: 0.121 (DMAX: 0.214) predE: -0.60  E(M): 44.23 gRMS: 0.0030
+
+c opt_iter:  8 totalgrad: 0.198 gradrms: 0.0077 tgrads: 102 ol(0): 0.00 max E: 57.2 
+ in find_peaks (2) 
+ V_profile:  0.0  2.8 4.0 17.5 42.7 57.2 44.2 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ ** starting exact TS search at node 5 ** 
+ totalgrad: 0.1983 gradrms: 0.0024 gts: 0.0013 
+ TS Hess init'd w/existing Hintp 
+ tHt: 0.100 a: 2.0 b: 1.5 C: -0.014 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 2.8 4.0 17.5 42.7 57.2 44.2 33.3
+ TSn: 5 rpart:  0.00 0.25 0.25 0.25 0.00 0.50 0.50
+ disp[2]: 0.15 disp[3]: 0.26 disp[4]: -0.05 disp[5]: 0.00 disp[6]: -0.12
+ disp[2]: 0.09 disp[3]: 0.18 disp[4]: -0.03 disp[5]: 0.00 disp[6]: -0.04
+ disp[2]: 0.06 disp[3]: 0.12 disp[4]: -0.02 disp[5]: 0.00 disp[6]: -0.02
+ disp[2]: 0.06 disp[3]: 0.04 disp[4]: -0.04 disp[5]: 0.00 disp[6]: -0.01
+ disp[2]: 0.04 disp[3]: 0.04 disp[4]: -0.02 disp[5]: 0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 5):  0.90 1.60 1.64 1.70 1.62 1.55 1.54  disprms: 0.059 
+ V_profile:  0.0 2.8 4.0 17.5 42.7 57.2 44.2 33.3
+ 3 way tangent (5): f1: 0.53 
+
+ in find_peaks (1) 
+ V_profile:  0.0  2.8 4.0 17.5 42.7 57.2 44.2 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg egQ1Wb(0.01806/1) eg eg eg TS Hess init'd w/existing Hintp 
+ tHt: 0.113 a: 2.2 b: 1.4 C: -0.018 
+ eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.93) ss: 0.180 (0.161) predE: -0.91  Hint ev: 0.025 0.034 E(M): 4.29 gRMS: 0.0031 ratio: 1.278 
+ Opt step:  2  t/ol: 0 (0.93) ss: 0.174 (0.161) predE: -0.81  Hint ev: 0.025 0.034 E(M): 3.14 gRMS: 0.0039 ratio: 1.251 
+ Opt step:  3  t/ol: 0 (0.91) ss: 0.114 (0.161) predE: -0.39  Hint ev: 0.025 0.034 E(M): 2.12 gRMS: 0.0028
+ 
+ Opt step:  1  t/ol: 0 (0.70) ss: 0.240 (DMAX: 0.159) predE: -3.13  E(M): 17.64 gRMS: 0.0091 ratio: 0.577 
+ Opt step:  2  gqc: 0.010 ss: 0.208 (DMAX: 0.159) predE: -2.69  E(M): 15.84 gRMS: 0.0110 ratio: 1.104  increasing DMAX 
+ Opt step:  3  gqc: 0.008 ss: 0.187 (DMAX: 0.175) predE: -2.16  E(M): 12.88 gRMS: 0.0058
+ 
+ Opt step:  1  t/ol: 3 (0.76) ss: 0.203 (0.118) predE: -3.07  Hint ev: 0.035 0.035 E(M): 38.19 gRMS: 0.0072 ratio: 1.043  increasing DMAX 
+ Opt step:  2  t/ol: 3 (0.76) ss: 0.248 (0.130) predE: -3.02  Hint ev: 0.035 0.035 E(M): 34.99 gRMS: 0.0072 ratio: 1.051  increasing DMAX 
+ Opt step:  3  t/ol: 3 (0.77) ss: 0.341 (0.143) predE: -2.28  Hint ev: 0.035 0.035 E(M): 31.81 gRMS: 0.0076
+ 
+ Opt step:  1  S: 5.0  ol: 0.92 0.00 0.00 0.00
+ max ol: 0 (f0) ss: 0.021 (DMAX: 0.066) predE: -0.15  Hint ev: -0.059 0.035 0.035 0.035 ratio: 0.972  E(M): 56.53 gRMS: 0.0022 
+ Opt step:  2  S: 4.0  ol: 0.92 0.18 0.00 0.00
+ max ol: 0 (f0) ss: 0.223 (DMAX: 0.066) predE: -0.50  Hint ev: -0.057 0.003 0.035 0.035 ratio: 0.967  increasing DMAX  E(M): 56.05 gRMS: 0.0022 
+ Opt step:  3  S: 3.0  ol: 0.94 0.08 0.01 0.00
+ max ol: 0 (f0) ss: 0.193 (DMAX: 0.073) predE: -0.63  Hint ev: -0.059 -0.011 0.035 0.035 ratio: 0.863  increasing DMAX  E(M): 55.51 gRMS: 0.0024 
+ Opt step:  4  S: 2.0  ol: 0.91 0.26 0.01 0.00
+ max ol: 0 (f0) ss: 0.085 (DMAX: 0.080) predE: -0.45  Hint ev: -0.060 -0.052 0.035 0.035 ratio: 0.482  decreasing DMAX  E(M): 55.29 gRMS: 0.0027 
+ Opt step:  5  S: 1.0  ol: 0.87 0.08 0.04 0.01
+ max ol: 0 (f0) ss: 0.403 (DMAX: 0.067) predE: -0.35  Hint ev: -0.110 -0.005 0.035 0.035 ratio: 0.836  E(M): 55.00 gRMS: 0.0030 
+ Opt step:  6  S: 1.0  ol: 0.75 0.47 0.04 0.03
+ max ol: 0 (f0) ss: 0.107 (DMAX: 0.067) predE: -0.62  Hint ev: -0.116 -0.085 0.034 0.035 E(M): 55.00 gRMS: 0.0039 
+S 
+ Opt step:  1  t/ol: 0 (0.59) ss: 0.135 (DMAX: 0.214) predE: -0.69  E(M): 44.73 gRMS: 0.0031 ratio: 1.212 
+ Opt step:  2  gqc: -0.010 ss: 0.117 (DMAX: 0.214) predE: -0.53  E(M): 43.89 gRMS: 0.0030 ratio: 1.200 
+ Opt step:  3  gqc: -0.009 ss: 0.117 (DMAX: 0.214) predE: -0.54  E(M): 43.26 gRMS: 0.0037
+
+x opt_iter:  9 totalgrad: 0.154 gradrms: 0.0051 tgrads: 123 ol(0): 0.75 max E: 55.0 
+ in find_peaks (2) 
+ V_profile:  0.0  2.8 2.1 12.9 31.8 55.0 43.3 33.3
+ min nodes:  2 max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ first opt'd node is high energy, unfreezing 
+ printing string to stringfile.xyz0060 
+ V_profile: 0.0 2.8 2.1 12.9 31.8 55.0 43.3 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: -0.50 disp[2]: -0.22 disp[3]: 0.09 disp[4]: 0.32 disp[5]: 0.00 disp[6]: -0.13
+ disp[1]: -0.50 disp[2]: -0.18 disp[3]: 0.02 disp[4]: 0.19 disp[5]: 0.00 disp[6]: -0.04
+ disp[1]: -0.50 disp[2]: -0.13 disp[3]: -0.01 disp[4]: 0.10 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: -0.50 disp[2]: -0.17 disp[3]: -0.09 disp[4]: -0.02 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: -0.50 disp[2]: -0.22 disp[3]: -0.16 disp[4]: -0.10 disp[5]: 0.00 disp[6]: -0.00
+W(0.00441/1) spacings (end ic_reparam, steps: 5):  2.56 1.56 1.78 1.79 1.52 1.58 1.58  disprms: 0.577 
+ V_profile:  0.0 2.8 2.1 12.9 31.8 55.0 43.3 33.3
+ 3 way tangent (5): f1: 0.66 
+
+ in find_peaks (1) 
+ V_profile:   0.0 2.8 2.1 12.9 31.8 55.0 43.3 33.3
+ min nodes:  2 max nodes:  1 5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg egQ2Wb(0.00044/2) eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 17 (0.86) ss: 0.013 (0.100) predE: -0.08  Hint ev: 0.035 0.035 E(M): 1.40 gRMS: 0.0022 ratio: 0.945 
+ Opt step:  2  t/ol: 17 (0.86) ss: 0.016 (0.100) predE: -0.08  Hint ev: 0.035 0.035 E(M): 1.32 gRMS: 0.0019 ratio: 0.988 
+ Opt step:  3  t/ol: 17 (0.86) ss: 0.022 (0.100) predE: -0.08  Hint ev: 0.035 0.035 E(M): 1.23 gRMS: 0.0015
+ 
+ Opt step:  1  t/ol: 0 (0.81) ss: 0.096 (0.161) predE: -0.34  Hint ev: 0.030 0.034 E(M): 1.36 gRMS: 0.0022 ratio: 0.927 
+ Opt step:  2  t/ol: 0 (0.81) ss: 0.089 (0.161) predE: -0.31  Hint ev: 0.030 0.034 E(M): 1.04 gRMS: 0.0035 ratio: 1.152 
+ Opt step:  3  t/ol: 0 (0.81) ss: 0.064 (0.161) predE: -0.14  Hint ev: 0.030 0.034 E(M): 0.68 gRMS: 0.0016
+ 
+ Opt step:  1  t/ol: 0 (0.69) ss: 0.160 (DMAX: 0.175) predE: -1.46  E(M): 10.30 gRMS: 0.0049 ratio: 1.161 
+ Opt step:  2  gqc: 0.009 ss: 0.188 (DMAX: 0.175) predE: -1.66  E(M): 8.61 gRMS: 0.0050 ratio: 1.131  increasing DMAX 
+ Opt step:  3  gqc: 0.007 ss: 0.186 (DMAX: 0.193) predE: -1.26  E(M): 6.73 gRMS: 0.0039
+ 
+ Opt step:  1  t/ol: 3 (0.76) ss: 0.321 (0.143) predE: -2.24  Hint ev: 0.035 0.035 E(M): 35.52 gRMS: 0.0097 ratio: 1.093  increasing DMAX 
+ Opt step:  2  t/ol: 3 (0.64) ss: 0.206 (DMAX: 0.157) predE: -3.50  E(M): 33.07 gRMS: 0.0110 ratio: 0.596 
+ Opt step:  3  gqc: 0.019 ss: 0.179 (DMAX: 0.157) predE: -2.91  E(M): 30.98 gRMS: 0.0119
+ 
+ Opt step:  1  S: 1.0  ol: 0.62 0.14 0.42 0.02
+ max ol: 0 (f0) ss: 0.124 (DMAX: 0.044) predE: -0.44  Hint ev: -0.129 -0.056 0.022 0.035 ratio: 0.748  decreasing DMAX  E(M): 54.53 gRMS: 0.0043 
+ Opt step:  2  S: 1.0  ol: 0.58 0.03 0.49 0.02
+ max ol: 0 (f0) ss: 0.112 (DMAX: 0.037) predE: -0.19  Hint ev: -0.123 -0.049 0.016 0.035 ratio: 0.490  decreasing DMAX  E(M): 54.44 gRMS: 0.0025 
+ Opt step:  3  S: 1.0  ol: 0.40 0.48 0.40 0.02
+ max ol: 1 (f1) ss: 0.117 (DMAX: 0.031) predE: -0.27  Hint ev: -0.109 -0.054 0.020 0.035 E(M): 54.44 gRMS: 0.0027 
+tsr 
+ Opt step:  1  t/ol: 0 (0.46) ss: 0.134 (DMAX: 0.214) predE: -0.62  E(M): 44.28 gRMS: 0.0034 ratio: 1.270 
+ Opt step:  2  gqc: -0.013 ss: 0.127 (DMAX: 0.214) predE: -0.38  E(M): 43.49 gRMS: 0.0028 ratio: 1.505  decreasing DMAX 
+ Opt step:  3  gqc: -0.012 ss: 0.129 (DMAX: 0.115) predE: -0.32  E(M): 42.92 gRMS: 0.0019
+
+x opt_iter: 10 totalgrad: 0.151 gradrms: 0.0053 tgrads: 141 ol(1): 0.48 max E: 54.5 
+ in find_peaks (2) 
+ V_profile:   0.0 1.2 0.7 6.7 31.0 54.5 42.9 33.3
+ min nodes:  2 max nodes:  1 5
+ found 2 significant peak(s). TOL: 0.50 
+ resetting TS node coords Ut (and Hessian) 
+ TS Hess init'd w/existing Hintp 
+ tHt: 0.097 a: 1.8 b: 1.5 C: -0.020 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  2 max nodes:  1 5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 1.2 0.7 6.7 31.0 54.5 42.9 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.38 disp[2]: 0.50 disp[3]: 0.35 disp[4]: 0.12 disp[5]: 0.00 disp[6]: -0.06
+ disp[1]: 0.30 disp[2]: 0.32 disp[3]: 0.19 disp[4]: 0.06 disp[5]: 0.00 disp[6]: -0.02
+ disp[1]: -0.50 disp[2]: -0.10 disp[3]: 0.07 disp[4]: 0.25 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: -0.50 disp[2]: -0.17 disp[3]: -0.04 disp[4]: 0.08 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: -0.50 disp[2]: -0.24 disp[3]: -0.14 disp[4]: -0.05 disp[5]: 0.00 disp[6]: -0.00
+W(0.00801/1) spacings (end ic_reparam, steps: 5):  2.57 1.53 1.70 1.70 1.46 1.62 1.62  disprms: 0.572 
+ V_profile:  0.0 1.2 0.7 6.7 31.0 54.5 42.9 33.3
+ 3 way tangent (5): f1: 0.67 
+
+ in find_peaks (1) 
+ V_profile:   0.0 1.2 0.7 6.7 31.0 54.5 42.9 33.3
+ min nodes:  2 max nodes:  1 5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 2 (0.73) ss: 0.030 (DMAX: 0.100) predE: -0.21  E(M): 0.87 gRMS: 0.0025 ratio: 1.001 
+ Opt step:  2  gqc: -0.000 ss: 0.049 (DMAX: 0.100) predE: -0.15  E(M): 0.66 gRMS: 0.0017 ratio: 0.916 
+ Opt step:  3  gqc: 0.000 ss: 0.041 (DMAX: 0.100) predE: -0.15  E(M): 0.52 gRMS: 0.0025
+ 
+ Opt step:  1  t/ol: 0 (0.83) ss: 0.092 (0.161) predE: -0.30  Hint ev: 0.030 0.034 E(M): 1.23 gRMS: 0.0024 ratio: 0.829 
+ Opt step:  2  t/ol: 0 (0.83) ss: 0.083 (0.161) predE: -0.31  Hint ev: 0.030 0.034 E(M): 0.98 gRMS: 0.0040 ratio: 1.143 
+ Opt step:  3  t/ol: 0 (0.83) ss: 0.064 (0.161) predE: -0.14  Hint ev: 0.030 0.034 E(M): 0.62 gRMS: 0.0018
+ 
+ Opt step:  1  t/ol: 1 (0.62) ss: 0.171 (DMAX: 0.193) predE: -1.78  E(M): 7.97 gRMS: 0.0065 ratio: 0.591 
+ Opt step:  2  gqc: 0.009 ss: 0.175 (DMAX: 0.193) predE: -1.84  E(M): 6.92 gRMS: 0.0106 ratio: 1.094 
+ Opt step:  3  gqc: 0.006 ss: 0.168 (DMAX: 0.193) predE: -1.28  E(M): 4.91 gRMS: 0.0040
+ 
+ Opt step:  1  t/ol: 0 (0.57) ss: 0.177 (DMAX: 0.157) predE: -2.28  E(M): 34.59 gRMS: 0.0069 ratio: 0.890  increasing DMAX 
+ Opt step:  2  gqc: 0.023 ss: 0.158 (DMAX: 0.173) predE: -2.23  E(M): 32.57 gRMS: 0.0091 ratio: 1.062 
+ Opt step:  3  gqc: 0.022 ss: 0.158 (DMAX: 0.173) predE: -1.99  E(M): 30.20 gRMS: 0.0064
+ 
+ Opt step:  1  S: 5.0  ol: 0.84 0.05 0.02 0.03
+ max ol: 0 (f0) ss: 0.028 (DMAX: 0.031) predE: -0.15  Hint ev: -0.048 0.034 0.035 0.035 ratio: 0.954  E(M): 54.39 gRMS: 0.0025 
+ Opt step:  2  S: 4.0  ol: 0.85 0.24 0.09 0.02
+ max ol: 0 (f0) ss: 0.090 (DMAX: 0.031) predE: -0.01  Hint ev: -0.033 -0.009 0.034 0.035 ratio: 0.090  E(M): 54.39 gRMS: 0.0022 
+ Opt step:  3  S: 3.0  ol: 0.70 0.53 0.11 0.01
+ max ol: 0 (f0) ss: 0.152 (DMAX: 0.031) predE:  0.09  Hint ev: -0.026 -0.002 0.034 0.035 ratio: 0.985  increasing DMAX  E(M): 54.48 gRMS: 0.0022 
+ Opt step:  4  S: 2.0  ol: 0.90 0.03 0.09 0.01
+ max ol: 0 (f0) ss: 0.179 (DMAX: 0.034) predE: -0.21  Hint ev: -0.053 -0.012 0.034 0.035 ratio: 0.845  E(M): 54.30 gRMS: 0.0021 
+ Opt step:  5  S: 1.0  ol: 0.73 0.56 0.06 0.01
+ max ol: 0 (f0) ss: 0.208 (DMAX: 0.034) predE:  0.04  Hint ev: -0.067 0.004 0.034 0.035 ratio: 1.054  increasing DMAX  E(M): 54.34 gRMS: 0.0020 
+ Opt step:  6  S: 1.0  ol: 0.18 0.89 0.02 0.06
+ max ol: 1 (f1) ss: 0.275 (DMAX: 0.037) predE:  0.07  Hint ev: -0.054 -0.023 0.034 0.035 E(M): 54.34 gRMS: 0.0022 
+ 
+ Opt step:  1  t/ol: 7 (0.46) ss: 0.070 (DMAX: 0.115) predE: -0.23  E(M): 43.32 gRMS: 0.0025 ratio: 1.287 
+ Opt step:  2  gqc: -0.014 ss: 0.089 (DMAX: 0.115) predE: -0.19  E(M): 43.02 gRMS: 0.0019 ratio: 0.990 
+ Opt step:  3  gqc: -0.013 ss: 0.101 (DMAX: 0.115) predE: -0.24  E(M): 42.83 gRMS: 0.0030
+S
+x opt_iter: 11 totalgrad: 0.128 gradrms: 0.0037 tgrads: 165 ol(1): 0.89 max E: 54.3 
+ in find_peaks (2) 
+ V_profile:   0.0 0.5 0.6 4.9 30.2 54.3 42.8 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.5 0.6 4.9 30.2 54.3 42.8 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.35 disp[2]: 0.48 disp[3]: 0.30 disp[4]: 0.08 disp[5]: 0.00 disp[6]: 0.00
+ disp[1]: 0.19 disp[2]: 0.39 disp[3]: 0.25 disp[4]: 0.08 disp[5]: 0.00 disp[6]: 0.00
+ disp[1]: 0.11 disp[2]: 0.28 disp[3]: 0.18 disp[4]: 0.06 disp[5]: 0.00 disp[6]: 0.00
+ disp[1]: -0.50 disp[2]: -0.16 disp[3]: -0.01 disp[4]: 0.12 disp[5]: 0.00 disp[6]: 0.00
+ disp[1]: -0.50 disp[2]: -0.18 disp[3]: -0.01 disp[4]: 0.14 disp[5]: 0.00 disp[6]: 0.00
+ spacings (end ic_reparam, steps: 5):  2.69 1.45 1.61 1.62 1.49 1.64 1.64  disprms: 0.548 
+ V_profile:  0.0 0.5 0.6 4.9 30.2 54.3 42.8 33.3
+ 3 way tangent (5): f1: 0.68 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.5 0.6 4.9 30.2 54.3 42.8 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ egQ1Q3 egQ2 egQ2 eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.75) ss: 0.041 (DMAX: 0.100) predE: -0.11  E(M): 0.44 gRMS: 0.0019 ratio: -1.057  dE>0, decreasing DMAX 
+ Opt step:  2  gqc: 0.000 ss: 0.102 (DMAX: 0.027) predE: -0.19  E(M): 0.56 gRMS: 0.0029 ratio: 0.868 
+ Opt step:  3  gqc: 0.000 ss: 0.069 (DMAX: 0.027) predE: -0.12  E(M): 0.39 gRMS: 0.0020
+ 
+ Opt step:  1  t/ol: 0 (0.91) ss: 0.105 (0.161) predE: -0.53  Hint ev: 0.025 0.034 E(M): 1.49 gRMS: 0.0041 ratio: 0.548 
+ Opt step:  2  t/ol: 0 (0.91) ss: 0.089 (0.161) predE: -0.52  Hint ev: 0.025 0.034 E(M): 1.20 gRMS: 0.0059 ratio: 0.793 
+ Opt step:  3  t/ol: 0 (0.91) ss: 0.064 (0.161) predE: -0.25  Hint ev: 0.025 0.034 E(M): 0.79 gRMS: 0.0037
+ 
+ Opt step:  1  t/ol: 1 (0.70) ss: 0.240 (DMAX: 0.193) predE: -5.23  E(M): 10.03 gRMS: 0.0113 ratio: 0.028  decreasing DMAX 
+ Opt step:  2  gqc: 0.013 ss: 0.199 (DMAX: 0.160) predE: -3.18  E(M): 9.88 gRMS: 0.0155 ratio: 1.042 
+ Opt step:  3  gqc: 0.010 ss: 0.169 (DMAX: 0.160) predE: -1.06  E(M): 6.57 gRMS: 0.0044
+ 
+ Opt step:  1  t/ol: 0 (0.80) ss: 0.359 (0.173) predE: -2.27  Hint ev: 0.026 0.030 E(M): 36.28 gRMS: 0.0072 ratio: 1.092  increasing DMAX 
+ Opt step:  2  t/ol: 0 (0.73) ss: 0.138 (DMAX: 0.190) predE: -2.40  E(M): 33.79 gRMS: 0.0112 ratio: 0.931 
+ Opt step:  3  gqc: 0.027 ss: 0.154 (DMAX: 0.190) predE: -1.62  E(M): 31.56 gRMS: 0.0053
+ 
+ Opt step:  1  S: 1.0  ol: 0.83 0.16 0.06 0.04
+ max ol: 0 (f0) ss: 0.192 (DMAX: 0.037) predE: -0.19  Hint ev: -0.131 -0.020 0.034 0.035 ratio: 0.711  decreasing DMAX  E(M): 54.32 gRMS: 0.0023 
+ Opt step:  2  S: 1.0  ol: 0.62 0.60 0.10 0.03
+ max ol: 0 (f0) ss: 0.078 (DMAX: 0.031) predE:  0.12  Hint ev: -0.133 -0.049 0.033 0.035 ratio: 1.408  E(M): 54.48 gRMS: 0.0019 
+ Opt step:  3  S: 1.0  ol: 0.34 0.78 0.18 0.02
+ max ol: 1 (f1) ss: 0.126 (DMAX: 0.031) predE: -0.21  Hint ev: -0.069 -0.047 0.033 0.035 ratio: 0.752  E(M): 54.33 gRMS: 0.0023 
+ Opt step:  4  S: 1.0  ol: 0.78 0.34 0.17 0.05
+ max ol: 0 (f0) ss: 0.184 (DMAX: 0.031) predE:  0.04  Hint ev: -0.065 -0.019 0.027 0.035 ratio: 1.270  increasing DMAX  E(M): 54.38 gRMS: 0.0022 
+ Opt step:  5  S: 1.0  ol: 0.71 0.51 0.00 0.04
+ max ol: 0 (f0) ss: 0.190 (DMAX: 0.034) predE:  0.12  Hint ev: -0.052 -0.018 0.026 0.035 ratio: 1.194  increasing DMAX  E(M): 54.53 gRMS: 0.0019 
+ Opt step:  6  S: 1.0  ol: 0.80 0.22 0.19 0.04
+ max ol: 0 (f0) ss: 0.154 (DMAX: 0.038) predE: -0.15  Hint ev: -0.087 -0.024 0.024 0.035 E(M): 54.53 gRMS: 0.0022 
+ 
+ Opt step:  1  t/ol: 7 (0.47) ss: 0.041 (DMAX: 0.080) predE: -0.12  E(M): 42.55 gRMS: 0.0022 ratio: 0.463 
+ Opt step:  2  gqc: -0.014 ss: 0.035 (DMAX: 0.080) predE: -0.08  E(M): 42.50 gRMS: 0.0023 ratio: 1.087 
+ Opt step:  3  gqc: -0.013 ss: 0.037 (DMAX: 0.080) predE: -0.03  E(M): 42.41 gRMS: 0.0005 * 
+
+x opt_iter: 12 totalgrad: 0.118 gradrms: 0.0034 tgrads: 186 ol(0): 0.80 max E: 54.5 
+ in find_peaks (2) 
+ V_profile:   0.0 0.4 0.8 6.6 31.6 54.5 42.4 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.4 0.8 6.6 31.6 54.5 42.4 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.18 disp[2]: 0.36 disp[3]: 0.17 disp[4]: 0.08 disp[5]: 0.00 disp[6]: 0.02
+ disp[1]: 0.11 disp[2]: 0.25 disp[3]: 0.12 disp[4]: 0.05 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: -0.50 disp[2]: -0.12 disp[3]: 0.07 disp[4]: 0.29 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: -0.50 disp[2]: -0.17 disp[3]: -0.04 disp[4]: 0.09 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: -0.50 disp[2]: -0.22 disp[3]: -0.14 disp[4]: -0.04 disp[5]: 0.00 disp[6]: 0.01
+ spacings (end ic_reparam, steps: 5):  2.64 1.49 1.67 1.67 1.34 1.63 1.64  disprms: 0.566 
+ V_profile:  0.0 0.4 0.8 6.6 31.6 54.5 42.4 33.3
+ 3 way tangent (5): f1: 0.65 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.4 0.8 6.6 31.6 54.5 42.4 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ egQ2 egWb(0.00366/1) egQ2 eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.60) ss: 0.103 (DMAX: 0.027) predE: -0.18  E(M): 0.47 gRMS: 0.0022 ratio: 0.910  increasing DMAX 
+ Opt step:  2  gqc: 0.001 ss: 0.077 (DMAX: 0.030) predE: -0.12  E(M): 0.31 gRMS: 0.0016 ratio: 0.513 
+ Opt step:  3  gqc: -0.009 ss: 0.101 (DMAX: 0.030) predE: -0.22  E(M): 0.24 gRMS: 0.0021
+ 
+ Opt step:  1  t/ol: 0 (0.91) ss: 0.072 (0.161) predE: -0.15  Hint ev: 0.025 0.034 E(M): 0.85 gRMS: 0.0012 ratio: 1.566  decreasing DMAX 
+ Opt step:  2  t/ol: 0 (0.91) ss: 0.061 (0.065) predE: -0.11  Hint ev: 0.025 0.034 E(M): 0.62 gRMS: 0.0011 ratio: 1.358 
+ Opt step:  3  t/ol: 0 (0.91) ss: 0.055 (0.065) predE: -0.12  Hint ev: 0.025 0.034 E(M): 0.47 gRMS: 0.0015
+ 
+ Opt step:  1  t/ol: 0 (0.69) ss: 0.168 (DMAX: 0.160) predE: -1.10  E(M): 6.77 gRMS: 0.0034 ratio: 1.006  increasing DMAX 
+ Opt step:  2  gqc: 0.010 ss: 0.181 (DMAX: 0.177) predE: -1.19  E(M): 5.66 gRMS: 0.0060 ratio: 1.150 
+ Opt step:  3  gqc: 0.008 ss: 0.143 (DMAX: 0.177) predE: -0.64  E(M): 4.30 gRMS: 0.0034
+ 
+ Opt step:  1  t/ol: 1 (0.81) ss: 0.330 (0.190) predE: -2.71  Hint ev: 0.026 0.027 E(M): 39.84 gRMS: 0.0065 ratio: 1.089  increasing DMAX 
+ Opt step:  2  t/ol: 0 (0.83) ss: 0.321 (0.209) predE: -2.65  Hint ev: 0.024 0.027 E(M): 36.89 gRMS: 0.0107 ratio: 1.162 
+ Opt step:  3  t/ol: 0 (0.71) ss: 0.180 (DMAX: 0.209) predE: -2.36  E(M): 33.81 gRMS: 0.0136
+ 
+ Opt step:  1  S: 1.0  ol: 0.50 0.57 0.40 0.01
+ max ol: 1 (f1) ss: 0.097 (DMAX: 0.038) predE: -0.25  Hint ev: -0.087 -0.021 0.018 0.035 ratio: 0.770  E(M): 54.24 gRMS: 0.0016 
+ Opt step:  2  S: 1.0  ol: 0.77 0.38 0.08 0.01
+ max ol: 0 (f0) ss: 0.190 (DMAX: 0.038) predE:  0.09  Hint ev: -0.062 -0.019 0.018 0.035 ratio: 1.144  increasing DMAX  E(M): 54.34 gRMS: 0.0021 
+ Opt step:  3  S: 1.0  ol: 0.10 0.79 0.35 0.01
+ max ol: 1 (f1) ss: 0.343 (DMAX: 0.041) predE: -0.19  Hint ev: -0.026 -0.025 -0.002 0.035 ratio: 0.837  E(M): 54.18 gRMS: 0.0025 
+ Opt step:  4  S: 1.0  ol: 0.61 0.22 0.58 0.02
+ max ol: 0 (f0) ss: 0.158 (DMAX: 0.041) predE: -0.05  Hint ev: -0.069 -0.024 -0.006 0.034 ratio: 0.103  decreasing DMAX  E(M): 54.17 gRMS: 0.0018 
+ Opt step:  5  S: 1.0  ol: 0.60 0.28 0.56 0.05
+ max ol: 0 (f0) ss: 0.180 (DMAX: 0.034) predE:  0.16  Hint ev: -0.052 -0.040 -0.006 0.033 ratio: 1.193  increasing DMAX  E(M): 54.36 gRMS: 0.0021 
+ Opt step:  6  S: 1.0  ol: 0.58 0.51 0.37 0.10
+ max ol: 0 (f0) ss: 0.092 (DMAX: 0.038) predE: -0.02  Hint ev: -0.087 -0.032 -0.001 0.032 E(M): 54.36 gRMS: 0.0025 
+ 
+ Opt step:  1  t/ol: 10 (0.47) ss: 0.024 (DMAX: 0.080) predE: -0.01  E(M): 42.29 gRMS: 0.0003 * 
+
+x opt_iter: 13 totalgrad: 0.153 gradrms: 0.0059 tgrads: 205 ol(0): 0.58 max E: 54.4 
+ in find_peaks (2) 
+ V_profile:   0.0 0.2 0.5 4.3 33.8 54.4 42.3 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.2 0.5 4.3 33.8 54.4 42.3 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: -0.50 disp[2]: -0.25 disp[3]: -0.15 disp[4]: -0.06 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: -0.50 disp[2]: -0.30 disp[3]: -0.22 disp[4]: -0.14 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: -0.50 disp[2]: -0.35 disp[3]: -0.28 disp[4]: -0.19 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: -0.41 disp[2]: -0.29 disp[3]: -0.23 disp[4]: -0.14 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: -0.32 disp[2]: -0.23 disp[3]: -0.19 disp[4]: -0.09 disp[5]: 0.00 disp[6]: 0.01
+ spacings (end ic_reparam, steps: 5):  2.12 1.72 1.76 1.71 1.71 1.63 1.63  disprms: 0.445 
+ V_profile:  0.0 0.2 0.5 4.3 33.8 54.4 42.3 33.3
+ 3 way tangent (5): f1: 0.63 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.2 0.5 4.3 33.8 54.4 42.3 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg egQ1Q3 egQ2Q4 eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.86) ss: 0.213 (0.030) predE: -0.54  Hint ev: 0.008 0.034 E(M): 2.19 gRMS: 0.0054 ratio: 0.954  increasing DMAX 
+ Opt step:  2  t/ol: 0 (0.86) ss: 0.191 (0.033) predE: -0.51  Hint ev: 0.008 0.034 E(M): 1.67 gRMS: 0.0047 ratio: 0.962  increasing DMAX 
+ Opt step:  3  t/ol: 0 (0.86) ss: 0.165 (0.036) predE: -0.46  Hint ev: 0.008 0.034 E(M): 1.18 gRMS: 0.0039
+ 
+ Opt step:  1  t/ol: 0 (0.79) ss: 0.081 (0.065) predE: -0.41  Hint ev: 0.025 0.034 E(M): 0.69 gRMS: 0.0031 ratio: 0.519 
+ Opt step:  2  t/ol: 1 (0.83) ss: 0.076 (0.065) predE: -0.23  Hint ev: 0.007 0.025 E(M): 0.48 gRMS: 0.0020 ratio: -1.675  dE>0, decreasing DMAX 
+ Opt step:  3  t/ol: 1 (0.83) ss: 0.205 (0.043) predE: -0.37  Hint ev: 0.007 0.025 E(M): 0.87 gRMS: 0.0031
+S 
+ Opt step:  1  t/ol: 0 (0.79) ss: 0.123 (0.177) predE: -0.35  Hint ev: 0.019 0.024 E(M): 1.93 gRMS: 0.0019 ratio: 1.630  decreasing DMAX 
+ Opt step:  2  t/ol: 0 (0.77) ss: 0.105 (0.112) predE: -0.25  Hint ev: 0.019 0.022 E(M): 1.36 gRMS: 0.0015 ratio: 1.632  decreasing DMAX 
+ Opt step:  3  t/ol: 0 (0.77) ss: 0.086 (0.095) predE: -0.17  Hint ev: 0.019 0.022 E(M): 0.94 gRMS: 0.0012
+ 
+ Opt step:  1  t/ol: 0 (0.63) ss: 0.155 (DMAX: 0.209) predE: -1.25  E(M): 23.49 gRMS: 0.0048 ratio: 0.877 
+ Opt step:  2  gqc: 0.031 ss: 0.160 (DMAX: 0.209) predE: -1.34  E(M): 22.39 gRMS: 0.0069 ratio: 1.147 
+ Opt step:  3  gqc: 0.029 ss: 0.158 (DMAX: 0.209) predE: -0.90  E(M): 20.85 gRMS: 0.0029
+ 
+ Opt step:  1  S: 1.0  ol: 0.60 0.36 0.40 0.38
+ max ol: 0 (f0) ss: 0.158 (DMAX: 0.038) predE: -0.20  Hint ev: -0.124 -0.036 -0.008 0.023 ratio: 0.902  increasing DMAX  E(M): 54.25 gRMS: 0.0021 
+ Opt step:  2  S: 1.0  ol: 0.68 0.49 0.11 0.29
+ max ol: 0 (f0) ss: 0.121 (DMAX: 0.042) predE: -0.14  Hint ev: -0.126 -0.046 -0.001 0.021 ratio: 0.711  decreasing DMAX  E(M): 54.15 gRMS: 0.0016 
+ Opt step:  3  S: 1.0  ol: 0.55 0.64 0.11 0.28
+ max ol: 1 (f1) ss: 0.087 (DMAX: 0.035) predE: -0.21  Hint ev: -0.125 -0.049 -0.019 0.021 ratio: 0.661  decreasing DMAX  E(M): 54.01 gRMS: 0.0016 
+ Opt step:  4  S: 1.0  ol: 0.66 0.42 0.33 0.28
+ max ol: 0 (f0) ss: 0.100 (DMAX: 0.029) predE:  0.04  Hint ev: -0.101 -0.056 -0.028 0.022 ratio: 1.526  E(M): 54.06 gRMS: 0.0019 
+ Opt step:  5  S: 1.0  ol: 0.59 0.13 0.64 0.18
+ max ol: 2 (f2) ss: 0.160 (DMAX: 0.029) predE: -0.17  Hint ev: -0.065 -0.040 -0.018 0.022 ratio: 0.733  decreasing DMAX  E(M): 53.94 gRMS: 0.0022 
+ Opt step:  6  S: 1.0  ol: 0.46 0.39 0.65 0.15
+ max ol: 2 (f2) ss: 0.198 (DMAX: 0.024) predE: -0.02  Hint ev: -0.054 -0.042 -0.024 0.021 E(M): 53.94 gRMS: 0.0017 
+ 
+ Opt step:  1  t/ol: 10 (0.47) ss: 0.021 (DMAX: 0.080) predE: -0.01  E(M): 42.20 gRMS: 0.0003 * 
+
+x opt_iter: 14 totalgrad: 0.085 gradrms: 0.0025 tgrads: 224 ol(2): 0.65 max E: 53.9 
+ in find_peaks (2) 
+ V_profile:   0.0 1.2 0.9 0.9 20.9 53.9 42.2 33.3
+ min nodes:  2 max nodes:  1 5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  2 max nodes:  1 5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 1.2 0.9 0.9 20.9 53.9 42.2 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: -0.21 disp[2]: 0.29 disp[3]: -0.14 disp[4]: -0.20 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: 0.13 disp[2]: 0.50 disp[3]: 0.15 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: -0.22 disp[2]: 0.28 disp[3]: -0.02 disp[4]: -0.06 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: -0.15 disp[2]: 0.27 disp[3]: 0.02 disp[4]: -0.02 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: 0.18 disp[2]: 0.43 disp[3]: 0.17 disp[4]: 0.06 disp[5]: 0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 5):  1.58 1.51 2.02 1.87 1.82 1.64 1.64  disprms: 0.502 
+ V_profile:  0.0 1.2 0.9 0.9 20.9 53.9 42.2 33.3
+ 3 way tangent (5): f1: 0.74 
+
+ in find_peaks (1) 
+ V_profile:   0.0 1.2 0.9 0.9 20.9 53.9 42.2 33.3
+ min nodes:  2 max nodes:  1 5
+ found 1 significant peak(s). TOL: 1.00 
+ egQ1Q3 eg egQ1Q3 eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 1 (0.70) ss: 0.111 (DMAX: 0.036) predE: -0.28  E(M): 0.53 gRMS: 0.0025 ratio: 0.727 
+ Opt step:  2  gqc: -0.000 ss: 0.116 (DMAX: 0.036) predE: -0.22  E(M): 0.33 gRMS: 0.0021 ratio: 0.855  increasing DMAX 
+ Opt step:  3  gqc: -0.000 ss: 0.057 (DMAX: 0.040) predE: -0.10  E(M): 0.15 gRMS: 0.0012
+ 
+ Opt step:  1  t/ol: 0 (0.86) ss: 0.080 (0.035) predE: -0.09  Hint ev: 0.007 0.025 E(M): 0.42 gRMS: 0.0010 ratio: 1.124  increasing DMAX 
+ Opt step:  2  t/ol: 0 (0.86) ss: 0.070 (0.038) predE: -0.08  Hint ev: 0.007 0.025 E(M): 0.32 gRMS: 0.0009 * 
+ 
+ Opt step:  1  t/ol: 0 (0.75) ss: 0.106 (0.095) predE: -0.24  Hint ev: 0.019 0.022 E(M): 1.22 gRMS: 0.0014 ratio: 1.457 
+ Opt step:  2  t/ol: 0 (0.69) ss: 0.082 (DMAX: 0.095) predE: -0.14  E(M): 0.87 gRMS: 0.0012 ratio: 1.770  decreasing DMAX 
+ Opt step:  3  gqc: 0.002 ss: 0.073 (DMAX: 0.075) predE: -0.10  E(M): 0.61 gRMS: 0.0009 * 
+ 
+ Opt step:  1  t/ol: 6 (0.65) ss: 0.120 (DMAX: 0.209) predE: -0.83  E(M): 18.73 gRMS: 0.0034 ratio: 0.560 
+ Opt step:  2  gqc: 0.028 ss: 0.106 (DMAX: 0.209) predE: -0.94  E(M): 18.27 gRMS: 0.0068 ratio: 1.078 
+ Opt step:  3  gqc: 0.027 ss: 0.091 (DMAX: 0.209) predE: -0.57  E(M): 17.26 gRMS: 0.0024
+ 
+ Opt step:  1  S: 1.0  ol: 0.11 0.83 0.11 0.18
+ max ol: 1 (f1) ss: 0.237 (DMAX: 0.024) predE: -0.06  Hint ev: -0.063 -0.044 -0.013 0.021 ratio: 0.816  E(M): 53.88 gRMS: 0.0016 
+ Opt step:  2  S: 1.0  ol: 0.12 0.76 0.35 0.18
+ max ol: 1 (f1) ss: 0.231 (DMAX: 0.024) predE:  0.04  Hint ev: -0.064 -0.041 -0.002 0.021 ratio: 0.969  increasing DMAX  E(M): 53.92 gRMS: 0.0015 
+ Opt step:  3  S: 1.0  ol: 0.41 0.44 0.59 0.15
+ max ol: 2 (f2) ss: 0.208 (DMAX: 0.027) predE: -0.13  Hint ev: -0.067 -0.023 -0.005 0.021 ratio: 0.845  E(M): 53.81 gRMS: 0.0014 
+ Opt step:  4  S: 1.0  ol: 0.19 0.74 0.38 0.14
+ max ol: 1 (f1) ss: 0.315 (DMAX: 0.027) predE:  0.11  Hint ev: -0.065 -0.017 -0.003 0.021 ratio: 0.897  increasing DMAX  E(M): 53.91 gRMS: 0.0015 
+ Opt step:  5  S: 1.0  ol: 0.54 0.65 0.19 0.05
+ max ol: 1 (f1) ss: 0.322 (DMAX: 0.029) predE: -0.11  Hint ev: -0.070 -0.015 -0.003 0.021 ratio: 0.870  increasing DMAX  E(M): 53.81 gRMS: 0.0016 
+ Opt step:  6  S: 1.0  ol: 0.58 0.54 0.37 0.07
+ max ol: 0 (f0) ss: 0.180 (DMAX: 0.032) predE: -0.06  Hint ev: -0.088 -0.018 0.001 0.020 E(M): 53.81 gRMS: 0.0016 
+ 
+ Opt step:  1  t/ol: 10 (0.46) ss: 0.052 (DMAX: 0.080) predE: -0.04  E(M): 42.33 gRMS: 0.0005 * 
+
+x opt_iter: 15 totalgrad: 0.048 gradrms: 0.0014 tgrads: 242 ol(0): 0.58 max E: 53.8 
+ in find_peaks (2) 
+ V_profile:   0.0 0.1 0.3 0.6 17.3 53.8 42.3 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.1 0.3 0.6 17.3 53.8 42.3 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.50 disp[2]: 0.50 disp[3]: 0.43 disp[4]: 0.16 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: 0.28 disp[2]: 0.48 disp[3]: 0.32 disp[4]: 0.14 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: 0.16 disp[2]: 0.16 disp[3]: 0.25 disp[4]: 0.11 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: 0.10 disp[2]: 0.10 disp[3]: 0.17 disp[4]: 0.07 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: -0.34 disp[2]: -0.23 disp[3]: -0.08 disp[4]: -0.05 disp[5]: 0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 5):  2.04 1.60 1.56 1.67 1.65 1.63 1.63  disprms: 0.423 
+ V_profile:  0.0 0.1 0.3 0.6 17.3 53.8 42.3 33.3
+ 3 way tangent (5): f1: 0.76 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.1 0.3 0.6 17.3 53.8 42.3 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ egQ2Q7Wb(0.00019/2) egQ4 egQ3 eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 1 (0.74) ss: 0.090 (DMAX: 0.040) predE: -0.20  E(M): 0.25 gRMS: 0.0018 ratio: 0.801  increasing DMAX 
+ Opt step:  2  gqc: -0.005 ss: 0.095 (DMAX: 0.044) predE: -0.29  E(M): 0.09 gRMS: 0.0019 ratio: -0.018  dE>0, decreasing DMAX 
+ Opt step:  3  gqc: -0.011 ss: 0.100 (DMAX: 0.029) predE: -0.38  E(M): 0.10 gRMS: 0.0039
+r 
+ Opt step:  1  t/ol: 1 (0.80) ss: 0.057 (0.038) predE: -0.07  Hint ev: 0.007 0.025 E(M): 0.44 gRMS: 0.0009 * 
+ 
+ Opt step:  1  t/ol: 0 (0.66) ss: 0.166 (DMAX: 0.075) predE: -0.48  E(M): 3.74 gRMS: 0.0029 ratio: 1.067  increasing DMAX 
+ Opt step:  2  gqc: 0.007 ss: 0.160 (DMAX: 0.082) predE: -0.41  E(M): 3.22 gRMS: 0.0026 ratio: 1.171  increasing DMAX 
+ Opt step:  3  gqc: 0.007 ss: 0.150 (DMAX: 0.090) predE: -0.37  E(M): 2.74 gRMS: 0.0024
+ 
+ Opt step:  1  t/ol: 6 (0.65) ss: 0.125 (DMAX: 0.209) predE: -0.98  E(M): 25.38 gRMS: 0.0044 ratio: 0.758 
+ Opt step:  2  gqc: 0.033 ss: 0.107 (DMAX: 0.209) predE: -0.93  E(M): 24.64 gRMS: 0.0062 ratio: 0.919 
+ Opt step:  3  gqc: 0.032 ss: 0.089 (DMAX: 0.209) predE: -0.60  E(M): 23.79 gRMS: 0.0036
+ 
+ Opt step:  1  S: 1.0  ol: 0.59 0.60 0.07 0.08
+ max ol: 1 (f1) ss: 0.140 (DMAX: 0.032) predE: -0.12  Hint ev: -0.081 -0.008 -0.001 0.020 ratio: 0.684  decreasing DMAX  E(M): 53.69 gRMS: 0.0017 
+ Opt step:  2  S: 1.0  ol: 0.64 0.56 0.10 0.06
+ max ol: 0 (f0) ss: 0.341 (DMAX: 0.027) predE: -0.13  Hint ev: -0.063 -0.008 -0.001 0.020 ratio: 0.870  increasing DMAX  E(M): 53.58 gRMS: 0.0015 
+ Opt step:  3  S: 1.0  ol: 0.78 0.32 0.02 0.10
+ max ol: 0 (f0) ss: 0.384 (DMAX: 0.029) predE: -0.10  Hint ev: -0.075 -0.003 0.000 0.020 ratio: 0.879  increasing DMAX  E(M): 53.49 gRMS: 0.0015 
+ Opt step:  4  S: 1.0  ol: 0.80 0.27 0.06 0.12
+ max ol: 0 (f0) ss: 0.345 (DMAX: 0.032) predE: -0.07  Hint ev: -0.086 -0.002 0.002 0.020 ratio: 0.893  increasing DMAX  E(M): 53.43 gRMS: 0.0020 
+ Opt step:  5  S: 1.0  ol: 0.80 0.25 0.06 0.14
+ max ol: 0 (f0) ss: 0.258 (DMAX: 0.036) predE: -0.04  Hint ev: -0.089 -0.002 0.005 0.019 ratio: 0.851  increasing DMAX  E(M): 53.40 gRMS: 0.0024 
+ Opt step:  6  S: 1.0  ol: 0.77 0.26 0.18 0.14
+ max ol: 0 (f0) ss: 0.180 (DMAX: 0.039) predE:  0.04  Hint ev: -0.088 -0.002 0.001 0.019 E(M): 53.40 gRMS: 0.0026 
+ 
+ Opt step:  1  t/ol: 10 (0.45) ss: 0.050 (DMAX: 0.080) predE: -0.04  E(M): 42.39 gRMS: 0.0006 * 
+
+x opt_iter: 16 totalgrad: 0.076 gradrms: 0.0022 tgrads: 259 ol(0): 0.77 max E: 53.4 
+ in find_peaks (2) 
+ V_profile:   0.0 0.3 0.4 2.7 23.8 53.4 42.4 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.3 0.4 2.7 23.8 53.4 42.4 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: -0.23 disp[2]: -0.14 disp[3]: -0.02 disp[4]: -0.03 disp[5]: 0.00 disp[6]: -0.02
+ disp[1]: -0.19 disp[2]: -0.11 disp[3]: -0.03 disp[4]: -0.03 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: 0.25 disp[2]: 0.21 disp[3]: 0.17 disp[4]: 0.08 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: 0.15 disp[2]: 0.15 disp[3]: 0.12 disp[4]: 0.05 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: -0.27 disp[2]: -0.17 disp[3]: -0.10 disp[4]: -0.06 disp[5]: 0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 5):  1.99 1.62 1.65 1.67 1.66 1.63 1.63  disprms: 0.345 
+ V_profile:  0.0 0.3 0.4 2.7 23.8 53.4 42.4 33.3
+ 3 way tangent (5): f1: 0.73 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.3 0.4 2.7 23.8 53.4 42.4 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ egQ2 egQ2Wb(0.00190/7) egQ2 eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 1 (0.74) ss: 0.105 (DMAX: 0.020) predE: -0.13  E(M): 0.31 gRMS: 0.0020 ratio: 0.812  increasing DMAX 
+ Opt step:  2  gqc: -0.003 ss: 0.119 (DMAX: 0.022) predE: -0.14  E(M): 0.20 gRMS: 0.0018 ratio: 0.248  decreasing DMAX 
+ Opt step:  3  gqc: -0.009 ss: 0.115 (DMAX: 0.020) predE: -0.19  E(M): 0.17 gRMS: 0.0029
+S 
+ Opt step:  1  t/ol: 1 (0.82) ss: 0.058 (0.038) predE: -0.08  Hint ev: 0.007 0.025 E(M): 0.43 gRMS: 0.0009 * 
+ 
+ Opt step:  1  t/ol: 0 (0.83) ss: 0.177 (0.090) predE: -0.51  Hint ev: 0.019 0.021 E(M): 3.26 gRMS: 0.0027 ratio: 1.203  increasing DMAX 
+ Opt step:  2  t/ol: 0 (0.83) ss: 0.153 (0.099) predE: -0.46  Hint ev: 0.019 0.020 E(M): 2.64 gRMS: 0.0024 ratio: 1.311 
+ Opt step:  3  t/ol: 0 (0.82) ss: 0.132 (0.099) predE: -0.37  Hint ev: 0.019 0.020 E(M): 2.04 gRMS: 0.0021
+ 
+ Opt step:  1  t/ol: 6 (0.69) ss: 0.122 (DMAX: 0.209) predE: -0.63  E(M): 24.54 gRMS: 0.0026 ratio: 0.907 
+ Opt step:  2  gqc: 0.033 ss: 0.114 (DMAX: 0.209) predE: -0.61  E(M): 23.96 gRMS: 0.0040 ratio: 1.026 
+ Opt step:  3  gqc: 0.032 ss: 0.109 (DMAX: 0.209) predE: -0.52  E(M): 23.33 gRMS: 0.0023
+ 
+ Opt step:  1  S: 1.0  ol: 0.51 0.68 0.09 0.15
+ max ol: 1 (f1) ss: 0.326 (DMAX: 0.039) predE:  0.03  Hint ev: -0.063 -0.004 -0.001 0.019 ratio: 1.134  increasing DMAX  E(M): 53.48 gRMS: 0.0027 
+ Opt step:  2  S: 1.0  ol: 0.72 0.11 0.39 0.10
+ max ol: 0 (f0) ss: 0.261 (DMAX: 0.043) predE: -0.05  Hint ev: -0.072 -0.006 0.000 0.019 ratio: 0.815  E(M): 53.44 gRMS: 0.0025 
+ Opt step:  3  S: 1.0  ol: 0.76 0.32 0.19 0.06
+ max ol: 0 (f0) ss: 0.184 (DMAX: 0.043) predE:  0.08  Hint ev: -0.069 -0.003 0.001 0.018 ratio: 1.193  increasing DMAX  E(M): 53.54 gRMS: 0.0026 
+ Opt step:  4  S: 1.0  ol: 0.41 0.68 0.22 0.11
+ max ol: 1 (f1) ss: 0.254 (DMAX: 0.047) predE: -0.02  Hint ev: -0.034 -0.008 0.000 0.018 ratio: -0.078  E(M): 53.54 gRMS: 0.0027 
+ Opt step:  5  S: 1.0  ol: 0.79 0.03 0.08 0.03
+ max ol: 0 (f0) ss: 0.267 (DMAX: 0.047) predE: -0.00  Hint ev: -0.042 -0.007 0.002 0.018 ratio: -13.602  E(M): 53.56 gRMS: 0.0020 
+ Opt step:  6  S: 1.0  ol: 0.62 0.48 0.04 0.08
+ max ol: 0 (f0) ss: 0.225 (DMAX: 0.047) predE:  0.13  Hint ev: -0.031 -0.006 0.003 0.018 E(M): 53.56 gRMS: 0.0025 
+ 
+ Opt step:  1  t/ol: 10 (0.44) ss: 0.078 (DMAX: 0.080) predE: -0.08  E(M): 42.56 gRMS: 0.0008 * 
+
+x opt_iter: 17 totalgrad: 0.075 gradrms: 0.0021 tgrads: 276 ol(0): 0.62 max E: 53.6 
+ in find_peaks (2) 
+ V_profile:   0.0 0.2 0.4 2.0 23.3 53.6 42.6 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.2 0.4 2.0 23.3 53.6 42.6 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: -0.50 disp[2]: -0.30 disp[3]: -0.10 disp[4]: -0.09 disp[5]: 0.00 disp[6]: 0.02
+ disp[1]: -0.39 disp[2]: -0.23 disp[3]: -0.10 disp[4]: -0.08 disp[5]: 0.00 disp[6]: 0.02
+ disp[1]: -0.00 disp[2]: 0.04 disp[3]: 0.06 disp[4]: 0.01 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: -0.01 disp[2]: 0.03 disp[3]: 0.04 disp[4]: 0.01 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: -0.01 disp[2]: 0.02 disp[3]: 0.03 disp[4]: 0.01 disp[5]: 0.00 disp[6]: 0.01
+ spacings (end ic_reparam, steps: 5):  1.78 1.75 1.76 1.79 1.78 1.61 1.61  disprms: 0.034 
+ V_profile:  0.0 0.2 0.4 2.0 23.3 53.6 42.6 33.3
+ 3 way tangent (5): f1: 0.73 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.2 0.4 2.0 23.3 53.6 42.6 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg egQ2 eg eg eg eg eg eg eg eg eg eg eg eg egWb(0.00015/2) eg eg
+ 
+ Opt step:  1  t/ol: 1 (0.69) ss: 0.100 (DMAX: 0.020) predE: -0.13  E(M): 0.30 gRMS: 0.0019 ratio: 0.864  increasing DMAX 
+ Opt step:  2  gqc: -0.009 ss: 0.115 (DMAX: 0.022) predE: -0.18  E(M): 0.19 gRMS: 0.0024 ratio: -0.255  dE>0, decreasing DMAX 
+ Opt step:  3  gqc: -0.000 ss: 0.091 (DMAX: 0.020) predE: -0.10  E(M): 0.23 gRMS: 0.0016
+ 
+ Opt step:  1  t/ol: 1 (0.81) ss: 0.058 (0.038) predE: -0.07  Hint ev: 0.007 0.025 E(M): 0.29 gRMS: 0.0007 * 
+ 
+ Opt step:  1  t/ol: 0 (0.82) ss: 0.124 (0.099) predE: -0.33  Hint ev: 0.019 0.020 E(M): 1.75 gRMS: 0.0018 ratio: 1.445 
+ Opt step:  2  t/ol: 0 (0.79) ss: 0.104 (0.099) predE: -0.25  Hint ev: 0.019 0.020 E(M): 1.27 gRMS: 0.0016 ratio: 1.627  decreasing DMAX 
+ Opt step:  3  t/ol: 0 (0.77) ss: 0.089 (0.083) predE: -0.18  Hint ev: 0.019 0.020 E(M): 0.86 gRMS: 0.0013
+ 
+ Opt step:  1  t/ol: 6 (0.73) ss: 0.113 (DMAX: 0.209) predE: -0.42  E(M): 21.60 gRMS: 0.0020 ratio: 1.096 
+ Opt step:  2  gqc: 0.031 ss: 0.108 (DMAX: 0.209) predE: -0.43  E(M): 21.14 gRMS: 0.0024 ratio: 1.045 
+ Opt step:  3  gqc: 0.031 ss: 0.109 (DMAX: 0.209) predE: -0.39  E(M): 20.69 gRMS: 0.0022
+ 
+ Opt step:  1  S: 1.0  ol: 0.74 0.07 0.13 0.14
+ max ol: 0 (f0) ss: 0.365 (DMAX: 0.047) predE:  0.05  Hint ev: -0.009 -0.003 0.005 0.017 ratio: 1.070  increasing DMAX  E(M): 53.75 gRMS: 0.0024 
+ Opt step:  2  S: 1.0  ol: 0.76 0.13 0.16 0.10
+ max ol: 0 (f0) ss: 0.360 (DMAX: 0.052) predE: -0.00  Hint ev: -0.012 -0.002 0.004 0.018 ratio: -0.638  E(M): 53.75 gRMS: 0.0030 
+ Opt step:  3  S: 1.0  ol: 0.76 0.12 0.10 0.14
+ max ol: 0 (f0) ss: 0.353 (DMAX: 0.052) predE:  0.04  Hint ev: -0.009 -0.002 0.005 0.017 ratio: 1.167  increasing DMAX  E(M): 53.80 gRMS: 0.0034 
+ Opt step:  4  S: 1.0  ol: 0.80 0.02 0.12 0.05
+ max ol: 0 (f0) ss: 0.344 (DMAX: 0.057) predE:  0.01  Hint ev: -0.022 -0.000 0.006 0.018 ratio: 1.924  E(M): 53.83 gRMS: 0.0031 
+ Opt step:  5  S: 1.0  ol: 0.71 0.38 0.03 0.06
+ max ol: 0 (f0) ss: 0.283 (DMAX: 0.057) predE:  0.10  Hint ev: -0.014 -0.004 0.005 0.018 ratio: 0.834  E(M): 53.91 gRMS: 0.0034 
+ Opt step:  6  S: 1.0  ol: 0.43 0.24 0.46 0.23
+ max ol: 2 (f2) ss: 0.317 (DMAX: 0.057) predE:  0.02  Hint ev: -0.101 -0.000 0.005 0.023 E(M): 53.91 gRMS: 0.0030 
+tsr 
+ Opt step:  1  t/ol: 10 (0.43) ss: 0.057 (DMAX: 0.080) predE: -0.06  E(M): 42.35 gRMS: 0.0008 * 
+
+x opt_iter: 18 totalgrad: 0.058 gradrms: 0.0016 tgrads: 293 ol(2): 0.46 max E: 53.7 
+ in find_peaks (2) 
+ V_profile:   0.0 0.2 0.3 0.9 20.7 53.7 42.3 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ resetting TS node coords Ut (and Hessian) 
+ TS Hess init'd w/existing Hintp 
+ tHt: 0.088 a: 1.7 b: 1.3 C: -0.031 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.2 0.3 0.9 20.7 53.7 42.3 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: -0.35 disp[2]: -0.07 disp[3]: 0.06 disp[4]: -0.05 disp[5]: 0.00 disp[6]: -0.00
+W(0.00417/1) disp[1]: 0.48 disp[2]: 0.50 disp[3]: 0.41 disp[4]: 0.15 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: 0.24 disp[2]: 0.35 disp[3]: 0.27 disp[4]: 0.13 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: 0.13 disp[2]: 0.24 disp[3]: 0.20 disp[4]: 0.10 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: 0.07 disp[2]: 0.16 disp[3]: 0.14 disp[4]: 0.07 disp[5]: 0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 5):  1.51 1.50 1.60 1.66 1.65 1.61 1.61  disprms: 0.240 
+ V_profile:  0.0 0.2 0.3 0.9 20.7 53.7 42.3 33.3
+ 3 way tangent (5): f1: 0.74 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.2 0.3 0.9 20.7 53.7 42.3 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ egQ1 eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.68) ss: 0.052 (DMAX: 0.020) predE: -0.05  E(M): 0.13 gRMS: 0.0008 * 
+ 
+ Opt step:  1  t/ol: 1 (0.79) ss: 0.072 (0.038) predE: -0.12  Hint ev: 0.008 0.030 E(M): 0.73 gRMS: 0.0013 ratio: 1.183  increasing DMAX 
+ Opt step:  2  t/ol: 1 (0.79) ss: 0.064 (0.042) predE: -0.10  Hint ev: 0.008 0.030 E(M): 0.59 gRMS: 0.0012 ratio: 1.295 
+ Opt step:  3  t/ol: 1 (0.79) ss: 0.061 (0.042) predE: -0.09  Hint ev: 0.008 0.030 E(M): 0.45 gRMS: 0.0009 * 
+ 
+ Opt step:  1  t/ol: 0 (0.60) ss: 0.163 (DMAX: 0.083) predE: -0.58  E(M): 5.05 gRMS: 0.0032 ratio: 1.107  increasing DMAX 
+ Opt step:  2  gqc: 0.011 ss: 0.158 (DMAX: 0.091) predE: -0.49  E(M): 4.40 gRMS: 0.0028 ratio: 1.190  increasing DMAX 
+ Opt step:  3  gqc: 0.010 ss: 0.153 (DMAX: 0.100) predE: -0.45  E(M): 3.82 gRMS: 0.0026
+ 
+ Opt step:  1  t/ol: 6 (0.77) ss: 0.336 (0.209) predE: -2.48  Hint ev: 0.010 0.016 E(M): 29.33 gRMS: 0.0054 ratio: 1.168  increasing DMAX 
+ Opt step:  2  t/ol: 6 (0.81) ss: 0.283 (0.230) predE: -1.80  Hint ev: 0.009 0.016 E(M): 26.44 gRMS: 0.0041 ratio: 1.365 
+ Opt step:  3  t/ol: 6 (0.81) ss: 0.231 (0.230) predE: -1.34  Hint ev: 0.010 0.016 E(M): 23.99 gRMS: 0.0035
+ 
+ Opt step:  1  S: 5.0  ol: 0.95 0.11 0.05 0.06
+ max ol: 0 (f0) ss: 0.031 (DMAX: 0.057) predE: -0.00  Hint ev: -0.045 0.017 0.030 0.034 ratio: -0.359  E(M): 53.70 gRMS: 0.0023 
+ Opt step:  2  S: 4.0  ol: 0.69 0.65 0.05 0.06
+ max ol: 0 (f0) ss: 0.154 (DMAX: 0.057) predE: -0.23  Hint ev: -0.017 -0.003 0.025 0.034 ratio: 0.951  increasing DMAX  E(M): 53.48 gRMS: 0.0017 
+ Opt step:  3  S: 3.0  ol: 0.77 0.50 0.15 0.06
+ max ol: 0 (f0) ss: 0.208 (DMAX: 0.063) predE: -0.22  Hint ev: -0.017 -0.003 0.023 0.034 ratio: 0.955  increasing DMAX  E(M): 53.27 gRMS: 0.0018 
+ Opt step:  4  S: 2.0  ol: 0.88 0.05 0.26 0.05
+ max ol: 0 (f0) ss: 0.236 (DMAX: 0.069) predE:  0.00  Hint ev: -0.022 -0.000 0.022 0.034 ratio: 7.313  E(M): 53.28 gRMS: 0.0022 
+ Opt step:  5  S: 1.0  ol: 0.60 0.66 0.21 0.03
+ max ol: 1 (f1) ss: 0.276 (DMAX: 0.069) predE: -0.21  Hint ev: -0.020 -0.004 0.021 0.033 ratio: 0.730  decreasing DMAX  E(M): 53.13 gRMS: 0.0028 
+ Opt step:  6  S: 1.0  ol: 0.20 0.86 0.22 0.03
+ max ol: 1 (f1) ss: 0.343 (DMAX: 0.058) predE:  0.20  Hint ev: -0.026 -0.010 0.021 0.033 E(M): 53.13 gRMS: 0.0027 
+ 
+ Opt step:  1  t/ol: 10 (0.44) ss: 0.042 (DMAX: 0.080) predE: -0.04  E(M): 42.24 gRMS: 0.0006 * 
+
+x opt_iter: 19 totalgrad: 0.071 gradrms: 0.0022 tgrads: 316 ol(1): 0.86 max E: 53.1 
+ in find_peaks (2) 
+ V_profile:   0.0 0.1 0.5 3.8 24.0 53.1 42.2 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.1 0.5 3.8 24.0 53.1 42.2 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.06 disp[2]: 0.17 disp[3]: 0.15 disp[4]: 0.19 disp[5]: 0.00 disp[6]: 0.00
+ disp[1]: 0.03 disp[2]: 0.10 disp[3]: 0.10 disp[4]: 0.13 disp[5]: 0.00 disp[6]: 0.00
+ disp[1]: 0.02 disp[2]: 0.06 disp[3]: 0.07 disp[4]: 0.08 disp[5]: 0.00 disp[6]: 0.00
+ disp[1]: 0.01 disp[2]: 0.04 disp[3]: 0.04 disp[4]: 0.05 disp[5]: 0.00 disp[6]: 0.00
+ disp[1]: 0.01 disp[2]: 0.02 disp[3]: 0.03 disp[4]: 0.03 disp[5]: 0.00 disp[6]: 0.00
+ spacings (end ic_reparam, steps: 5):  1.57 1.55 1.57 1.57 1.61 1.60 1.60  disprms: 0.050 
+ V_profile:  0.0 0.1 0.5 3.8 24.0 53.1 42.2 33.3
+ 3 way tangent (5): f1: 0.73 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.1 0.5 3.8 24.0 53.1 42.2 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.81) ss: 0.044 (0.020) predE: -0.04  Hint ev: 0.034 0.035 E(M): 0.11 gRMS: 0.0006 * 
+ 
+ Opt step:  1  t/ol: 1 (0.80) ss: 0.068 (0.042) predE: -0.12  Hint ev: 0.008 0.030 E(M): 0.71 gRMS: 0.0014 ratio: 1.226  increasing DMAX 
+ Opt step:  2  t/ol: 1 (0.80) ss: 0.067 (0.046) predE: -0.11  Hint ev: 0.008 0.030 E(M): 0.57 gRMS: 0.0010 ratio: 1.162  increasing DMAX 
+ Opt step:  3  t/ol: 1 (0.80) ss: 0.055 (0.051) predE: -0.11  Hint ev: 0.008 0.030 E(M): 0.44 gRMS: 0.0015
+ 
+ Opt step:  1  t/ol: 0 (0.50) ss: 0.156 (DMAX: 0.100) predE: -0.53  E(M): 5.94 gRMS: 0.0028 ratio: 1.214  increasing DMAX 
+ Opt step:  2  gqc: 0.014 ss: 0.152 (DMAX: 0.110) predE: -0.48  E(M): 5.30 gRMS: 0.0026 ratio: 1.310 
+ Opt step:  3  gqc: 0.013 ss: 0.147 (DMAX: 0.110) predE: -0.43  E(M): 4.66 gRMS: 0.0024
+ 
+ Opt step:  1  t/ol: 6 (0.67) ss: 0.190 (DMAX: 0.230) predE: -1.26  E(M): 31.73 gRMS: 0.0043 ratio: 1.184 
+ Opt step:  2  gqc: 0.034 ss: 0.181 (DMAX: 0.230) predE: -0.95  E(M): 30.24 gRMS: 0.0028 ratio: 1.249 
+ Opt step:  3  gqc: 0.033 ss: 0.171 (DMAX: 0.230) predE: -0.84  E(M): 29.05 gRMS: 0.0023
+ 
+ Opt step:  1  S: 1.0  ol: 0.06 0.85 0.27 0.07
+ max ol: 1 (f1) ss: 0.308 (DMAX: 0.058) predE:  0.13  Hint ev: -0.027 -0.010 0.020 0.033 ratio: 1.060  increasing DMAX  E(M): 53.45 gRMS: 0.0025 
+ Opt step:  2  S: 1.0  ol: 0.54 0.64 0.24 0.04
+ max ol: 1 (f1) ss: 0.176 (DMAX: 0.064) predE: -0.17  Hint ev: -0.031 -0.015 0.020 0.033 ratio: 0.768  E(M): 53.32 gRMS: 0.0022 
+ Opt step:  3  S: 1.0  ol: 0.79 0.20 0.29 0.04
+ max ol: 0 (f0) ss: 0.260 (DMAX: 0.064) predE: -0.10  Hint ev: -0.023 -0.007 0.018 0.033 ratio: 0.584  decreasing DMAX  E(M): 53.26 gRMS: 0.0023 
+ Opt step:  4  S: 1.0  ol: 0.66 0.50 0.24 0.02
+ max ol: 0 (f0) ss: 0.256 (DMAX: 0.053) predE:  0.13  Hint ev: -0.021 -0.014 0.018 0.033 ratio: 1.160  increasing DMAX  E(M): 53.41 gRMS: 0.0021 
+ Opt step:  5  S: 1.0  ol: 0.76 0.26 0.34 0.00
+ max ol: 0 (f0) ss: 0.209 (DMAX: 0.058) predE:  0.09  Hint ev: -0.021 -0.012 0.017 0.033 ratio: 1.289  increasing DMAX  E(M): 53.52 gRMS: 0.0019 
+ Opt step:  6  S: 1.0  ol: 0.71 0.22 0.44 0.01
+ max ol: 0 (f0) ss: 0.197 (DMAX: 0.064) predE: -0.13  Hint ev: -0.021 -0.011 0.015 0.033 E(M): 53.52 gRMS: 0.0014 
+ 
+ Opt step:  1  t/ol: 6 (0.44) ss: 0.099 (DMAX: 0.080) predE: -0.11  E(M): 42.17 gRMS: 0.0007 * 
+
+x opt_iter: 20 totalgrad: 0.058 gradrms: 0.0016 tgrads: 333 ol(0): 0.71 max E: 53.5 
+ in find_peaks (2) 
+ V_profile:   0.0 0.1 0.4 4.7 29.1 53.5 42.2 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.1 0.4 4.7 29.1 53.5 42.2 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.04 disp[2]: 0.10 disp[3]: 0.08 disp[4]: 0.11 disp[5]: 0.00 disp[6]: 0.02
+ disp[1]: 0.02 disp[2]: 0.06 disp[3]: 0.06 disp[4]: 0.07 disp[5]: 0.00 disp[6]: 0.02
+ disp[1]: 0.01 disp[2]: 0.04 disp[3]: 0.04 disp[4]: 0.04 disp[5]: 0.00 disp[6]: 0.02
+ disp[1]: 0.01 disp[2]: 0.02 disp[3]: 0.02 disp[4]: 0.03 disp[5]: 0.00 disp[6]: 0.01
+ disp[1]: 0.04 disp[2]: -0.09 disp[3]: -0.05 disp[4]: -0.02 disp[5]: 0.00 disp[6]: 0.01
+ spacings (end ic_reparam, steps: 5):  1.59 1.76 1.59 1.59 1.61 1.57 1.58  disprms: 0.114 
+ V_profile:  0.0 0.1 0.4 4.7 29.1 53.5 42.2 33.3
+ 3 way tangent (5): f1: 0.68 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.1 0.4 4.7 29.1 53.5 42.2 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg eg eg eg eg eg eg egQ2 eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.82) ss: 0.038 (0.020) predE: -0.03  Hint ev: 0.034 0.035 E(M): 0.09 gRMS: 0.0006 * 
+ 
+ Opt step:  1  t/ol: 1 (0.88) ss: 0.072 (0.051) predE: -0.17  Hint ev: 0.008 0.025 E(M): 0.52 gRMS: 0.0018 ratio: 0.585 
+ Opt step:  2  t/ol: 1 (0.88) ss: 0.054 (0.051) predE: -0.15  Hint ev: 0.008 0.025 E(M): 0.42 gRMS: 0.0027 ratio: 1.149 
+ Opt step:  3  t/ol: 1 (0.88) ss: 0.047 (0.051) predE: -0.06  Hint ev: 0.008 0.025 E(M): 0.25 gRMS: 0.0009 * 
+ 
+ Opt step:  1  t/ol: 0 (0.52) ss: 0.151 (DMAX: 0.110) predE: -0.48  E(M): 5.52 gRMS: 0.0025 ratio: 1.253 
+ Opt step:  2  gqc: 0.014 ss: 0.151 (DMAX: 0.110) predE: -0.42  E(M): 4.92 gRMS: 0.0024 ratio: 1.279 
+ Opt step:  3  gqc: 0.013 ss: 0.149 (DMAX: 0.110) predE: -0.39  E(M): 4.38 gRMS: 0.0022
+ 
+ Opt step:  1  t/ol: 6 (0.84) ss: 0.316 (0.230) predE: -2.13  Hint ev: 0.010 0.014 E(M): 33.13 gRMS: 0.0044 ratio: 1.259 
+ Opt step:  2  t/ol: 5 (0.68) ss: 0.137 (DMAX: 0.230) predE: -0.55  E(M): 30.45 gRMS: 0.0036 ratio: -0.867  dE>0, decreasing DMAX 
+ Opt step:  3  gqc: 0.034 ss: 0.119 (DMAX: 0.092) predE: -0.32  E(M): 30.93 gRMS: 0.0015
+ 
+ Opt step:  1  S: 1.0  ol: 0.75 0.09 0.45 0.02
+ max ol: 0 (f0) ss: 0.237 (DMAX: 0.064) predE:  0.09  Hint ev: -0.020 -0.004 0.011 0.033 ratio: 1.166  increasing DMAX  E(M): 53.52 gRMS: 0.0014 
+ Opt step:  2  S: 1.0  ol: 0.80 0.04 0.34 0.05
+ max ol: 0 (f0) ss: 0.245 (DMAX: 0.071) predE:  0.04  Hint ev: -0.019 -0.006 0.013 0.033 ratio: -0.645  E(M): 53.50 gRMS: 0.0015 
+ Opt step:  3  S: 1.0  ol: 0.79 0.17 0.31 0.01
+ max ol: 0 (f0) ss: 0.195 (DMAX: 0.071) predE: -0.15  Hint ev: -0.027 -0.009 0.014 0.033 ratio: 0.687  decreasing DMAX  E(M): 53.40 gRMS: 0.0014 
+ Opt step:  4  S: 1.0  ol: 0.80 0.15 0.29 0.01
+ max ol: 0 (f0) ss: 0.201 (DMAX: 0.059) predE: -0.04  Hint ev: -0.025 -0.007 0.014 0.033 ratio: 0.463  E(M): 53.38 gRMS: 0.0012 
+ Opt step:  5  S: 1.0  ol: 0.83 0.11 0.28 0.01
+ max ol: 0 (f0) ss: 0.166 (DMAX: 0.059) predE: -0.09  Hint ev: -0.025 -0.010 0.014 0.033 ratio: 0.872  increasing DMAX  E(M): 53.30 gRMS: 0.0010 
+ Opt step:  6  S: 1.0  ol: 0.85 0.01 0.24 0.02
+ max ol: 0 (f0) ss: 0.250 (DMAX: 0.065) predE: -0.17  Hint ev: -0.031 -0.007 0.016 0.033 E(M): 53.30 gRMS: 0.0010 
+ 
+ Opt step:  1  t/ol: 6 (0.49) ss: 0.096 (DMAX: 0.080) predE: -0.13  E(M): 41.90 gRMS: 0.0010 ratio: 1.502  decreasing DMAX 
+ Opt step:  2  gqc: -0.012 ss: 0.096 (DMAX: 0.067) predE: -0.11  E(M): 41.71 gRMS: 0.0010 ratio: 1.367 
+ Opt step:  3  gqc: -0.012 ss: 0.098 (DMAX: 0.067) predE: -0.11  E(M): 41.55 gRMS: 0.0010
+
+x opt_iter: 21 totalgrad: 0.047 gradrms: 0.0013 tgrads: 352 ol(0): 0.85 max E: 53.3 
+ in find_peaks (2) 
+ V_profile:   0.0 0.1 0.3 4.4 30.9 53.3 41.6 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.1 0.3 4.4 30.9 53.3 41.6 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: -0.00 disp[2]: 0.22 disp[3]: 0.16 disp[4]: 0.11 disp[5]: 0.00 disp[6]: 0.04
+ disp[1]: 0.02 disp[2]: 0.00 disp[3]: 0.04 disp[4]: 0.05 disp[5]: 0.00 disp[6]: 0.03
+ disp[1]: 0.01 disp[2]: 0.00 disp[3]: 0.03 disp[4]: 0.03 disp[5]: 0.00 disp[6]: 0.02
+ disp[1]: 0.01 disp[2]: -0.00 disp[3]: 0.02 disp[4]: 0.02 disp[5]: 0.00 disp[6]: 0.02
+ disp[1]: 0.01 disp[2]: -0.00 disp[3]: 0.01 disp[4]: 0.01 disp[5]: 0.00 disp[6]: 0.02
+ spacings (end ic_reparam, steps: 5):  1.60 1.62 1.60 1.61 1.62 1.52 1.54  disprms: 0.024 
+ V_profile:  0.0 0.1 0.3 4.4 30.9 53.3 41.6 33.3
+ 3 way tangent (5): f1: 0.66 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.1 0.3 4.4 30.9 53.3 41.6 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.83) ss: 0.034 (0.020) predE: -0.03  Hint ev: 0.034 0.035 E(M): 0.05 gRMS: 0.0005 * 
+ 
+ Opt step:  1  t/ol: 1 (0.85) ss: 0.053 (0.051) predE: -0.08  Hint ev: 0.007 0.030 E(M): 0.36 gRMS: 0.0008 * 
+ 
+ Opt step:  1  t/ol: 0 (0.41) ss: 0.143 (DMAX: 0.110) predE: -0.42  E(M): 6.14 gRMS: 0.0025 ratio: 1.321 
+ Opt step:  2  gqc: 0.016 ss: 0.134 (DMAX: 0.110) predE: -0.36  E(M): 5.58 gRMS: 0.0021 ratio: 1.371 
+ Opt step:  3  gqc: 0.015 ss: 0.124 (DMAX: 0.110) predE: -0.32  E(M): 5.09 gRMS: 0.0018
+ 
+ Opt step:  1  t/ol: 5 (0.78) ss: 0.323 (0.092) predE: -1.43  Hint ev: 0.009 0.012 E(M): 36.32 gRMS: 0.0051 ratio: 1.044  increasing DMAX 
+ Opt step:  2  t/ol: 4 (0.75) ss: 0.166 (DMAX: 0.101) predE: -0.63  E(M): 34.82 gRMS: 0.0032 ratio: 1.762  decreasing DMAX 
+ Opt step:  3  gqc: 0.034 ss: 0.162 (DMAX: 0.084) predE: -0.44  E(M): 33.71 gRMS: 0.0018
+ 
+ Opt step:  1  S: 1.0  ol: 0.79 0.18 0.27 0.03
+ max ol: 0 (f0) ss: 0.288 (DMAX: 0.065) predE: -0.12  Hint ev: -0.035 0.000 0.016 0.033 ratio: 0.866  increasing DMAX  E(M): 53.06 gRMS: 0.0012 
+ Opt step:  2  S: 1.0  ol: 0.78 0.24 0.26 0.05
+ max ol: 0 (f0) ss: 0.312 (DMAX: 0.071) predE: -0.11  Hint ev: -0.035 -0.003 0.016 0.032 ratio: 0.856  E(M): 52.96 gRMS: 0.0020 
+ Opt step:  3  S: 1.0  ol: 0.80 0.18 0.25 0.06
+ max ol: 0 (f0) ss: 0.320 (DMAX: 0.071) predE: -0.11  Hint ev: -0.036 -0.003 0.016 0.032 ratio: 0.771  E(M): 52.88 gRMS: 0.0026 
+ Opt step:  4  S: 1.0  ol: 0.81 0.18 0.24 0.06
+ max ol: 0 (f0) ss: 0.294 (DMAX: 0.071) predE: -0.15  Hint ev: -0.036 -0.004 0.016 0.032 ratio: 0.765  E(M): 52.77 gRMS: 0.0030 
+ Opt step:  5  S: 1.0  ol: 0.82 0.11 0.25 0.05
+ max ol: 0 (f0) ss: 0.245 (DMAX: 0.071) predE: -0.18  Hint ev: -0.036 -0.005 0.016 0.032 ratio: 0.799  E(M): 52.62 gRMS: 0.0028 
+ Opt step:  6  S: 1.0  ol: 0.82 0.03 0.24 0.04
+ max ol: 0 (f0) ss: 0.150 (DMAX: 0.071) predE: -0.19  Hint ev: -0.036 -0.009 0.016 0.032 E(M): 52.62 gRMS: 0.0020 
+ 
+ Opt step:  1  t/ol: 6 (0.47) ss: 0.131 (DMAX: 0.067) predE: -0.19  E(M): 41.24 gRMS: 0.0012 ratio: 1.201  increasing DMAX 
+ Opt step:  2  gqc: -0.010 ss: 0.132 (DMAX: 0.074) predE: -0.19  E(M): 41.00 gRMS: 0.0012 ratio: 1.244  increasing DMAX 
+ Opt step:  3  gqc: -0.010 ss: 0.130 (DMAX: 0.081) predE: -0.20  E(M): 40.76 gRMS: 0.0012
+
+x opt_iter: 22 totalgrad: 0.053 gradrms: 0.0015 tgrads: 369 ol(0): 0.82 max E: 52.6 
+ in find_peaks (2) 
+ V_profile:   0.0 0.1 0.4 5.1 33.7 52.6 40.8 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.1 0.4 5.1 33.7 52.6 40.8 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.02 disp[2]: 0.05 disp[3]: 0.01 disp[4]: 0.06 disp[5]: 0.00 disp[6]: -0.07
+ disp[1]: 0.01 disp[2]: 0.03 disp[3]: 0.01 disp[4]: 0.04 disp[5]: 0.00 disp[6]: -0.02
+ disp[1]: 0.01 disp[2]: 0.02 disp[3]: 0.01 disp[4]: 0.02 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: 0.05 disp[2]: -0.10 disp[3]: -0.07 disp[4]: -0.02 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: 0.03 disp[2]: -0.07 disp[3]: -0.05 disp[4]: -0.01 disp[5]: 0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 5):  1.63 1.75 1.64 1.61 1.64 1.53 1.53  disprms: 0.093 
+ V_profile:  0.0 0.1 0.4 5.1 33.7 52.6 40.8 33.3
+ 3 way tangent (5): f1: 0.61 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.1 0.4 5.1 33.7 52.6 40.8 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.83) ss: 0.031 (0.020) predE: -0.02  Hint ev: 0.034 0.035 E(M): 0.03 gRMS: 0.0005 * 
+ 
+ Opt step:  1  t/ol: 1 (0.87) ss: 0.051 (0.051) predE: -0.07  Hint ev: 0.007 0.030 E(M): 0.30 gRMS: 0.0008 * 
+ 
+ Opt step:  1  t/ol: 5 (0.42) ss: 0.095 (DMAX: 0.110) predE: -0.23  E(M): 4.47 gRMS: 0.0015 ratio: 1.419 
+ Opt step:  2  gqc: 0.014 ss: 0.092 (DMAX: 0.110) predE: -0.21  E(M): 4.14 gRMS: 0.0013 ratio: 1.396 
+ Opt step:  3  gqc: 0.013 ss: 0.090 (DMAX: 0.110) predE: -0.20  E(M): 3.84 gRMS: 0.0011
+ 
+ Opt step:  1  t/ol: 4 (0.67) ss: 0.183 (DMAX: 0.084) predE: -0.57  E(M): 34.60 gRMS: 0.0025 ratio: 1.065  increasing DMAX 
+ Opt step:  2  gqc: 0.033 ss: 0.182 (DMAX: 0.092) predE: -0.58  E(M): 34.00 gRMS: 0.0021 ratio: 1.090  increasing DMAX 
+ Opt step:  3  gqc: 0.033 ss: 0.182 (DMAX: 0.102) predE: -0.62  E(M): 33.36 gRMS: 0.0020
+ 
+ Opt step:  1  S: 1.0  ol: 0.83 0.01 0.23 0.03
+ max ol: 0 (f0) ss: 0.170 (DMAX: 0.071) predE: -0.19  Hint ev: -0.036 -0.009 0.015 0.032 ratio: 0.801  E(M): 52.31 gRMS: 0.0014 
+ Opt step:  2  S: 1.0  ol: 0.83 0.04 0.22 0.03
+ max ol: 0 (f0) ss: 0.199 (DMAX: 0.071) predE: -0.18  Hint ev: -0.036 -0.008 0.015 0.032 ratio: 0.808  E(M): 52.16 gRMS: 0.0012 
+ Opt step:  3  S: 1.0  ol: 0.83 0.02 0.22 0.03
+ max ol: 0 (f0) ss: 0.258 (DMAX: 0.071) predE: -0.14  Hint ev: -0.037 -0.005 0.015 0.032 ratio: 0.820  E(M): 52.05 gRMS: 0.0010 
+ Opt step:  4  S: 1.0  ol: 0.83 0.08 0.23 0.02
+ max ol: 0 (f0) ss: 0.271 (DMAX: 0.071) predE: -0.14  Hint ev: -0.037 -0.005 0.015 0.032 ratio: 0.864  E(M): 51.93 gRMS: 0.0015 
+ Opt step:  5  S: 1.0  ol: 0.83 0.06 0.22 0.02
+ max ol: 0 (f0) ss: 0.306 (DMAX: 0.071) predE: -0.10  Hint ev: -0.037 -0.002 0.015 0.032 ratio: 0.896  increasing DMAX  E(M): 51.84 gRMS: 0.0016 
+ Opt step:  6  S: 1.0  ol: 0.83 0.09 0.22 0.02
+ max ol: 0 (f0) ss: 0.316 (DMAX: 0.078) predE: -0.12  Hint ev: -0.037 -0.002 0.015 0.032 E(M): 51.84 gRMS: 0.0022 
+ 
+ Opt step:  1  t/ol: 6 (0.52) ss: 0.132 (DMAX: 0.081) predE: -0.28  E(M): 41.20 gRMS: 0.0018 ratio: 1.185  increasing DMAX 
+ Opt step:  2  gqc: -0.011 ss: 0.125 (DMAX: 0.089) predE: -0.23  E(M): 40.86 gRMS: 0.0013 ratio: 1.305 
+ Opt step:  3  gqc: -0.010 ss: 0.121 (DMAX: 0.089) predE: -0.20  E(M): 40.57 gRMS: 0.0012
+
+x opt_iter: 23 totalgrad: 0.050 gradrms: 0.0014 tgrads: 386 ol(0): 0.83 max E: 51.8 
+ in find_peaks (2) 
+ V_profile:   0.0 0.0 0.3 3.8 33.4 51.8 40.6 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.0 0.3 3.8 33.4 51.8 40.6 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.00 disp[2]: 0.12 disp[3]: 0.06 disp[4]: 0.08 disp[5]: 0.00 disp[6]: -0.08
+ disp[1]: 0.04 disp[2]: -0.04 disp[3]: -0.04 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.03
+ disp[1]: 0.02 disp[2]: -0.03 disp[3]: -0.03 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: 0.02 disp[2]: -0.02 disp[3]: -0.02 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: 0.01 disp[2]: -0.02 disp[3]: -0.02 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 5):  1.65 1.70 1.66 1.64 1.67 1.54 1.53  disprms: 0.029 
+ V_profile:  0.0 0.0 0.3 3.8 33.4 51.8 40.6 33.3
+ 3 way tangent (5): f1: 0.62 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.0 0.3 3.8 33.4 51.8 40.6 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.83) ss: 0.028 (0.020) predE: -0.02  Hint ev: 0.034 0.035 E(M): 0.01 gRMS: 0.0005 * 
+ 
+ Opt step:  1  t/ol: 1 (0.92) ss: 0.048 (0.051) predE: -0.06  Hint ev: 0.007 0.025 E(M): 0.26 gRMS: 0.0007 * 
+ 
+ Opt step:  1  t/ol: 5 (0.41) ss: 0.095 (DMAX: 0.110) predE: -0.21  E(M): 3.87 gRMS: 0.0012 ratio: 1.396 
+ Opt step:  2  gqc: 0.012 ss: 0.092 (DMAX: 0.110) predE: -0.19  E(M): 3.58 gRMS: 0.0012 ratio: 1.393 
+ Opt step:  3  gqc: 0.012 ss: 0.089 (DMAX: 0.110) predE: -0.18  E(M): 3.31 gRMS: 0.0010
+ 
+ Opt step:  1  t/ol: 5 (0.64) ss: 0.180 (DMAX: 0.102) predE: -0.68  E(M): 34.69 gRMS: 0.0024 ratio: 1.098  increasing DMAX 
+ Opt step:  2  gqc: 0.033 ss: 0.178 (DMAX: 0.112) predE: -0.71  E(M): 33.93 gRMS: 0.0021 ratio: 1.153  increasing DMAX 
+ Opt step:  3  gqc: 0.032 ss: 0.178 (DMAX: 0.123) predE: -0.75  E(M): 33.12 gRMS: 0.0021
+ 
+ Opt step:  1  S: 1.0  ol: 0.84 0.04 0.22 0.03
+ max ol: 0 (f0) ss: 0.331 (DMAX: 0.078) predE: -0.11  Hint ev: -0.038 -0.000 0.015 0.032 ratio: 0.893  increasing DMAX  E(M): 51.64 gRMS: 0.0025 
+ Opt step:  2  S: 1.0  ol: 0.84 0.04 0.22 0.03
+ max ol: 0 (f0) ss: 0.188 (DMAX: 0.086) predE: -0.20  Hint ev: -0.038 0.001 0.015 0.032 ratio: 0.928  increasing DMAX  E(M): 51.46 gRMS: 0.0024 
+ Opt step:  3  S: 1.0  ol: 0.83 0.10 0.21 0.01
+ max ol: 0 (f0) ss: 0.221 (DMAX: 0.095) predE: -0.14  Hint ev: -0.038 -0.004 0.014 0.032 ratio: 0.879  increasing DMAX  E(M): 51.33 gRMS: 0.0012 
+ Opt step:  4  S: 1.0  ol: 0.84 0.00 0.19 0.04
+ max ol: 0 (f0) ss: 0.220 (DMAX: 0.104) predE: -0.18  Hint ev: -0.041 0.000 0.014 0.032 ratio: 0.918  increasing DMAX  E(M): 51.17 gRMS: 0.0012 
+ Opt step:  5  S: 1.0  ol: 0.84 0.01 0.19 0.03
+ max ol: 0 (f0) ss: 0.306 (DMAX: 0.115) predE: -0.10  Hint ev: -0.041 -0.000 0.014 0.032 ratio: 0.849  E(M): 51.08 gRMS: 0.0008 
+ Opt step:  6  S: 1.0  ol: 0.83 0.12 0.19 0.02
+ max ol: 0 (f0) ss: 0.295 (DMAX: 0.115) predE: -0.15  Hint ev: -0.042 -0.001 0.014 0.031 E(M): 51.08 gRMS: 0.0021 
+ 
+ Opt step:  1  t/ol: 6 (0.52) ss: 0.129 (DMAX: 0.089) predE: -0.33  E(M): 41.05 gRMS: 0.0020 ratio: 1.222  increasing DMAX 
+ Opt step:  2  gqc: -0.011 ss: 0.123 (DMAX: 0.098) predE: -0.25  E(M): 40.66 gRMS: 0.0014 ratio: 1.377 
+ Opt step:  3  gqc: -0.009 ss: 0.118 (DMAX: 0.098) predE: -0.21  E(M): 40.32 gRMS: 0.0012
+
+x opt_iter: 24 totalgrad: 0.049 gradrms: 0.0014 tgrads: 403 ol(0): 0.83 max E: 51.1 
+ in find_peaks (2) 
+ V_profile:   0.0 0.0 0.3 3.3 33.1 51.1 40.3 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 0.0 0.3 3.3 33.1 51.1 40.3 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.00 disp[2]: 0.18 disp[3]: 0.12 disp[4]: 0.13 disp[5]: 0.00 disp[6]: -0.09
+ disp[1]: 0.03 disp[2]: -0.02 disp[3]: -0.00 disp[4]: 0.04 disp[5]: 0.00 disp[6]: -0.03
+ disp[1]: 0.02 disp[2]: -0.01 disp[3]: 0.00 disp[4]: 0.03 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: 0.02 disp[2]: -0.01 disp[3]: 0.00 disp[4]: 0.02 disp[5]: 0.00 disp[6]: -0.00
+ disp[1]: 0.01 disp[2]: -0.01 disp[3]: 0.00 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 5):  1.67 1.71 1.67 1.67 1.70 1.55 1.55  disprms: 0.020 
+ V_profile:  0.0 0.0 0.3 3.3 33.1 51.1 40.3 33.3
+ 3 way tangent (5): f1: 0.63 
+
+ in find_peaks (1) 
+ V_profile:   0.0 0.0 0.3 3.3 33.1 51.1 40.3 33.3
+ min nodes:  max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.83) ss: 0.026 (0.020) predE: -0.02  Hint ev: 0.034 0.035 E(M): -0.01 gRMS: 0.0006 * 
+ 
+ Opt step:  1  t/ol: 1 (0.93) ss: 0.048 (0.051) predE: -0.06  Hint ev: 0.007 0.025 E(M): 0.26 gRMS: 0.0007 * 
+ 
+ Opt step:  1  t/ol: 5 (0.42) ss: 0.108 (DMAX: 0.110) predE: -0.24  E(M): 4.02 gRMS: 0.0014 ratio: 1.484 
+ Opt step:  2  gqc: 0.013 ss: 0.104 (DMAX: 0.110) predE: -0.21  E(M): 3.67 gRMS: 0.0012 ratio: 1.498 
+ Opt step:  3  gqc: 0.012 ss: 0.100 (DMAX: 0.110) predE: -0.19  E(M): 3.35 gRMS: 0.0011
+ 
+ Opt step:  1  t/ol: 5 (0.70) ss: 0.175 (DMAX: 0.123) predE: -0.94  E(M): 36.77 gRMS: 0.0035 ratio: 1.146  increasing DMAX 
+ Opt step:  2  gqc: 0.032 ss: 0.172 (DMAX: 0.135) predE: -0.89  E(M): 35.69 gRMS: 0.0024 ratio: 1.185  increasing DMAX 
+ Opt step:  3  gqc: 0.031 ss: 0.171 (DMAX: 0.149) predE: -0.93  E(M): 34.64 gRMS: 0.0022
+ 
+ Opt step:  1  S: 1.0  ol: 0.81 0.20 0.17 0.04
+ max ol: 0 (f0) ss: 0.293 (DMAX: 0.115) predE: -0.12  Hint ev: -0.042 -0.000 0.014 0.031 ratio: 0.853  increasing DMAX  E(M): 50.85 gRMS: 0.0019 
+ Opt step:  2  S: 1.0  ol: 0.81 0.20 0.18 0.04
+ max ol: 0 (f0) ss: 0.165 (DMAX: 0.126) predE: -0.22  Hint ev: -0.042 0.001 0.014 0.031 ratio: 0.948  increasing DMAX  E(M): 50.64 gRMS: 0.0018 
+ Opt step:  3  S: 1.0  ol: 0.83 0.08 0.11 0.01
+ max ol: 0 (f0) ss: 0.223 (DMAX: 0.139) predE: -0.19  Hint ev: -0.043 -0.003 0.014 0.031 ratio: 0.695  decreasing DMAX  E(M): 50.51 gRMS: 0.0010 
+ Opt step:  4  S: 1.0  ol: 0.83 0.10 0.12 0.02
+ max ol: 0 (f0) ss: 0.214 (DMAX: 0.116) predE: -0.23  Hint ev: -0.043 -0.004 0.013 0.031 ratio: 0.569  decreasing DMAX  E(M): 50.38 gRMS: 0.0018 
+ Opt step:  5  S: 1.0  ol: 0.81 0.17 0.11 0.02
+ max ol: 0 (f0) ss: 0.116 (DMAX: 0.096) predE: -0.25  Hint ev: -0.044 -0.013 0.013 0.031 ratio: 0.552  decreasing DMAX  E(M): 50.24 gRMS: 0.0016 
+ Opt step:  6  S: 1.0  ol: 0.81 0.14 0.02 0.00
+ max ol: 0 (f0) ss: 0.105 (DMAX: 0.080) predE: -0.25  Hint ev: -0.047 -0.019 0.011 0.031 E(M): 50.24 gRMS: 0.0022 
+ 
+ Opt step:  1  t/ol: 6 (0.55) ss: 0.134 (DMAX: 0.098) predE: -0.39  E(M): 40.82 gRMS: 0.0022 ratio: 1.259 
+ Opt step:  2  gqc: -0.009 ss: 0.126 (DMAX: 0.098) predE: -0.27  E(M): 40.33 gRMS: 0.0015 ratio: 1.366 
+ Opt step:  3  gqc: -0.008 ss: 0.121 (DMAX: 0.098) predE: -0.24  E(M): 39.96 gRMS: 0.0013
+
+x opt_iter: 25 totalgrad: 0.052 gradrms: 0.0015 tgrads: 420 ol(0): 0.81 max E: 50.2 
+ in find_peaks (2) 
+ V_profile:   0.0 -0.0 0.3 3.4 34.6 50.2 40.0 33.3
+ min nodes:  1 max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  1 max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 -0.0 0.3 3.4 34.6 50.2 40.0 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.04 disp[2]: 0.06 disp[3]: 0.05 disp[4]: 0.09 disp[5]: 0.00 disp[6]: -0.10
+ disp[1]: 0.03 disp[2]: 0.04 disp[3]: 0.03 disp[4]: 0.06 disp[5]: 0.00 disp[6]: -0.04
+ disp[1]: 0.02 disp[2]: 0.03 disp[3]: 0.02 disp[4]: 0.04 disp[5]: 0.00 disp[6]: -0.02
+ disp[1]: 0.01 disp[2]: 0.02 disp[3]: 0.02 disp[4]: 0.03 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: 0.01 disp[2]: 0.02 disp[3]: 0.01 disp[4]: 0.02 disp[5]: 0.00 disp[6]: -0.00
+ spacings (end ic_reparam, steps: 5):  1.69 1.69 1.71 1.70 1.72 1.57 1.57  disprms: 0.029 
+ V_profile:  0.0 -0.0 0.3 3.4 34.6 50.2 40.0 33.3
+ 3 way tangent (5): f1: 0.60 
+
+ in find_peaks (1) 
+ V_profile:   0.0 -0.0 0.3 3.4 34.6 50.2 40.0 33.3
+ min nodes:  1 max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg egQ2 eg eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.84) ss: 0.026 (0.020) predE: -0.03  Hint ev: 0.034 0.035 E(M): -0.03 gRMS: 0.0008 * 
+ 
+ Opt step:  1  t/ol: 1 (0.93) ss: 0.046 (0.051) predE: -0.06  Hint ev: 0.007 0.025 E(M): 0.23 gRMS: 0.0007 * 
+ 
+ Opt step:  1  t/ol: 5 (0.43) ss: 0.118 (DMAX: 0.110) predE: -0.27  E(M): 4.03 gRMS: 0.0015 ratio: 1.470 
+ Opt step:  2  gqc: 0.013 ss: 0.114 (DMAX: 0.110) predE: -0.23  E(M): 3.64 gRMS: 0.0013 ratio: 1.521  decreasing DMAX 
+ Opt step:  3  gqc: 0.012 ss: 0.111 (DMAX: 0.092) predE: -0.20  E(M): 3.29 gRMS: 0.0012
+ 
+ Opt step:  1  t/ol: 5 (0.71) ss: 0.173 (DMAX: 0.149) predE: -1.10  E(M): 37.67 gRMS: 0.0035 ratio: 1.203  increasing DMAX 
+ Opt step:  2  gqc: 0.030 ss: 0.175 (DMAX: 0.164) predE: -1.05  E(M): 36.35 gRMS: 0.0025 ratio: 1.231  increasing DMAX 
+ Opt step:  3  gqc: 0.030 ss: 0.175 (DMAX: 0.180) predE: -1.08  E(M): 35.05 gRMS: 0.0024
+ 
+ Opt step:  1  S: 1.0  ol: 0.83 0.11 0.02 0.00
+ max ol: 0 (f0) ss: 0.173 (DMAX: 0.080) predE: -0.15  Hint ev: -0.064 -0.006 0.011 0.031 ratio: 0.818  E(M): 49.96 gRMS: 0.0014 
+ Opt step:  2  S: 1.0  ol: 0.81 0.17 0.07 0.03
+ max ol: 0 (f0) ss: 0.195 (DMAX: 0.080) predE: -0.16  Hint ev: -0.062 -0.006 0.010 0.031 ratio: 0.718  decreasing DMAX  E(M): 49.85 gRMS: 0.0013 
+ Opt step:  3  S: 1.0  ol: 0.81 0.11 0.04 0.03
+ max ol: 0 (f0) ss: 0.209 (DMAX: 0.067) predE: -0.12  Hint ev: -0.063 -0.005 0.010 0.031 ratio: 0.767  E(M): 49.76 gRMS: 0.0010 
+ Opt step:  4  S: 1.0  ol: 0.79 0.18 0.04 0.05
+ max ol: 0 (f0) ss: 0.225 (DMAX: 0.067) predE: -0.09  Hint ev: -0.062 -0.004 0.010 0.031 ratio: 0.788  E(M): 49.69 gRMS: 0.0007 
+ Opt step:  5  S: 1.0  ol: 0.79 0.08 0.03 0.05
+ max ol: 0 (f0) ss: 0.272 (DMAX: 0.067) predE: -0.07  Hint ev: -0.063 -0.001 0.010 0.031 ratio: 0.837  E(M): 49.63 gRMS: 0.0007 
+ Opt step:  6  S: 1.0  ol: 0.79 0.05 0.02 0.04
+ max ol: 0 (f0) ss: 0.275 (DMAX: 0.067) predE: -0.06  Hint ev: -0.063 -0.000 0.010 0.031 E(M): 49.63 gRMS: 0.0007 
+ 
+ Opt step:  1  t/ol: 6 (0.52) ss: 0.137 (DMAX: 0.098) predE: -0.42  E(M): 40.44 gRMS: 0.0023 ratio: 1.257 
+ Opt step:  2  gqc: -0.008 ss: 0.130 (DMAX: 0.098) predE: -0.30  E(M): 39.92 gRMS: 0.0016 ratio: 1.345 
+ Opt step:  3  gqc: -0.007 ss: 0.123 (DMAX: 0.098) predE: -0.26  E(M): 39.51 gRMS: 0.0013
+
+x opt_iter: 26 totalgrad: 0.045 gradrms: 0.0013 tgrads: 437 ol(0): 0.79 max E: 49.6 
+ in find_peaks (2) 
+ V_profile:   0.0 -0.0 0.2 3.3 35.1 49.6 39.5 33.3
+ min nodes:  1 max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  1 max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ V_profile: 0.0 -0.0 0.2 3.3 35.1 49.6 39.5 33.3
+ TSn: 5 rpart:  0.20 0.20 0.20 0.20 0.00 0.50 0.50
+ disp[1]: 0.01 disp[2]: 0.05 disp[3]: 0.01 disp[4]: 0.03 disp[5]: 0.00 disp[6]: -0.09
+ disp[1]: 0.01 disp[2]: 0.02 disp[3]: -0.01 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.04
+ disp[1]: 0.01 disp[2]: 0.02 disp[3]: -0.01 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.01
+ disp[1]: 0.01 disp[2]: 0.01 disp[3]: -0.00 disp[4]: 0.01 disp[5]: 0.00 disp[6]: -0.01
+ spacings (end ic_reparam, steps: 5):  1.70 1.70 1.72 1.70 1.71 1.59 1.58  disprms: 0.018 
+ V_profile:  0.0 -0.0 0.2 3.3 35.1 49.6 39.5 33.3
+ 3 way tangent (5): f1: 0.59 
+
+ in find_peaks (1) 
+ V_profile:   0.0 -0.0 0.2 3.3 35.1 49.6 39.5 33.3
+ min nodes:  1 max nodes:  5
+ found 1 significant peak(s). TOL: 1.00 
+ eg eg eg egQ1Q3 eg eg eg eg eg eg eg eg eg eg eg eg eg eg
+ 
+ Opt step:  1  t/ol: 0 (0.84) ss: 0.032 (0.020) predE: -0.07  Hint ev: 0.034 0.035 E(M): -0.04 gRMS: 0.0014 ratio: -0.041  dE>0, decreasing DMAX 
+ Opt step:  2  t/ol: 0 (0.84) ss: 0.026 (0.020) predE: -0.07  Hint ev: 0.034 0.035 E(M): -0.04 gRMS: 0.0020 ratio: 0.569 
+ Opt step:  3  t/ol: 0 (0.84) ss: 0.020 (0.020) predE: -0.03  Hint ev: 0.034 0.035 E(M): -0.08 gRMS: 0.0011
+ 
+ Opt step:  1  t/ol: 1 (0.93) ss: 0.043 (0.051) predE: -0.05  Hint ev: 0.007 0.025 E(M): 0.17 gRMS: 0.0007 * 
+ 
+ Opt step:  1  t/ol: 5 (0.43) ss: 0.131 (DMAX: 0.092) predE: -0.21  E(M): 3.05 gRMS: 0.0012 ratio: 1.344 
+ Opt step:  2  gqc: 0.010 ss: 0.127 (DMAX: 0.092) predE: -0.20  E(M): 2.76 gRMS: 0.0012 ratio: 1.380 
+ Opt step:  3  gqc: 0.010 ss: 0.122 (DMAX: 0.092) predE: -0.18  E(M): 2.49 gRMS: 0.0012
+ 
+ Opt step:  1  t/ol: 5 (0.75) ss: 0.138 (DMAX: 0.180) predE: -0.96  E(M): 34.45 gRMS: 0.0022 ratio: 1.161 
+ Opt step:  2  gqc: 0.030 ss: 0.159 (DMAX: 0.180) predE: -0.97  E(M): 33.34 gRMS: 0.0022 ratio: 1.186 
+ Opt step:  3  gqc: 0.031 ss: 0.157 (DMAX: 0.180) predE: -0.98  E(M): 32.18 gRMS: 0.0022
+ 
+ Opt step:  1  S: 1.0  ol: 0.79 0.08 0.06 0.01
+ max ol: 0 (f0) ss: 0.114 (DMAX: 0.067) predE: -0.07  Hint ev: -0.063 0.002 0.010 0.031 ratio: 1.051  increasing DMAX  E(M): 49.50 gRMS: 0.0006 
+ Opt step:  2  S: 1.0  ol: 0.79 0.10 0.04 0.03
+ max ol: 0 (f0) ss: 0.142 (DMAX: 0.074) predE: -0.09  Hint ev: -0.063 0.002 0.009 0.031 ratio: 0.960  increasing DMAX  E(M): 49.41 gRMS: 0.0005 
+ Opt step:  3  S: 1.0  ol: 0.80 0.06 0.04 0.03
+ max ol: 0 (f0) ss: 0.134 (DMAX: 0.081) predE: -0.09  Hint ev: -0.064 0.002 0.009 0.031 ratio: 0.961  increasing DMAX  E(M): 49.33 gRMS: 0.0005 
+ Opt step:  4  S: 1.0  ol: 0.80 0.04 0.04 0.02
+ max ol: 0 (f0) ss: 0.131 (DMAX: 0.089) predE: -0.09  Hint ev: -0.064 0.002 0.009 0.031 ratio: 0.970  increasing DMAX  E(M): 49.23 gRMS: 0.0005 
+ Opt step:  5  E(M): 49.23 gRMS: 0.0005  *
+ 
+ Opt step:  1  t/ol: 5 (0.44) ss: 0.130 (DMAX: 0.098) predE: -0.37  E(M): 39.83 gRMS: 0.0022 ratio: 1.299 
+ Opt step:  2  gqc: -0.008 ss: 0.126 (DMAX: 0.098) predE: -0.28  E(M): 39.35 gRMS: 0.0015 ratio: 1.386 
+ Opt step:  3  gqc: -0.007 ss: 0.121 (DMAX: 0.098) predE: -0.25  E(M): 38.96 gRMS: 0.0013
+
+x opt_iter: 27 totalgrad: 0.045 gradrms: 0.0013 tgrads: 455 ol(0): 0.80 max E: 49.2 
+ in find_peaks (2) 
+ V_profile:   0.0 -0.1 0.2 2.5 32.2 49.2 39.0 33.3
+ min nodes:  1 max nodes:  5
+ found 1 significant peak(s). TOL: 0.50 
+ printing string to stringfile.xyz0060 
+ in find_peaks (4) 
+ min nodes:  1 max nodes:  5
+ found 1 significant peak(s). TOL: 2.00 
+ check_for_reaction wts: 5 wint: 7 isrxn: 5 
+
+ opt_iters over: totalgrad: 0.045 gradrms: 0.0013 tgrads:  455  ol(0): 0.80 max E:  49.2 Erxn: 33.3 nmax:  5 TSnode:  5    -XTS- 
+
+ oi: 26 nmax: 5 TSnode0: 5 overlapn: 0 
+
+ adding and opting last node 
+ copying last node, opting 
+ egQ1Wb(0.00054/2) eg eg eg egQ2Wb(0.00043/3) egQ3Wb(0.00584/1) egWb(0.00500/1) initial Hint ev: 0.035 0.035 0.035 0.035
+ eg eg eg eg eg eg eg eg 
+ Opt step:  1  ss: 0.102 (DMAX: 0.100) predE: -0.42  E(M): 32.8 gRMS: 0.0020 ratio: 0.844  increasing DMAX 
+ Opt step:  2  ss: 0.098 (DMAX: 0.111) predE: -0.46  E(M): 32.4 gRMS: 0.0039 ratio: 1.166 
+ Opt step:  3  ss: 0.093 (DMAX: 0.111) predE: -0.27  E(M): 31.9 gRMS: 0.0016 ratio: 1.458 
+ Opt step:  4  ss: 0.093 (DMAX: 0.111) predE: -0.22  E(M): 31.5 gRMS: 0.0012 ratio: 1.527 
+ Opt step:  5  ss: 0.092 (DMAX: 0.111) predE: -0.18  E(M): 31.2 gRMS: 0.0010 ratio: 1.333 
+ Opt step:  6  ss: 0.107 (DMAX: 0.111) predE: -0.39  E(M): 30.9 gRMS: 0.0015 ratio: 0.723 
+ Opt step:  7  ss: 0.141 (DMAX: 0.111) predE: -0.27  bc problem, r Ut  E(M): 30.6 gRMS: 0.0010 ratio: 0.856  increasing DMAX 
+ Opt step:  8  ss: 0.012 (DMAX: 0.123) predE: -0.03  E(M): 30.4 gRMS: 0.0008 ratio: 0.583 
+ Opt step:  9  ss: 0.015 (DMAX: 0.123) predE: -0.03  E(M): 30.4 gRMS: 0.0008 ratio: 0.673 
+ Opt step: 10  ss: 0.019 (DMAX: 0.123) predE: -0.04  E(M): 30.3 gRMS: 0.0007 ratio: 0.840 
+ Opt step: 11  ss: 0.027 (DMAX: 0.123) predE: -0.05  E(M): 30.3 gRMS: 0.0007 ratio: 1.128 
+ Opt step: 12  ss: 0.052 (DMAX: 0.123) predE: -0.06  E(M): 30.2 gRMS: 0.0007 ratio: 1.715 
+ Opt step: 13  ss: 0.047 (DMAX: 0.123) predE: -0.05  E(M): 30.1 gRMS: 0.0006 ratio: 1.736 
+ Opt step: 14  ss: 0.043 (DMAX: 0.123) predE: -0.05  E(M): 30.0 gRMS: 0.0006 ratio: 1.616 
+ Opt step: 15  ss: 0.040 (DMAX: 0.123) predE: -0.04  E(M): 29.9 gRMS: 0.0006
+ E(M): 29.9 final IC grad RMS: 0.0006 
+ eg eg eg eg eg 
+ Opt step:  1  ss: 0.037 (DMAX: 0.123) predE: -0.04  E(M): 29.9 gRMS: 0.0007 ratio: 0.971 
+ Opt step:  2  ss: 0.039 (DMAX: 0.123) predE: -0.08  E(M): 29.8 gRMS: 0.0014 ratio: -0.041  dE>0, decreasing DMAX 
+ Opt step:  3  ss: 0.037 (DMAX: 0.026) predE: -0.11  E(M): 29.8 gRMS: 0.0029 ratio: 0.895 
+ Opt step:  4  ss: 0.030 (DMAX: 0.026) predE: -0.03  E(M): 29.7 gRMS: 0.0006 ratio: 0.698 
+ Opt step:  5  E(M): 29.7 final IC grad RMS: 0.0005  *
+ 
+ string E:  0.0 -0.1 0.2 2.5 32.2 49.2 39.0 33.3 29.7 
+ max E: 49.233242 for node: 5 
+
+ creating 3 lowest eigenvectors 
+ Hint eigenvalues: -0.063 0.001 0.009 0.031 0.032
+ maximum number of iterations: 14 
+
+ Davidson iteration 1 
+ eg eg eg eg eg eg
+ mag/DTHRESH: 8.444008 0.000050 lamb/lambp: -0.008 0.000 
+ mag/DTHRESH: 31.291247 0.000050 lamb/lambp: 0.002 0.000 
+ mag/DTHRESH: 1.748365 0.000050 lamb/lambp: 0.004 0.000 
+
+ Davidson iteration 2 
+ eg eg eg eg eg eg
+ mag/DTHRESH: 0.082106 0.000050 lamb/lambp: -0.026 -0.008 
+ mag/DTHRESH: 0.042915 0.000050 lamb/lambp: 0.001 0.002 
+ mag/DTHRESH: 0.276464 0.000050 lamb/lambp: 0.003 0.004 
+
+ Davidson iteration 3 
+ eg eg eg eg eg eg
+ mag/DTHRESH: 0.037864 0.000050 lamb/lambp: -0.027 -0.026 
+ mag/DTHRESH: 0.009275 0.000050 lamb/lambp: 0.001 0.001 
+ vector 1 converged 
+ mag/DTHRESH: 0.015017 0.000050 lamb/lambp: 0.003 0.003 
+ vector 2 converged 
+
+ Davidson iteration 4 
+ eg eg
+ mag/DTHRESH: 0.084160 0.000050 lamb/lambp: -0.028 -0.027 
+ mag/DTHRESH: 0.010003 0.000050 lamb/lambp: 0.001 0.001 
+ vector 1 converged 
+ mag/DTHRESH: 0.015687 0.000050 lamb/lambp: 0.003 0.003 
+ vector 2 converged 
+
+ Davidson iteration 5 
+ eg eg
+ mag/DTHRESH: 0.003322 0.000050 lamb/lambp: -0.028 -0.028 
+ vector 0 converged 
+ mag/DTHRESH: 0.009899 0.000050 lamb/lambp: 0.001 0.001 
+ vector 1 converged 
+ mag/DTHRESH: 0.016380 0.000050 lamb/lambp: 0.003 0.003 
+ vector 2 converged 
+ Davidson converged 
+
+ now saving vibrations to stringfile.xyz0060fr 
+ Hessian eigenvalues: -0.028 0.001 0.003
+
+ Updating Hint with new vectors 
+ updating vector: 1 with curvature: -0.02761 
+ updating vector: 2 with curvature: 0.00116 
+ updating vector: 3 with curvature: 0.00258 
+
+ Davidson required 22 gradients 
+
+ found 1 negative eigenvalue 
+ creating final string file  
+
+ about to write tsq.xyz, tscontinue: 1 endearly: 0 
+ check_for_reaction wts: 5 wint: 8 isrxn: 5 
+ E of min node before TS: -0.1 

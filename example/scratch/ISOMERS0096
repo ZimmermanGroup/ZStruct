@@ -1,0 +1,6 @@
+NEW
+ BOND 4 1
+ ADD 7 1
+ BREAK 7 4
+ BREAK 5 4
+

@@ -1,0 +1,14 @@
+#PBS -t 0-2
+ 
+#PBS -l nodes=1:ppn=1 -l walltime=24:00:00
+#PBS -e /export/zimmerman/adewyer/Tutorial/ZStruct2/ZStruct2.example/scratch -o /export/zimmerman/adewyer/Tutorial/ZStruct2/ZStruct2.example/scratch
+ 
+ID=`printf "%0*d\n" 4 ${PBS_ARRAYID}`
+ 
+source /export/zimmerman/paulzim/qchem/qchemjan42013c/paul.set.local
+ 
+cd /export/zimmerman/adewyer/Tutorial/ZStruct2/ZStruct2.example/scratch
+qchem reactdft$ID reactdft$ID.out
+rm $QCSCRATCH
+ 
+echo "done with reactdft$ID" > dftdone${PBS_ARRAYID}

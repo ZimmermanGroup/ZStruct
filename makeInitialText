@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+cat scratch/initial* > alli.xyz
+scp alli.xyz $I
+
+

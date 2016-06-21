@@ -1,7 +1,0 @@
-NEW
- BOND 6 1
- ADD 9 1
- ADD 6 2
- BREAK 7 6
- ANGLE 8 6 2 180
-

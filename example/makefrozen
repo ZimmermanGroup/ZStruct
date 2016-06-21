@@ -1,7 +1,0 @@
-#!/bin/bash
-
-rm -f frozen.xyz		#remove old frozen file
-a=15				#number of atoms in file
-for ((n=1; n<$a; n++)); do	#prints atom numbers 1-a to new frozen file
-	echo $n >> frozen.xyz	
-done	

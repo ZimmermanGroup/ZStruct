@@ -1,0 +1,30 @@
+#!/bin/bash
+
+echo "setting up PBS -t "
+file=scratch/go_dft.qsh
+
+#rm $file
+#exit
+
+#rm -f scratch/paradft*out
+rm -f scratch/dftdone*
+
+cat scratch/go_dft > $file
+echo " " >> $file
+#echo "#PBS -l qos=flux -q flux" >> $file
+#echo "#PBS -A paulzim_flux" >> $file
+echo "#PBS -l nodes=1:ppn=1 -l pmem=2000MB -l walltime=24:00:00" >> $file
+echo "#PBS -e `pwd`/scratch -o `pwd`/scratch" >> $file
+echo " " >> $file
+echo 'ID=`printf "%0*d\n" 4 ${PBS_ARRAYID}`' >> $file
+echo " " >> $file
+echo "source /export/zimmerman/paulzim/qchem/qchemjan42013c/paul.set.local" >> $file
+echo " " >> $file
+echo "cd `pwd`/scratch" >> $file
+#echo "export QCTHREADS=4" >> $file
+echo 'qchem paradft$ID paradft$ID.out' >> $file
+#echo 'qchem -np 1 paradft$ID paradft$ID.out' >> $file
+echo 'rm $QCSCRATCH' >> $file
+echo " " >> $file
+echo 'echo "done with paradft$ID" > dftdone${PBS_ARRAYID}' >> $file
+

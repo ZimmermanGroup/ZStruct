@@ -2619,7 +2619,8 @@ void ZStruct::dft_para_q(int niso1)
 
     cmdfile.open(cmdfile_string.c_str());
     printf("\n printing job array numbers for DFT SP \n");
-    cmdfile << "#PBS -t ";
+    //cmdfile << "#PBS -t ";
+    cmdfile << "#SBATCH --array= ";
     if (niso1-1>0)
       cmdfile << "0-" << niso1-1 << endl;
     else
@@ -2802,7 +2803,8 @@ void ZStruct::dft_para_ase_gaussian(int nreact, ICoord* icr)
 
     cmdfile.open(cmdfile_string.c_str());
     printf("\n printing job array numbers for DFT OPT \n");
-    cmdfile << "#PBS -t ";
+    //cmdfile << "#PBS -t ";
+    cmdfile << "#SBATCH --array= ";
     if (nreact-1>0)
       cmdfile << "0-" << nreact-1 << endl;
     else
@@ -2956,7 +2958,8 @@ void ZStruct::dft_para_qchem(int nreact, ICoord* icr)
 
     cmdfile.open(cmdfile_string.c_str());
     printf("\n printing job array numbers for DFT OPT \n");
-    cmdfile << "#PBS -t ";
+    //cmdfile << "#PBS -t ";
+    cmdfile << "#SBATCH --array= ";
     if (nreact-1>0)
       cmdfile << "0-" << nreact-1 << endl;
     else
@@ -3058,7 +3061,8 @@ void ZStruct::gsm_para(int first, int last)
   string cmdfile_string = "scratch/go_gsm_dft";
 
   cmdfile.open(cmdfile_string.c_str());
-  cmdfile << "#PBS -t ";
+  //cmdfile << "#PBS -t ";
+  cmdfile << "#SBATCH --array= ";
   cmdfile << first << "-" << last-1 << endl;
   cmdfile.close();
 

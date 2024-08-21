@@ -34,7 +34,7 @@ int ZStruct::get_frozen(int nreact1)
       int nfound = 0;
       while (!frzfile.eof())
       {
-        success=getline(frzfile, line);
+        success=(bool)getline(frzfile, line);
         tok_line = StringTools::tokenize(line, " \t");
 
         //printf(" RR: %s \n",line.c_str()); fflush(stdout);
@@ -85,7 +85,7 @@ int ZStruct::get_frozen(int nreact1)
   int nfound = 0;
   while (!frzfile.eof())
   {
-    success=getline(frzfile, line);
+    success=(bool)getline(frzfile, line);
     tok_line = StringTools::tokenize(line, " \t");
 
     //printf(" RR: %s \n",line.c_str()); fflush(stdout);
@@ -621,7 +621,7 @@ int ZStruct::read_string(int wfile, double* energies, int natoms0, double** xyz)
 
   string line;
   bool success=true;
-  success=getline(strfile, line);
+  success=(bool)getline(strfile, line);
   int length=StringTools::cleanstring(line);
   int natoms1 = atoi(line.c_str());
 
@@ -635,10 +635,10 @@ int ZStruct::read_string(int wfile, double* energies, int natoms0, double** xyz)
   int first = 1;
   while(!strfile.eof())
   {
-    if (!first) success = getline(strfile, line);
+    if (!first) success = (bool)getline(strfile, line);
     else first = 0;
 
-    success = getline(strfile, line);
+    success = (bool)getline(strfile, line);
     if (strfile.eof())
       break;
 
@@ -649,7 +649,7 @@ int ZStruct::read_string(int wfile, double* energies, int natoms0, double** xyz)
     if (xyz!=NULL)
     for (int j=0;j<natoms1;j++)
     {
-      success = getline(strfile, line);
+      success = (bool)getline(strfile, line);
       length = StringTools::cleanstring(line);
       tok_line = StringTools::tokenize(line, " \t");
 //      cout << " i: " << i << " string: " << line << endl;
@@ -660,7 +660,7 @@ int ZStruct::read_string(int wfile, double* energies, int natoms0, double** xyz)
     }
     if (xyz==NULL)
     for (int j=0;j<natoms1;j++)
-      success = getline(strfile, line);
+      success = (bool)getline(strfile, line);
 
     ngeom++;
   } //while !eof
@@ -760,7 +760,7 @@ int ZStruct::get_limits()
   int anum;
   while (!limfile.eof())
   {
-    success=getline(limfile, line);
+    success=(bool)getline(limfile, line);
     tok_line = StringTools::tokenize(line, " \t");
 
     //printf(" RR: %s \n",line.c_str()); fflush(stdout);
@@ -835,7 +835,7 @@ int ZStruct::read_shuttles()
   int anum;
   while (!shfile.eof())
   {
-    success=getline(shfile, line);
+    success=(bool)getline(shfile, line);
     tok_line = StringTools::tokenize(line, " \t");
 
     //printf(" RR: %s \n",line.c_str()); fflush(stdout);

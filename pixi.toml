@@ -1,0 +1,18 @@
+[project]
+authors = ["joshkamm"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "ZStruct"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+gxx = ">=14.1.0,<15"
+mkl-devel = ">=2024.2.1,<2025"
+mkl-include = ">=2024.2.1,<2025"
+blas = ">=2.123,<3"
+
+[system-requirements]
+linux = "3.10"

@@ -10,15 +10,15 @@ CMD = zstruct.exe
 # Make sure it is defined
 #          ifeq ($(strip$(FORTRAN_COMPILER)),)
 # Otherwise you can define it here also by uncommenting next line
- FC = icpc -openmp -I$(MKLROOT)/include
-# FC = g++ -fopenmp -I$(MKLROOT)/include
+#  FC = icpc -openmp -I$(MKLROOT)/include
+FC = g++ -fopenmp -I$(CONDA_PREFIX)/include
 DFLAGS =  #-Define the cpp flags to be used
 #DFLAGS =  #-Define the cpp flags to be used
 OFLAGS =  # optimization
 
 #Intel parallel openmp (only w/icpc compiler)
 #LINKERFLAGS =  -L$(MKLROOT)/lib/em64t -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lpthread -lm
-LINKERFLAGS =  -L$(MKLROOT)/lib/intel64 -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lpthread 
+# LINKERFLAGS =  -L$(MKLROOT)/lib/intel64 -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lpthread 
 # MAC OS linkers
 #LINKERFLAGS = -lm -framework Accelerate
 

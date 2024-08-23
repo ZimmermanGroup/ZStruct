@@ -1,3 +1,6 @@
+*.o
+*.exe
+
 # pixi environments
 .pixi
 *.egg-info

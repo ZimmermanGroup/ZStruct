@@ -27,7 +27,7 @@ libc.version = "2.17"
 
 [tasks.start]
 # Start the built executable
-cmd = "mkdir -p scratch && ./zstruct.exe | tee /dev/tty | grep 'ERROR: no reactants!' > /dev/null"
+cmd = "mkdir -p scratch; ./zstruct.exe;"
 depends-on = ["build"]
 
 [tasks.build]

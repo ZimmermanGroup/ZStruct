@@ -1,5 +1,5 @@
 [project]
-authors = ["joshkamm"]
+authors = ["Paul Zimmerman"]
 channels = ["conda-forge", "https://software.repos.intel.com/python/conda/"]
 description = "Add a short description here"
 name = "ZStruct"
@@ -31,7 +31,7 @@ cmd = "./zstruct.exe"
 depends-on = ["build"]
 
 [tasks.build]
-cmd = ["make", "-j8"]
+cmd = ["make", "-j4"]
 depends-on = ["clean"]
 clean-env = true
 inputs = ["*"]

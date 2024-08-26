@@ -1,0 +1,15 @@
+# This workflow will compile ZStruct including dependencies
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up pixi
+      uses: prefix-dev/setup-pixi@v0.8.1
+    - name: Install dependencies
+      run: pixi run start

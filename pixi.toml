@@ -33,7 +33,7 @@ depends-on = ["build"]
 [tasks.build]
 cmd = ["make", "-j4"]
 # depends-on = ["clean"]
-clean-env = true
+# clean-env = true
 inputs = ["*"]
 outputs = ["zstruct.exe"]
 

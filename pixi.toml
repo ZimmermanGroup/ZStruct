@@ -9,17 +9,11 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-# gxx = ">=14.1.0,<15"
-# mkl-devel = ">=2024.2.1,<2025"
-# mkl-include = ">=2024.2.1,<2025"
 mkl-devel = ">=2021,<2022"
 mkl-include = ">=2021,<2022"
 blas = ">=2,<3"
-# dpcpp-cpp-rt = ">=2024.1.0,<2025"
-# dpcpp_linux-64 = ">=2024.1.0,<2025"
 dpcpp-cpp-rt = ">=2021,<2023"
 dpcpp_linux-64 = ">=2021,<2023"
-# mkl = ">=2021,<2022"
 
 [system-requirements]
 linux = "3.10"

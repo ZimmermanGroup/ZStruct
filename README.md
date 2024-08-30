@@ -3,7 +3,7 @@ code for ZStruct-2
 
 ## Overview
 
-ZStruct is a package for automated reaction discovery developed in c++.
+ZStruct is a package for automated reaction discovery developed in C++.
 
 For more information, check out the wiki page (somewhat out of date but hopefully still useful): https://github.com/ZimmermanGroup/ZStruct/wiki
 

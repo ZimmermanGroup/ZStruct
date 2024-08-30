@@ -6,14 +6,12 @@ name = "ZStruct"
 platforms = ["linux-64"]
 version = "0.1.0"
 
-[tasks]
-
 [dependencies]
+dpcpp_linux-64 = ">=2021,<2023"
+dpcpp-cpp-rt = ">=2021,<2023"
+blas = ">=2,<3"
 mkl-devel = ">=2021,<2022"
 mkl-include = ">=2021,<2022"
-blas = ">=2,<3"
-dpcpp-cpp-rt = ">=2021,<2023"
-dpcpp_linux-64 = ">=2021,<2023"
 
 [system-requirements]
 linux = "3.10"
@@ -21,8 +19,8 @@ libc.version = "2.17"
 
 [tasks.start]
 # Start the built executable
-cmd = "mkdir -p scratch; ../zstruct.exe; echo DONE"
 cwd = "tutorial"
+cmd = "mkdir -p scratch; ../zstruct.exe; echo DONE"
 depends-on = ["build"]
 
 [tasks.build]
@@ -31,7 +29,6 @@ cmd = ["make", "-j4"]
 # clean-env = true
 inputs = ["*"]
 outputs = ["zstruct.exe"]
-
 
 # [tasks.build.env]
 # LD_LIBRARY_PATH = ""

@@ -21,7 +21,8 @@ libc.version = "2.17"
 
 [tasks.start]
 # Start the built executable
-cmd = "mkdir -p scratch; ./zstruct.exe; echo DONE"
+cmd = "mkdir -p scratch; ../zstruct.exe; echo DONE"
+cwd = "tutorial"
 depends-on = ["build"]
 
 [tasks.build]

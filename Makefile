@@ -3,22 +3,19 @@
 # Executable name
 CMD = zstruct.exe
 
-# -------- description of DFLAGS ---------------
 
-
-# -------- Define environmental variable C_COMPILER -----------
-# Make sure it is defined
-#          ifeq ($(strip$(FORTRAN_COMPILER)),)
-# Otherwise you can define it here also by uncommenting next line
- FC = icpc -openmp -I$(MKLROOT)/include
+ FC = icpx -I"${CONDA_PREFIX}/include"
+#  FC = icpc -qopenmp -I$(MKLROOT)/include
 # FC = g++ -fopenmp -I$(MKLROOT)/include
+
+# -------- description of DFLAGS ---------------
 DFLAGS =  #-Define the cpp flags to be used
-#DFLAGS =  #-Define the cpp flags to be used
 OFLAGS =  # optimization
 
-#Intel parallel openmp (only w/icpc compiler)
+# Intel parallel openmp (only w/ intel compiler?)
+# generated using https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl-link-line-advisor.html
+LINKERFLAGS =  -L${CONDA_PREFIX}/lib -lmkl_intel_ilp64 -lmkl_tbb_thread -lmkl_core -lpthread -lm -ldl 
 #LINKERFLAGS =  -L$(MKLROOT)/lib/em64t -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lpthread -lm
-LINKERFLAGS =  -L$(MKLROOT)/lib/intel64 -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lpthread 
 # MAC OS linkers
 #LINKERFLAGS = -lm -framework Accelerate
 

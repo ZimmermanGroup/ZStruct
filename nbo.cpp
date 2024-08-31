@@ -622,7 +622,7 @@ int NBO::read_mopac_mo(string filename)
   int offset = 0;
   while(!infile.eof())
   {
-    success = getline(infile,line);
+    success = (bool)getline(infile,line);
     if (line.find("NO. OF FILLED LEVELS")!=string::npos)
     {
       tok_line = StringTools::tokenize(line, " \t");
@@ -640,9 +640,9 @@ int NBO::read_mopac_mo(string filename)
     {
      // printf(" found ROOT NO, cao: %2i \n",cao);
       //cout << " RR1: " << line << endl;
-      success = getline(infile,line);
+      success = (bool)getline(infile,line);
       //cout << " RR2: " << line << endl;
-      success = getline(infile,line);
+      success = (bool)getline(infile,line);
       //cout << " RR3: " << line << endl;
       tok_line = StringTools::tokenize(line, " \t");
 
@@ -653,15 +653,15 @@ int NBO::read_mopac_mo(string filename)
       for (int i=0;i<nnew;i++)
         mo_occ[offset+i] = atof(tok_line[i].c_str());
 
-      success = getline(infile,line);
+      success = (bool)getline(infile,line);
       //cout << " RR4: " << line << endl;
-      success = getline(infile,line);
+      success = (bool)getline(infile,line);
       //cout << " RR5: " << line << endl;
 
       //starting here, MO coefs
       for (int i=0;i<natoms;i++)
       {
-        success = getline(infile,line);
+        success = (bool)getline(infile,line);
         //cout << " RRat: " << line << endl;
         tok_line = StringTools::tokenize(line, " \t");
         nnew = tok_line.size() - 3;
@@ -673,7 +673,7 @@ int NBO::read_mopac_mo(string filename)
           for (int j=0;j<nnew;j++)
             MO[(offset+j)*nao+cao] = atof(tok_line[3+j].c_str());
           cao += 1;
-          success = getline(infile,line);
+          success = (bool)getline(infile,line);
         }
         else if (tok_line[1]=="B" || tok_line[1]=="C" || tok_line[1]=="N" || tok_line[1]=="O" || tok_line[1]=="F")
         {
@@ -685,7 +685,7 @@ int NBO::read_mopac_mo(string filename)
             for (int j=0;j<nnew;j++)
               MO[(offset+j)*nao+cao] = atof(tok_line[3+j].c_str());
             cao += 1;
-            success = getline(infile,line);
+            success = (bool)getline(infile,line);
           }
         }
       }
@@ -717,14 +717,14 @@ int NBO::read_mopac_mo(string filename)
   int nhp = 0;
   while (!infile.eof())
   {
-    success = getline(infile,line);
+    success = (bool)getline(infile,line);
     if (line.find("NET ATOMIC CHARGES")!=string::npos)
     {
-      success = getline(infile,line);
-      success = getline(infile,line);
+      success = (bool)getline(infile,line);
+      success = (bool)getline(infile,line);
       for (int i=0;i<natoms;i++)
       {
-        success = getline(infile,line);
+        success = (bool)getline(infile,line);
        // cout << " RR1: " << line << endl;
         tok_line = StringTools::tokenize(line, " \t");
         q[i] = atof(tok_line[2].c_str());
@@ -739,11 +739,11 @@ int NBO::read_mopac_mo(string filename)
     }
     if (line.find("NUMBER OF CENTERS")!=string::npos)
     {
-      success = getline(infile,line);
-      success = getline(infile,line);
+      success = (bool)getline(infile,line);
+      success = (bool)getline(infile,line);
       while (!infile.eof())
       {
-        success = getline(infile,line);
+        success = (bool)getline(infile,line);
         tok_line = StringTools::tokenize(line, " \t");
         int lsize = tok_line.size();
         if (lsize>0)
@@ -899,7 +899,7 @@ int NBO::read_mo(string filename)
   mheadersize = 0;
   while(!infile.eof())
   {
-    success = getline(infile,line);
+    success = (bool)getline(infile,line);
     if (line.find("[MO]")!=string::npos)
       break;
     if (mcounting)
@@ -915,7 +915,7 @@ int NBO::read_mo(string filename)
   infile.open(filename.c_str());
   while(!infile.eof())
   {
-    success = getline(infile,line);
+    success = (bool)getline(infile,line);
     if (line.find("[Molden Format]")!=string::npos)
       mcounting = 1;
     if (mcounting)
@@ -931,13 +931,13 @@ int NBO::read_mo(string filename)
   infile.open(filename.c_str());
   while(!infile.eof())
   {
-    success = getline(infile,line);
+    success = (bool)getline(infile,line);
     if (line.find("[GTO]")!=string::npos)
     {
      // cout << " RR00: " << line << endl;
       while(line.find("[MO]")==string::npos)
       {
-        success = getline(infile,line);
+        success = (bool)getline(infile,line);
        // cout << " RR0: " << line << endl;
         tok_line = StringTools::tokenize(line, " \t");
         if (tok_line.size()>1)
@@ -948,7 +948,7 @@ int NBO::read_mo(string filename)
             int cont = 1;
             while(cont)
             {
-              success = getline(infile,line);
+              success = (bool)getline(infile,line);
               tok_line = StringTools::tokenize(line, " \t");
               //cout << "  RR0: " << line << endl;
               if (line.find("S")!=string::npos)
@@ -988,7 +988,7 @@ int NBO::read_mo(string filename)
     }
   }
   for (int i=0;i<4;i++)
-    success = getline(infile,line);
+    success = (bool)getline(infile,line);
 
   printf("  found %i ao's (with 3p 5d etc) \n",nao);
 
@@ -996,7 +996,7 @@ int NBO::read_mo(string filename)
   int dim = 0;
   while (!infile.eof())
   {
-    success = getline(infile,line);
+    success = (bool)getline(infile,line);
     if (line.find("Sym")!=string::npos)
     {
       //cout << " RR1: " << line << endl;
@@ -1021,13 +1021,13 @@ int NBO::read_mo(string filename)
   nmo = 1;
   while (!infile.eof())
   {
-    success = getline(infile,line);
+    success = (bool)getline(infile,line);
     cout << " RRX: " << line << endl;
     if (line.find("Occup=")!=string::npos)
     {
       for (int j=0;j<nao;j++)
       {
-        success = getline(infile,line);
+        success = (bool)getline(infile,line);
         cout << " RRY: " << line << endl;
         tok_line = StringTools::tokenize(line, " \t");
         MO[nmo*nao+j] = atof(tok_line[1].c_str());

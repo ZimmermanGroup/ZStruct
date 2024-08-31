@@ -15,7 +15,7 @@ First, clone this github repository.
 
 Aug 2024: Attempting a more reproducible build with [Pixi](https://pixi.sh), a tool built on the conda ecosystem to manage both dependencies and configuration / installation workflows.
 
-The pixi.toml file in this repository specifies the dependency package names as they appear on [conda-forge](https://conda-forge.org/) and installation tasks. You can use pixi (simple installation instructions [here](https://pixi.sh)) to install the dependencies and execute the build, or reference the configuration files and do something equivalent using your preferred tools.
+The pixi.toml file in this repository specifies the dependency package names as they appear on [conda-forge](https://conda-forge.org/) and installation tasks. You can use pixi (simple installation instructions [here](https://pixi.sh)) to install the dependencies and execute the build, or reference the pixi.toml and do something equivalent using your preferred tools.
 
 With pixi, I built ZStruct by navigating into the ZStruct git repository and executing `pixi run start` which installs the dependencies, executes the Makefile, and if successful runs the built executable.
 
